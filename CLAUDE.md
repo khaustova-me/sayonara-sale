@@ -15,7 +15,8 @@ locally — that's why the data lives in `.js` files assigning globals rather th
 `.json` loaded with `fetch()`, which browsers block on `file://`.
 
 - `data/items.js` — the item list. The only file that changes day to day.
-- `data/config.js` — title, pickup date, LINE link, category definitions.
+- `data/config.js` — title, `subtitle` (opening line) and `intro` (the
+  paragraphs under it), pickup date, LINE link, category definitions.
 - `app.js` — renders everything; `style.css` — all styling.
 - `tools/add_item.py` — photo pipeline + item upsert.
 

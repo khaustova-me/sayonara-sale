@@ -16,7 +16,7 @@
     reserved:   { en: "Reserved",     ja: "お取り置き" },
     contactH:   { en: "Want something?", ja: "ご希望の方へ" },
     lineSoon:   { en: "LINE link coming soon.", ja: "LINEリンクは準備中です。" },
-    lineCta:    { en: "Message me on LINE", ja: "LINEで連絡する" },
+    lineCta:    { en: "Message us on LINE", ja: "LINEで連絡する" },
     emptyCat:   { en: "Nothing in this category yet.", ja: "このカテゴリーにはまだ何もありません。" },
     emptyAll:   { en: "Nothing listed yet — photos are coming soon.", ja: "まだ掲載がありません。写真を準備中です。" }
   };
@@ -82,6 +82,13 @@
 
     document.getElementById("site-title").textContent = t(CONFIG.title);
     document.getElementById("site-subtitle").textContent = t(CONFIG.subtitle);
+
+    var intro = document.getElementById("site-intro");
+    intro.textContent = "";
+    (CONFIG.intro || []).forEach(function (para) {
+      var text = t(para);
+      if (text) intro.appendChild(el("p", null, text));
+    });
 
     Array.prototype.forEach.call(document.querySelectorAll(".lang-btn"), function (b) {
       b.setAttribute("aria-pressed", String(b.dataset.lang === lang));

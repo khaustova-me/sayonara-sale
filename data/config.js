@@ -1,10 +1,24 @@
 /* Settings for the sale page. Safe to edit by hand — keep the quotes and commas. */
 window.SALE_CONFIG = {
   title: { en: "Sayonara Sale", ja: "さよならセール" },
+
+  // The opening line, printed a little larger than the rest.
   subtitle: {
-    en: "We are moving away from Japan, so everything has to find a new home. Some things are cheap, some are free.",
-    ja: "日本を離れることになりました。家にあるものを全部お譲りします。安いものも、無料のものもあります。"
+    en: "We're Victor and Veronica. After ten years in Japan we're moving away for a year, so all the things we've lived with need to find a new home.",
+    ja: "はじめまして、ヴィクトルとベロニカです。日本に10年間住んでいましたが、このたび1年間日本を離れることになりました。そのため、大切に使ってきたものたちに新しい家を探しています。"
   },
+
+  // Extra paragraphs under the opening line. Add or remove freely.
+  intro: [
+    {
+      en: "We'd much rather hand these things to someone who needs them than throw them away. Some are cheap, some are free — please have a look.",
+      ja: "捨ててしまうのではなく、必要な方にお譲りしたいと思っています。お安くお売りするものも、無料でお譲りするものもあります。どうぞご覧ください。"
+    },
+    {
+      en: "If something catches your eye, just message us. We may be able to deliver the bigger items, so do ask and we'll see what we can arrange.",
+      ja: "気になるものがありましたら、お気軽にご連絡ください。大きなものは配送できる場合もありますので、ご相談ください。"
+    }
+  ],
 
   currency: "¥",
 
@@ -14,8 +28,8 @@ window.SALE_CONFIG = {
     lineUrl: "",
     lineId: "",
     note: {
-      en: "Message me on LINE and tell me which item you want. First come, first served.",
-      ja: "LINEでご希望の品をお知らせください。先着順です。"
+      en: "Message us on LINE and tell us which item you'd like. First come, first served. Ask about delivery for the bigger things.",
+      ja: "LINEでご希望の品をお知らせください。先着順です。大きなものの配送についてもお気軽にご相談ください。"
     }
   },
 
@@ -25,12 +39,12 @@ window.SALE_CONFIG = {
     date: { en: "", ja: "" },
     place: { en: "", ja: "" },
     tba: {
-      en: "The pickup day is not decided yet — it will appear here as soon as it is.",
-      ja: "引き取り日はまだ未定です。決まり次第こちらでお知らせします。"
+      en: "The main pickup day will be announced here — most likely around Obon, in mid-August.",
+      ja: "引き取り日は決まり次第こちらでお知らせします。お盆（8月中旬）ごろの予定です。"
     },
     // Exact apartment number is shared over LINE, not published here.
     addressNote: {
-      en: "The exact address is sent over LINE once we agree on a time.",
+      en: "We'll send the exact address over LINE once we've agreed on a time.",
       ja: "詳しい住所は、お時間が決まりましたらLINEでお送りします。"
     }
   },
