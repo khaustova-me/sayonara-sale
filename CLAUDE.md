@@ -92,17 +92,24 @@ Raw photos in `inbox/` are git-ignored, so the original never leaves the laptop
 
 ## When an item is available
 
-`item.available` has three states, because the family is still living with most
-of this stuff:
+**Everything is available now unless Veronica gives a date** (her rule, and the
+only rule). So `item.available` is binary:
 
-- **absent** — collectable on the main pickup day. The default; no badge.
-- **`"now"`** — can go before then. Green badge, and it adds an ⚡ filter chip
-  plus an extra sentence to the pickup banner (`pickup.earlyNote`), both of
-  which only appear when at least one item is marked this way.
-- **`"YYYY-MM-DD"`** — in use until that date. Terracotta "From 28 Aug" badge.
+- **absent** — collectable straight away. The overwhelmingly common case, and it
+  gets **no badge**: a badge every card carries stops meaning anything.
+- **`"YYYY-MM-DD"`** — still in use until that date. Terracotta "From 25 Aug".
+
+`--available now` therefore *deletes* the field rather than storing a value.
+Don't reintroduce an "available now" badge or filter chip — both existed briefly
+and were removed once "now" became the default, because they matched nearly
+every item.
+
+The pickup banner always carries `pickup.readyNote`, and appends
+`pickup.datedNote` only when some item actually has a date — so the page never
+explains a badge that isn't on screen.
 
 Dates are formatted by hand in `fmtDate()` rather than with `new Date()`, which
-parses a bare ISO date as UTC and can render the day before in JST.
+parses a bare ISO date as UTC and would render the 24th in JST.
 
 ## Contact details
 

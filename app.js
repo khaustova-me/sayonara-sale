@@ -18,8 +18,7 @@
     lineSoon:   { en: "LINE link coming soon.", ja: "LINEリンクは準備中です。" },
     lineCta:    { en: "Message us on LINE", ja: "LINEで連絡する" },
     emptyCat:   { en: "Nothing in this category yet.", ja: "このカテゴリーにはまだ何もありません。" },
-    emptyAll:   { en: "Nothing listed yet — photos are coming soon.", ja: "まだ掲載がありません。写真を準備中です。" },
-    availNow:   { en: "Available now", ja: "すぐ引き取り可" }
+    emptyAll:   { en: "Nothing listed yet — photos are coming soon.", ja: "まだ掲載がありません。写真を準備中です。" }
   };
 
   var MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -35,16 +34,13 @@
     return day + " " + (MONTHS_EN[month - 1] || "");
   }
 
-  /* null = collectable on the main pickup day (the default, no badge needed)
-     "now" = can be collected any time before then
-     a date = we are still using it until then */
+  /* Everything is collectable now by default, so `available` is only set when
+     something is still in use until a given date. No badge on the common case —
+     a badge every card carries stops meaning anything. */
   function availability(item) {
-    var a = item.available;
-    if (!a) return null;
-    if (a === "now") return { cls: "now", text: t(T.availNow) };
-    var d = fmtDate(a);
+    var d = fmtDate(item.available);
     if (!d) return null;
-    return { cls: "later", text: lang === "ja" ? d + "から" : "From " + d };
+    return { text: lang === "ja" ? d + "から" : "From " + d };
   }
 
   var lang = "en";
@@ -112,7 +108,6 @@
   function matches(item) {
     if (filter === "all") return true;
     if (filter === "free") return item.price === 0;
-    if (filter === "now") return item.available === "now";
     return item.category === filter;
   }
 
@@ -156,8 +151,10 @@
     var bannerText = p.announced
       ? [t(p.date), t(p.place)].filter(Boolean).join(" · ")
       : t(p.tba);
-    if (ITEMS.some(function (i) { return i.available === "now"; }) && t(p.earlyNote)) {
-      bannerText += " " + t(p.earlyNote);
+    if (t(p.readyNote)) bannerText += " " + t(p.readyNote);
+    /* Only explain the date badge when something actually carries one. */
+    if (ITEMS.some(function (i) { return fmtDate(i.available); }) && t(p.datedNote)) {
+      bannerText += " " + t(p.datedNote);
     }
     banner.textContent = "📅 " + bannerText;
 
@@ -221,15 +218,10 @@
     if (ITEMS.some(function (i) { return i.price === 0; })) {
       defs.push({ id: "free", emoji: "🎁", label: T.free });
     }
-    if (ITEMS.some(function (i) { return i.available === "now"; })) {
-      defs.push({ id: "now", emoji: "⚡", label: T.availNow });
-    }
-
     defs.forEach(function (d) {
       var n = ITEMS.filter(function (i) {
         if (d.id === "all") return true;
         if (d.id === "free") return i.price === 0;
-        if (d.id === "now") return i.available === "now";
         return i.category === d.id;
       }).length;
 
@@ -315,7 +307,7 @@
     }
 
     var avail = item.status === "sold" ? null : availability(item);
-    if (avail) body.appendChild(el("span", "avail " + avail.cls, avail.text));
+    if (avail) body.appendChild(el("span", "avail", avail.text));
 
     var p = priceText(item.price);
     body.appendChild(el("div", "price " + p.cls, p.text));

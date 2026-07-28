@@ -43,8 +43,7 @@ window.SALE_ITEMS = [
     "note": {
       "en": "TESCOM ione TID930. Negative ion, foldable, 1.8 m3/min airflow, cool and turbo settings. Nozzle attachment included. Works perfectly, we just don't use it any more.",
       "ja": "テスコム ione TID930。マイナスイオン、折りたたみ式、大風量1.8㎥/分、冷風・ターボ切替つき。ノズルアタッチメントつき。問題なく使えますが、使わなくなりました。"
-    },
-    "available": "now"
+    }
   },
   {
     "id": "printer",
@@ -56,13 +55,32 @@ window.SALE_ITEMS = [
     "category": "appliances",
     "status": "available",
     "images": [
-      "images/printer-1.jpg"
+      "images/printer-1.jpg",
+      "images/printer-2.jpg"
     ],
     "note": {
       "en": "Prints, copies and scans, and does photo prints. Works perfectly. Comes with a full set of colour cartridges and some paper. 2017 model.",
       "ja": "コピー・スキャン、写真プリントもできます。問題なく動作します。カラーインクカートリッジ一式と用紙も少しお付けします。2017年発売モデル。"
     },
-    "available": "now",
     "link": "https://www.epson.jp/support/portal/support_menu/ep-810ab.htm"
+  },
+  {
+    "id": "blender",
+    "name": {
+      "en": "Hand blender — Braun MultiQuick 5",
+      "ja": "ハンドブレンダー ブラウン マルチクイック5"
+    },
+    "price": 1000,
+    "category": "kitchen",
+    "status": "available",
+    "images": [],
+    "note": {
+      "en": "Blender attachment only — no chopper bowl and no whisk. Works fine.",
+      "ja": "ブレンダー部分のみで、チョッパーや泡立て器は付きません。問題なく使えます。"
+    },
+    "link": {
+      "en": "https://www.amazon.co.jp/-/en/dp/B0FTMR59ZY",
+      "ja": "https://www.amazon.co.jp/dp/B0FTMR59ZY"
+    }
   }
 ];

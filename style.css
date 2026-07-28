@@ -309,14 +309,6 @@ main, .contact { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
   font-weight: 600;
   padding: 2px 8px;
   border-radius: 999px;
-}
-
-.avail.now {
-  color: var(--free);
-  background: color-mix(in srgb, var(--free) 14%, transparent);
-}
-
-.avail.later {
   color: var(--accent);
   background: color-mix(in srgb, var(--accent) 14%, transparent);
 }

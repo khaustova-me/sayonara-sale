@@ -35,9 +35,9 @@ python3 tools/add_item.py --en "Washing machine" --ja "洗濯機" \
 # mark it sold
 python3 tools/add_item.py --id washing-machine --status sold
 
-# still using it until we leave / can go right away
+# everything is available now by default; give a date only for things still in use
 python3 tools/add_item.py --id bed --available 2026-08-28
-python3 tools/add_item.py --id hairdryer --available now
+python3 tools/add_item.py --id bed --available now   # clears the date again
 
 # see everything
 python3 tools/add_item.py --list
