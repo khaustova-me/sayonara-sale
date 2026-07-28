@@ -82,5 +82,29 @@ window.SALE_ITEMS = [
       "en": "https://www.amazon.co.jp/-/en/dp/B0FTMR59ZY",
       "ja": "https://www.amazon.co.jp/dp/B0FTMR59ZY"
     }
+  },
+  {
+    "id": "stroller-car-seat",
+    "name": {
+      "en": "Joie Litetrax Air stroller + i-Snug car seat",
+      "ja": "ジョイー ベビーカー ライトトラックスエア + チャイルドシート アイスナグ"
+    },
+    "price": 22000,
+    "category": "kids",
+    "status": "available",
+    "images": [
+      "images/stroller-car-seat-1.jpg",
+      "images/stroller-car-seat-2.jpg",
+      "images/stroller-car-seat-3.jpg",
+      "images/stroller-car-seat-4.jpg",
+      "images/stroller-car-seat-5.jpg",
+      "images/stroller-car-seat-6.jpg",
+      "images/stroller-car-seat-7.jpg"
+    ],
+    "note": {
+      "en": "The i-Size car seat clicks straight onto the stroller, so a sleeping baby goes from the car to the stroller without waking. Includes the ISOFIX i-Base, rain cover and original boxes. Rear air tyres; folds to 85 x 53 x 28.5 cm. The stroller alone retails at 33,880 yen.",
+      "ja": "i-Sizeチャイルドシートをそのままベビーカーに装着できるので、寝ている赤ちゃんを起こさずに車から移動できます。ISOFIX対応のi-Base、レインカバー、元箱つき。後輪エアタイヤ、折りたたみサイズ85×53×28.5cm。ベビーカー単体の希望小売価格は33,880円。"
+    },
+    "link": "https://www.katoji.co.jp/products-detail_2278.html"
   }
 ];
