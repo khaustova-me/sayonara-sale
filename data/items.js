@@ -45,5 +45,24 @@ window.SALE_ITEMS = [
       "ja": "テスコム ione TID930。マイナスイオン、折りたたみ式、大風量1.8㎥/分、冷風・ターボ切替つき。ノズルアタッチメントつき。問題なく使えますが、使わなくなりました。"
     },
     "available": "now"
+  },
+  {
+    "id": "printer",
+    "name": {
+      "en": "Printer / scanner — Epson EP-810AB",
+      "ja": "プリンター エプソン カラリオ EP-810AB"
+    },
+    "price": 15000,
+    "category": "appliances",
+    "status": "available",
+    "images": [
+      "images/printer-1.jpg"
+    ],
+    "note": {
+      "en": "Prints, copies and scans, and does photo prints. Works perfectly. Comes with a full set of colour cartridges and some paper. 2017 model.",
+      "ja": "コピー・スキャン、写真プリントもできます。問題なく動作します。カラーインクカートリッジ一式と用紙も少しお付けします。2017年発売モデル。"
+    },
+    "available": "now",
+    "link": "https://www.epson.jp/support/portal/support_menu/ep-810ab.htm"
   }
 ];
