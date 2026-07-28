@@ -142,6 +142,10 @@
     var nav = document.getElementById("filters");
     nav.textContent = "";
 
+    /* Nothing listed yet — a lone "Everything 0" chip just looks broken. */
+    nav.hidden = ITEMS.length === 0;
+    if (nav.hidden) return;
+
     var defs = [{ id: "all", emoji: "", label: T.all }];
     CATS.forEach(function (c) {
       if (ITEMS.some(function (i) { return i.category === c.id; })) defs.push(c);
