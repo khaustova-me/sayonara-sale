@@ -162,6 +162,17 @@
       cta.textContent = t(T.lineSoon);
     }
 
+    /* QR code, for anyone reading on a laptop who can't tap the button */
+    var qrFig = document.getElementById("qr-figure");
+    var qrSrc = (CONFIG.contact && CONFIG.contact.qr) || "";
+    if (qrSrc) {
+      document.getElementById("contact-qr").src = qrSrc;
+      document.getElementById("qr-caption").textContent = t(CONFIG.contact.qrNote);
+      qrFig.hidden = false;
+    } else {
+      qrFig.hidden = true;
+    }
+
     document.getElementById("contact-address").textContent = t(p.addressNote);
   }
 

@@ -214,9 +214,28 @@ def main():
     ap.add_argument("--list", action="store_true", help="print the current list")
     ap.add_argument("--about", metavar="PHOTO",
                     help="process a photo of us for the intro (not a sale item)")
+    ap.add_argument("--qr", metavar="PHOTO",
+                    help="process a LINE QR code for the contact section")
     args = ap.parse_args()
 
     IMAGES.mkdir(exist_ok=True)
+
+    if args.qr:
+        src = resolve(args.qr)
+        dest = IMAGES / "line-qr.png"
+        with Image.open(src) as img:
+            img = ImageOps.exif_transpose(img)
+            if img.mode != "RGB":
+                img = img.convert("RGB")
+            img.thumbnail((700, 700), Image.LANCZOS)
+            # PNG, not JPEG — JPEG ringing on hard black/white edges is exactly
+            # what makes a QR code fail to scan.
+            clean = Image.frombytes(img.mode, img.size, img.tobytes())
+        clean.save(dest, "PNG", optimize=True)
+        print(f"  {src.name} -> images/{dest.name} "
+              f"({clean.width}x{clean.height}, {dest.stat().st_size / 1024:.0f} KB)")
+        print('Now set contact.qr to "images/line-qr.png" in data/config.js.')
+        return
 
     if args.about:
         src = resolve(args.about)

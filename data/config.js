@@ -11,8 +11,11 @@ window.SALE_CONFIG = {
   // A photo of us, shown next to the introduction. Leave src as "" for none.
   // Add it with: python3 tools/add_item.py --about <photo>
   aboutPhoto: {
-    src: "",
-    alt: { en: "Victor and Veronica", ja: "ヴィクトルとベロニカ" },
+    src: "images/about-us.jpg",
+    alt: {
+      en: "Victor and Veronica with their two children, under the cherry blossoms",
+      ja: "桜の下のヴィクトルとベロニカ、そして子どもたち"
+    },
     caption: { en: "", ja: "" }
   },
 
@@ -31,10 +34,10 @@ window.SALE_CONFIG = {
   currency: "¥",
 
   contact: {
-    // Paste your LINE link here: LINE app -> Settings -> Profile -> Share
-    // It looks like https://line.me/ti/p/xxxxxxxxxx
-    lineUrl: "",
-    lineId: "",
+    lineUrl: "https://line.me/ti/p/GUuO9juJ3H",
+    // Shown under the button for anyone reading on a laptop, who can't tap it.
+    qr: "images/line-qr.png",
+    qrNote: { en: "or scan to add us on LINE", ja: "QRコードからも追加できます" },
     note: {
       en: "Message us on LINE and tell us which item you'd like. First come, first served. Ask about delivery for the bigger things.",
       ja: "LINEでご希望の品をお知らせください。先着順です。大きなものの配送についてもお気軽にご相談ください。"

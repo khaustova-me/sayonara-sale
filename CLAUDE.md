@@ -75,6 +75,29 @@ English name only. Write natural, simple Japanese aimed at ordinary buyers:
 Both languages always render on the card — the selected one large, the other
 small underneath — so a bad translation is visible to everyone.
 
+## Look at every photo before publishing it
+
+Stripping metadata is not enough — **read the pixels too**. Veronica photographs
+things where they sit, so photos arrive with other stuff in frame. The manual
+shot for the washing machine had a credit-card sales slip (お客様控え) lying on
+it, with a partial AMEX number, the slip number, and the store and date. It was
+cropped out before publishing and the purchase details were written into the
+item note as plain text instead.
+
+So: before an image goes into `images/`, check for receipts and card slips,
+letters and envelopes, delivery labels, screens, prescriptions, door numbers and
+nameplates, and people reflected in glass or appliance doors. Crop or reshoot.
+Raw photos in `inbox/` are git-ignored, so the original never leaves the laptop
+— only what the tool writes gets published.
+
+## Contact details
+
+`contact.lineUrl` is her LINE add-friend link, and `contact.qr` shows the QR
+below the button for laptop readers. The URL came from decoding the QR she
+supplied — OpenCV is installed, so `cv2.QRCodeDetector().detectAndDecodeMulti()`
+does it. The QR is written as PNG, not JPEG: JPEG ringing on hard black/white
+edges is what makes codes fail to scan. `--qr` handles this.
+
 ## Photo pipeline — do not bypass it
 
 `add_item.py` auto-rotates via the EXIF orientation flag, converts Display-P3

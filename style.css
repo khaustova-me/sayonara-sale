@@ -329,6 +329,25 @@ main, .contact { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
   text-align: center;
 }
 
+.qr-figure { margin: 18px auto 4px; width: max-content; }
+
+.qr-figure img {
+  display: block;
+  width: 168px;
+  height: 168px;
+  /* white plate + quiet zone, so it still scans in dark mode */
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+.qr-figure figcaption {
+  margin-top: 8px;
+  font-size: .8rem;
+  color: var(--ink-soft);
+}
+
 .contact h2 { font-size: 1.2rem; margin: 0 0 8px; }
 .contact p { margin: 8px auto; max-width: 46ch; }
 .muted { color: var(--ink-soft); font-size: .85rem; }
