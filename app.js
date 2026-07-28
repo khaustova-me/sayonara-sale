@@ -18,7 +18,8 @@
     lineSoon:   { en: "LINE link coming soon.", ja: "LINEリンクは準備中です。" },
     lineCta:    { en: "Message us on LINE", ja: "LINEで連絡する" },
     emptyCat:   { en: "Nothing in this category yet.", ja: "このカテゴリーにはまだ何もありません。" },
-    emptyAll:   { en: "Nothing listed yet — photos are coming soon.", ja: "まだ掲載がありません。写真を準備中です。" }
+    emptyAll:   { en: "Nothing listed yet — photos are coming soon.", ja: "まだ掲載がありません。写真を準備中です。" },
+    availNow:   { en: "Available now", ja: "すぐ引き取り可" }
   };
 
   var MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -34,13 +35,16 @@
     return day + " " + (MONTHS_EN[month - 1] || "");
   }
 
-  /* Everything is collectable now by default, so `available` is only set when
-     something is still in use until a given date. No badge on the common case —
-     a badge every card carries stops meaning anything. */
+  /* Everything is collectable now unless `available` carries a date, in which
+     case we're still using it until then. Both states get a badge: green for
+     now, terracotta for a date. */
   function availability(item) {
     var d = fmtDate(item.available);
-    if (!d) return null;
-    return { text: lang === "ja" ? d + "から" : "From " + d };
+    if (!d) return { cls: "now", text: t(T.availNow) };
+    return {
+      cls: "later",
+      text: lang === "ja" ? d + "から引き取り可" : "Available " + d
+    };
   }
 
   var lang = "en";
@@ -148,15 +152,21 @@
     /* pickup banner */
     var p = CONFIG.pickup || {};
     var banner = document.getElementById("pickup-banner");
-    var bannerText = p.announced
+    banner.textContent = "";
+
+    /* Where. Buyers need this before anything else, so it goes first and
+       shows whether or not a pickup date has been settled. */
+    if (t(p.area)) banner.appendChild(el("div", "where", "📍 " + t(p.area)));
+
+    var when = p.announced
       ? [t(p.date), t(p.place)].filter(Boolean).join(" · ")
       : t(p.tba);
-    if (t(p.readyNote)) bannerText += " " + t(p.readyNote);
+    if (t(p.readyNote)) when += " " + t(p.readyNote);
     /* Only explain the date badge when something actually carries one. */
     if (ITEMS.some(function (i) { return fmtDate(i.available); }) && t(p.datedNote)) {
-      bannerText += " " + t(p.datedNote);
+      when += " " + t(p.datedNote);
     }
-    banner.textContent = "📅 " + bannerText;
+    banner.appendChild(el("div", null, "📅 " + when));
 
     /* LINE buttons */
     var url = (CONFIG.contact && CONFIG.contact.lineUrl) || "";
@@ -307,7 +317,7 @@
     }
 
     var avail = item.status === "sold" ? null : availability(item);
-    if (avail) body.appendChild(el("span", "avail", avail.text));
+    if (avail) body.appendChild(el("span", "avail " + avail.cls, avail.text));
 
     var p = priceText(item.price);
     body.appendChild(el("div", "price " + p.cls, p.text));

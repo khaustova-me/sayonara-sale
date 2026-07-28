@@ -95,14 +95,16 @@ Raw photos in `inbox/` are git-ignored, so the original never leaves the laptop
 **Everything is available now unless Veronica gives a date** (her rule, and the
 only rule). So `item.available` is binary:
 
-- **absent** — collectable straight away. The overwhelmingly common case, and it
-  gets **no badge**: a badge every card carries stops meaning anything.
-- **`"YYYY-MM-DD"`** — still in use until that date. Terracotta "From 25 Aug".
+- **absent** — collectable straight away. Green "Available now" badge.
+- **`"YYYY-MM-DD"`** — still in use until that date. Terracotta "Available 25
+  Aug" / 「8月25日から引き取り可」.
 
 `--available now` therefore *deletes* the field rather than storing a value.
-Don't reintroduce an "available now" badge or filter chip — both existed briefly
-and were removed once "now" became the default, because they matched nearly
-every item.
+
+Both states carry a badge because **Veronica asked for the green one back** — it
+was briefly removed on the reasoning that a badge on every card says nothing.
+She likes it, so it stays. The ⚡ filter chip is *not* coming back though: it
+matched nearly every item and earned no space.
 
 The pickup banner always carries `pickup.readyNote`, and appends
 `pickup.datedNote` only when some item actually has a date — so the page never
@@ -136,6 +138,7 @@ present after writing. Never copy a photo into `images/` by hand.
 | "the sofa is sold" | `--id sofa --status sold` (never delete it — sold items grey out and sink to the bottom, which is intended) |
 | "someone's coming for the fridge" | `--status reserved` |
 | "pickup is Aug 23, 10–16" | edit `data/config.js` → `pickup.announced = true`, fill `date`/`place` in both languages |
+| "we're in \<city\>" | `pickup.area` — printed first in the banner, with or without a date, because buyers need the location before anything else. The street address stays off the page and goes over LINE |
 | "here's my LINE" | set `contact.lineUrl` in `data/config.js` |
 | "drop the price on X" | `--id x --price 3000` |
 | "we need the bed until the 28th" | `--id bed --available 2026-08-28` |

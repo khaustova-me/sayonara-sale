@@ -45,6 +45,10 @@ window.SALE_CONFIG = {
   },
 
   pickup: {
+    // Where the sale is. Shown first, with or without a date — buyers need
+    // this before anything else. Street address stays off the page.
+    area: { en: "Aizuwakamatsu, Fukushima", ja: "福島県会津若松市" },
+
     // Flip to true once the date is decided.
     announced: false,
     date: { en: "", ja: "" },
@@ -60,8 +64,8 @@ window.SALE_CONFIG = {
     },
     // Added only when at least one item carries a date.
     datedNote: {
-      en: "Anything with a date on it is still in use until then.",
-      ja: "日付のある品は、その日まで使用中です。"
+      en: "Items showing a date are still in use by us until then.",
+      ja: "日付のある品は、その日まで私たちが使用しています。"
     },
     // Exact apartment number is shared over LINE, not published here.
     addressNote: {

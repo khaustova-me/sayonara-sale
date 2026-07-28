@@ -95,8 +95,8 @@ window.SALE_ITEMS = [
   {
     "id": "stroller-car-seat",
     "name": {
-      "en": "Joie Litetrax Air stroller + i-Snug car seat",
-      "ja": "ジョイー ベビーカー ライトトラックスエア + チャイルドシート アイスナグ"
+      "en": "Joie travel system — stroller + i-Snug car seat + ISOFIX base",
+      "ja": "ジョイー トラベルシステム ベビーカー＋アイスナグ＋ISOFIXベース"
     },
     "price": 22000,
     "category": "kids",
@@ -111,9 +111,48 @@ window.SALE_ITEMS = [
       "images/stroller-car-seat-7.jpg"
     ],
     "note": {
-      "en": "The i-Size car seat clicks straight onto the stroller, so a sleeping baby goes from the car to the stroller without waking. Includes the ISOFIX i-Base, rain cover and original boxes. Rear air tyres; folds to 85 x 53 x 28.5 cm. The stroller alone retails at 33,880 yen.",
-      "ja": "i-Sizeチャイルドシートをそのままベビーカーに装着できるので、寝ている赤ちゃんを起こさずに車から移動できます。ISOFIX対応のi-Base、レインカバー、元箱つき。後輪エアタイヤ、折りたたみサイズ85×53×28.5cm。ベビーカー単体の希望小売価格は33,880円。"
+      "en": "Sold together as one set: the Litetrax Air stroller, the i-Snug i-Size infant carrier (ECE R129/02, for 40-75 cm) and the ISOFIX i-Base. The carrier clicks straight onto the stroller, so a sleeping baby goes from the car to the stroller without waking. Rain cover and all original boxes included. Rear air tyres; folds to 85 x 53 x 28.5 cm. The stroller on its own retails at 33,880 yen.",
+      "ja": "3点セットでのお譲りです：ベビーカー ライトトラックスエア、ベビーシート アイスナグ（ECE R129/02適合、身長40〜75cm）、ISOFIX対応 i-Base。ベビーシートをそのままベビーカーに装着できるので、寝ている赤ちゃんを起こさずに車から移動できます。レインカバー・元箱すべて付属。後輪エアタイヤ、折りたたみサイズ85×53×28.5cm。ベビーカー単体の希望小売価格は33,880円です。"
     },
     "link": "https://www.katoji.co.jp/products-detail_2278.html"
+  },
+  {
+    "id": "car-seat-combi",
+    "name": {
+      "en": "Car seat — Combi, rotating (brown)",
+      "ja": "チャイルドシート コンビ 回転式（ブラウン）"
+    },
+    "price": 1000,
+    "category": "kids",
+    "status": "available",
+    "images": [
+      "images/car-seat-combi-1.jpg",
+      "images/car-seat-combi-2.jpg",
+      "images/car-seat-combi-3.jpg"
+    ],
+    "note": {
+      "en": "The seat rotates to face the door, which makes lifting a child in and out much easier. Fitted with the car's own seatbelt.",
+      "ja": "座面が回転してドア側を向くので、乗せ降ろしがとても楽です。車のシートベルトで固定するタイプです。"
+    },
+    "available": "2026-08-28"
+  },
+  {
+    "id": "car-seat-besafe",
+    "name": {
+      "en": "Car seat — BeSafe (blue)",
+      "ja": "チャイルドシート ビーセーフ（ブルー）"
+    },
+    "price": 1000,
+    "category": "kids",
+    "status": "available",
+    "images": [
+      "images/car-seat-besafe-1.jpg",
+      "images/car-seat-besafe-2.jpg"
+    ],
+    "note": {
+      "en": "BeSafe seat in blue, for a toddler. Deep side supports and a padded harness.",
+      "ja": "ブルーのビーセーフ製チャイルドシート。幼児用。サイドサポートが深く、ハーネスもクッションつきです。"
+    },
+    "available": "2026-08-28"
   }
 ];
