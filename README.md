@@ -10,7 +10,8 @@ Photos, prices, categories, in English and Japanese. Contact over LINE.
 
 ## How to add something
 
-1. Put the photos in the `inbox/` folder
+1. Put the photos in the `inbox/` folder — if an item has several photos, give it
+   its own folder like `inbox/washing-machine/`
 2. Tell Claude in chat: *"the grey sofa, ¥5000"* or *"box of kids books, free"*
 
 That's it. Claude resizes the photos, writes the Japanese, updates the list, and
@@ -26,6 +27,11 @@ Same for anything else: *"the washing machine is sold"*, *"pickup is Aug 23,
 python3 tools/add_item.py --en "Washing machine" --ja "洗濯機" \
     --price 8000 --category appliances IMG_1234.jpg IMG_1235.jpg
 
+# or pass a whole folder, plus a link to the manufacturer's page
+python3 tools/add_item.py --en "Washing machine" --ja "洗濯機" \
+    --price 8000 --category appliances \
+    --link https://panasonic.jp/wash/p-db/NA-FA7H1.html washing-machine/
+
 # mark it sold
 python3 tools/add_item.py --id washing-machine --status sold
 
@@ -35,6 +41,9 @@ python3 tools/add_item.py --list
 
 `--price 0` = free · `--price ask` = negotiable
 Categories: `vehicle` `appliances` `kitchen` `furniture` `kids` `clothes` `misc`
+
+`--link` adds a "more info" link on the card, shown as the site's domain. Use
+`--link-ja` as well if the maker has a separate Japanese page.
 
 Then `git add -A && git commit -m "add washing machine" && git push`.
 

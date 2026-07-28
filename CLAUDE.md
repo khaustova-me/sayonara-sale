@@ -27,11 +27,22 @@ python3 tools/add_item.py --en "Washing machine" --ja "洗濯機" \
     --price 8000 --category appliances IMG_1234.jpg IMG_1235.jpg
 ```
 
-Bare photo filenames are resolved against `inbox/`. Other flags: `--note-en`,
-`--note-ja`, `--status`, `--id`, `--replace-photos`, `--remove ID`, `--list`.
+Bare names resolve against `inbox/`, and **a name may be a folder** — items with
+several photos are kept as `inbox/<item>/`, ingested in filename order, so the
+first file alphabetically becomes the cover. HEIC is handled (via `sips`, since
+Pillow can't read it) because that's what iPhones shoot by default.
+
+Other flags: `--note-en`, `--note-ja`, `--status`, `--id`, `--replace-photos`,
+`--link`, `--link-ja`, `--link-label`, `--remove ID`, `--list`.
 
 `--price 0` means free, `--price ask` means negotiable.
 Categories: `vehicle appliances kitchen furniture kids clothes misc`.
+
+An item's optional `link` points at a manufacturer or spec page and renders as
+the bare domain (`panasonic.jp ↗`) so people can see where it goes. It takes a
+plain URL string, or an `{en, ja}` pair when the maker has separate pages —
+`t()` handles both shapes. `app.js` ignores anything that isn't a valid http(s)
+URL, and the tool rejects it outright, so a stray `javascript:` can't render.
 
 Then delete the consumed photo from `inbox/` (it's git-ignored, but keeping it
 tidy avoids re-adding the same thing twice), and commit.

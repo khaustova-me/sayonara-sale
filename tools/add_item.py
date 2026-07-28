@@ -12,6 +12,11 @@ Examples
   python3 tools/add_item.py --en "Washing machine" --ja "洗濯機" \\
       --price 8000 --category appliances IMG_1234.jpg IMG_1235.jpg
 
+  # or keep an item's photos together in inbox/<folder>/ and pass the folder
+  python3 tools/add_item.py --en "Washing machine" --ja "洗濯機" \\
+      --price 8000 --category appliances \\
+      --link https://panasonic.jp/wash/p-db/NA-FA7H1.html washing-machine/
+
   # give something away
   python3 tools/add_item.py --en "Box of kids books" --ja "子ども用の本" \\
       --price 0 --category kids books.jpg
@@ -84,11 +89,49 @@ def save_items(items):
 # photos
 # --------------------------------------------------------------------------
 
-def find_photo(name):
+IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".heic", ".heif", ".webp", ".tif", ".tiff"}
+
+
+def resolve(name):
     for candidate in (Path(name), INBOX / name, ROOT / name):
-        if candidate.is_file():
+        if candidate.exists():
             return candidate
-    sys.exit(f"Photo not found: {name}  (looked in ./ and inbox/)")
+    sys.exit(f"Not found: {name}  (looked in ./ and inbox/)")
+
+
+def expand_photos(names):
+    """A name may be a single photo or a whole folder of them. Folders are the
+    tidy way to keep 3-5 shots of one item together; files inside sort by name,
+    so the first one alphabetically becomes the cover photo."""
+    out = []
+    for name in names:
+        path = resolve(name)
+        if path.is_dir():
+            found = sorted(
+                f for f in path.iterdir()
+                if f.suffix.lower() in IMAGE_EXTS and not f.name.startswith(".")
+            )
+            if not found:
+                sys.exit(f"No photos inside {path}/")
+            print(f"  {path.name}/ -> {len(found)} photo(s): "
+                  f"{', '.join(f.name for f in found)}")
+            out.extend(found)
+        else:
+            out.append(path)
+    return out
+
+
+def open_image(path):
+    """Pillow can't read HEIC, which is what iPhones shoot by default, so hand
+    those to macOS sips first."""
+    if path.suffix.lower() in (".heic", ".heif"):
+        tmp = path.with_suffix(".sayonara-tmp.jpg")
+        subprocess.run(
+            ["sips", "-s", "format", "jpeg", str(path), "--out", str(tmp)],
+            capture_output=True, check=True,
+        )
+        return Image.open(tmp), tmp
+    return Image.open(path), None
 
 
 def to_srgb(img):
@@ -110,17 +153,22 @@ def to_srgb(img):
 
 
 def process_photo(src_path, dest_path):
-    with Image.open(src_path) as img:
-        img = ImageOps.exif_transpose(img)      # honour the rotation flag...
-        img = to_srgb(img)
-        if img.mode != "RGB":
-            img = img.convert("RGB")
-        img.thumbnail((MAX_EDGE, MAX_EDGE), Image.LANCZOS)
+    opened, tmp = open_image(src_path)
+    try:
+        with opened as img:
+            img = ImageOps.exif_transpose(img)  # honour the rotation flag...
+            img = to_srgb(img)
+            if img.mode != "RGB":
+                img = img.convert("RGB")
+            img.thumbnail((MAX_EDGE, MAX_EDGE), Image.LANCZOS)
 
-        # ...then rebuild the pixels into a fresh image so NOTHING from the
-        # original file's metadata (GPS, timestamps, camera, thumbnails)
-        # can ride along.
-        clean = Image.frombytes(img.mode, img.size, img.tobytes())
+            # ...then rebuild the pixels into a fresh image so NOTHING from the
+            # original file's metadata (GPS, timestamps, camera, thumbnails)
+            # can ride along.
+            clean = Image.frombytes(img.mode, img.size, img.tobytes())
+    finally:
+        if tmp and tmp.exists():
+            tmp.unlink()
 
     clean.save(dest_path, "JPEG", quality=QUALITY, optimize=True, progressive=True)
 
@@ -154,6 +202,11 @@ def main():
     ap.add_argument("--category", help="vehicle | appliances | kitchen | furniture | kids | clothes | misc")
     ap.add_argument("--note-en", dest="note_en")
     ap.add_argument("--note-ja", dest="note_ja")
+    ap.add_argument("--link", help="manufacturer / spec page URL")
+    ap.add_argument("--link-ja", dest="link_ja",
+                    help="Japanese version of that page, if it differs")
+    ap.add_argument("--link-label", dest="link_label",
+                    help="text for the link (defaults to the site's domain)")
     ap.add_argument("--status", choices=["available", "reserved", "sold"])
     ap.add_argument("--replace-photos", action="store_true",
                     help="drop the item's existing photos instead of appending")
@@ -216,6 +269,17 @@ def main():
     if args.note_ja is not None:
         item.setdefault("note", {})["ja"] = args.note_ja
 
+    if args.link or args.link_ja:
+        for url in (args.link, args.link_ja):
+            if url and not url.startswith(("http://", "https://")):
+                sys.exit(f"Link must start with http:// or https:// — got '{url}'")
+        if args.link_ja and args.link and args.link_ja != args.link:
+            item["link"] = {"en": args.link, "ja": args.link_ja}
+        else:
+            item["link"] = args.link or args.link_ja
+    if args.link_label:
+        item["linkLabel"] = {"en": args.link_label, "ja": args.link_label}
+
     if args.price is not None:
         if args.price.lower() in ("ask", "none", "null"):
             item["price"] = None
@@ -227,9 +291,9 @@ def main():
 
     if args.photos:
         print(f"Photos for '{item_id}':")
+        files = expand_photos(args.photos)
         start = len(item["images"])
-        for offset, name in enumerate(args.photos, start=1):
-            src = find_photo(name)
+        for offset, src in enumerate(files, start=1):
             dest = IMAGES / f"{item_id}-{start + offset}.jpg"
             process_photo(src, dest)
             item["images"].append(f"images/{dest.name}")

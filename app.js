@@ -51,6 +51,21 @@
     return { text: cur + Number(price).toLocaleString("en-US"), cls: "" };
   }
 
+  /* Optional "more info" link. Accepts a plain URL string or an {en, ja} pair
+     when the manufacturer has separate Japanese and English pages. Anything
+     that isn't a real http(s) URL is ignored rather than rendered. */
+  function linkFor(item) {
+    var url = t(item.link);
+    if (!url) return null;
+    try {
+      var u = new URL(url);
+      if (u.protocol !== "http:" && u.protocol !== "https:") return null;
+      return { url: url, host: u.hostname.replace(/^www\./, "") };
+    } catch (e) {
+      return null;
+    }
+  }
+
   function el(tag, cls, text) {
     var n = document.createElement(tag);
     if (cls) n.className = cls;
@@ -232,6 +247,15 @@
 
     var note = t(item.note);
     if (note) body.appendChild(el("p", "note", note));
+
+    var lf = linkFor(item);
+    if (lf) {
+      var a = el("a", "item-link", (item.linkLabel ? t(item.linkLabel) : lf.host) + " ↗");
+      a.href = lf.url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      body.appendChild(a);
+    }
 
     var p = priceText(item.price);
     body.appendChild(el("div", "price " + p.cls, p.text));
