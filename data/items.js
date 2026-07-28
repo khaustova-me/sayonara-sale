@@ -43,6 +43,14 @@ window.SALE_ITEMS = [
     "note": {
       "en": "TESCOM ione TID930. Negative ion, foldable, 1.8 m3/min airflow, cool and turbo settings. Nozzle attachment included. Works perfectly, we just don't use it any more.",
       "ja": "テスコム ione TID930。マイナスイオン、折りたたみ式、大風量1.8㎥/分、冷風・ターボ切替つき。ノズルアタッチメントつき。問題なく使えますが、使わなくなりました。"
+    },
+    "link": {
+      "en": "https://www.amazon.co.jp/-/en/dp/B0DBPRSJRP",
+      "ja": "https://www.amazon.co.jp/dp/B0DBPRSJRP"
+    },
+    "linkLabel": {
+      "en": "similar model on Amazon",
+      "ja": "類似モデル（Amazon）"
     }
   },
   {
@@ -67,21 +75,22 @@ window.SALE_ITEMS = [
   {
     "id": "blender",
     "name": {
-      "en": "Hand blender — Braun MultiQuick 5",
-      "ja": "ハンドブレンダー ブラウン マルチクイック5"
+      "en": "Hand blender — Braun MultiQuick 5 MQ 500",
+      "ja": "ハンドブレンダー ブラウン マルチクイック5 MQ 500"
     },
     "price": 1000,
     "category": "kitchen",
     "status": "available",
-    "images": [],
+    "images": [
+      "images/blender-1.jpg",
+      "images/blender-2.jpg",
+      "images/blender-3.jpg"
+    ],
     "note": {
-      "en": "Blender attachment only — no chopper bowl and no whisk. Works fine.",
-      "ja": "ブレンダー部分のみで、チョッパーや泡立て器は付きません。問題なく使えます。"
+      "en": "Braun MQ 500, 350 W. Complete with the blender shaft, 600 ml beaker and the original box — this model is blender-only, it never came with a chopper or whisk. Works fine.",
+      "ja": "ブラウン MQ 500、350W。本体・ブレンダー・600ml計量カップ・元箱つき。このモデルはブレンダーのみで、チョッパーや泡立て器はもともと付属しません。問題なく使えます。"
     },
-    "link": {
-      "en": "https://www.amazon.co.jp/-/en/dp/B0FTMR59ZY",
-      "ja": "https://www.amazon.co.jp/dp/B0FTMR59ZY"
-    }
+    "link": "https://www.braunhousehold.com/ja-jp/%E3%83%9E%E3%83%AB%E3%83%81%E3%82%AF%E3%82%A4%E3%83%83%E3%82%AF-5-%E3%83%8F%E3%83%B3%E3%83%89%E3%83%96%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-mq-500-gy/p/4165-MQ500GY"
   },
   {
     "id": "stroller-car-seat",

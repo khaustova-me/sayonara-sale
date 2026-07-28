@@ -206,7 +206,11 @@ def main():
     ap.add_argument("--link-ja", dest="link_ja",
                     help="Japanese version of that page, if it differs")
     ap.add_argument("--link-label", dest="link_label",
-                    help="text for the link (defaults to the site's domain)")
+                    help="text for the link (defaults to the site's domain). Use "
+                         "this when the page isn't the exact item, e.g. "
+                         "'similar model on Amazon'")
+    ap.add_argument("--link-label-ja", dest="link_label_ja",
+                    help="Japanese version of that label")
     ap.add_argument("--status", choices=["available", "reserved", "sold"])
     ap.add_argument("--available", metavar="WHEN",
                     help="YYYY-MM-DD if the item is in use until that date, or "
@@ -323,8 +327,10 @@ def main():
             item["link"] = {"en": args.link, "ja": args.link_ja}
         else:
             item["link"] = args.link or args.link_ja
-    if args.link_label:
-        item["linkLabel"] = {"en": args.link_label, "ja": args.link_label}
+    if args.link_label or args.link_label_ja:
+        label = item.get("linkLabel") or {}
+        en = args.link_label or label.get("en") or args.link_label_ja
+        item["linkLabel"] = {"en": en, "ja": args.link_label_ja or label.get("ja") or en}
 
     if args.price is not None:
         if args.price.lower() in ("ask", "none", "null"):
