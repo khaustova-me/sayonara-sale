@@ -212,9 +212,21 @@ def main():
                     help="drop the item's existing photos instead of appending")
     ap.add_argument("--remove", metavar="ID", help="delete an item")
     ap.add_argument("--list", action="store_true", help="print the current list")
+    ap.add_argument("--about", metavar="PHOTO",
+                    help="process a photo of us for the intro (not a sale item)")
     args = ap.parse_args()
 
     IMAGES.mkdir(exist_ok=True)
+
+    if args.about:
+        src = resolve(args.about)
+        if src.is_dir():
+            sys.exit("--about takes a single photo, not a folder.")
+        dest = IMAGES / "about-us.jpg"
+        print("Photo of us:")
+        process_photo(src, dest)
+        print('Now set aboutPhoto.src to "images/about-us.jpg" in data/config.js.')
+        return
     items = load_items()
     index = {it["id"]: it for it in items}
 

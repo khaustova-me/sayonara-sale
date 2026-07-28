@@ -47,6 +47,19 @@ URL, and the tool rejects it outright, so a stray `javascript:` can't render.
 Then delete the consumed photo from `inbox/` (it's git-ignored, but keeping it
 tidy avoids re-adding the same thing twice), and commit.
 
+## The photo of them
+
+`config.aboutPhoto` shows a picture of the family beside the introduction
+(above it on phones). It is **not** a sale item and must not go in `items.js`.
+
+```bash
+python3 tools/add_item.py --about family.jpg   # -> images/about-us.jpg
+```
+
+Then set `aboutPhoto.src` to `"images/about-us.jpg"` in `data/config.js`. Same
+metadata stripping as any other photo — a family photo taken at home carries
+the same GPS coordinates. Empty `src` hides the figure entirely.
+
 ## Translation
 
 **You do the translation yourself** — no API, no service. Veronica gives the

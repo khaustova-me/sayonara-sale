@@ -18,7 +18,12 @@ the one people see in the grid. So put a number in front of the best overall
 shot and it'll lead. Folders aren't required; a few loose photos are fine too,
 and I'll work out which item is which by looking at them.
 
-Nothing in here gets published. Only the cleaned-up, metadata-stripped copies
-written into `images/` end up on the website.
+The photo of the family for the introduction goes in here too — same as any
+other photo. It gets published as `images/about-us.jpg`.
+
+Nothing in here gets published directly. Only the cleaned-up,
+metadata-stripped copies written into `images/` end up on the website — so
+never copy a photo into `images/` by hand, or it goes online with the GPS
+coordinates of wherever it was taken still inside it.
 
 Once an item is on the site you can delete its photos from this folder.

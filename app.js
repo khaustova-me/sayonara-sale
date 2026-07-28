@@ -98,6 +98,20 @@
     document.getElementById("site-title").textContent = t(CONFIG.title);
     document.getElementById("site-subtitle").textContent = t(CONFIG.subtitle);
 
+    /* the photo of us, if there is one */
+    var about = CONFIG.aboutPhoto || {};
+    var figure = document.getElementById("about-figure");
+    if (about.src) {
+      var photo = document.getElementById("about-photo");
+      photo.src = about.src;
+      photo.alt = t(about.alt) || t(about.caption) || "";
+      photo.loading = "eager";
+      document.getElementById("about-caption").textContent = t(about.caption);
+      figure.hidden = false;
+    } else {
+      figure.hidden = true;
+    }
+
     var intro = document.getElementById("site-intro");
     intro.textContent = "";
     (CONFIG.intro || []).forEach(function (para) {

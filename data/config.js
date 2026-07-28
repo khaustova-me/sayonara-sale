@@ -8,6 +8,14 @@ window.SALE_CONFIG = {
     ja: "はじめまして、ヴィクトルとベロニカです。日本に10年間住んでいましたが、このたび1年間日本を離れることになりました。そのため、大切に使ってきたものたちに新しい家を探しています。"
   },
 
+  // A photo of us, shown next to the introduction. Leave src as "" for none.
+  // Add it with: python3 tools/add_item.py --about <photo>
+  aboutPhoto: {
+    src: "",
+    alt: { en: "Victor and Veronica", ja: "ヴィクトルとベロニカ" },
+    caption: { en: "", ja: "" }
+  },
+
   // Extra paragraphs under the opening line. Add or remove freely.
   intro: [
     {
