@@ -18,8 +18,34 @@
     lineSoon:   { en: "LINE link coming soon.", ja: "LINEリンクは準備中です。" },
     lineCta:    { en: "Message us on LINE", ja: "LINEで連絡する" },
     emptyCat:   { en: "Nothing in this category yet.", ja: "このカテゴリーにはまだ何もありません。" },
-    emptyAll:   { en: "Nothing listed yet — photos are coming soon.", ja: "まだ掲載がありません。写真を準備中です。" }
+    emptyAll:   { en: "Nothing listed yet — photos are coming soon.", ja: "まだ掲載がありません。写真を準備中です。" },
+    availNow:   { en: "Available now", ja: "すぐ引き取り可" }
   };
+
+  var MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+  /* "2026-08-28" -> "28 Aug" / "8月28日". Parsed by hand rather than with
+     new Date(), which reads a bare ISO date as UTC and can slip a day. */
+  function fmtDate(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso || ""));
+    if (!m) return "";
+    var month = parseInt(m[2], 10), day = parseInt(m[3], 10);
+    if (lang === "ja") return month + "月" + day + "日";
+    return day + " " + (MONTHS_EN[month - 1] || "");
+  }
+
+  /* null = collectable on the main pickup day (the default, no badge needed)
+     "now" = can be collected any time before then
+     a date = we are still using it until then */
+  function availability(item) {
+    var a = item.available;
+    if (!a) return null;
+    if (a === "now") return { cls: "now", text: t(T.availNow) };
+    var d = fmtDate(a);
+    if (!d) return null;
+    return { cls: "later", text: lang === "ja" ? d + "から" : "From " + d };
+  }
 
   var lang = "en";
   try {
@@ -86,6 +112,7 @@
   function matches(item) {
     if (filter === "all") return true;
     if (filter === "free") return item.price === 0;
+    if (filter === "now") return item.available === "now";
     return item.category === filter;
   }
 
@@ -126,12 +153,13 @@
     /* pickup banner */
     var p = CONFIG.pickup || {};
     var banner = document.getElementById("pickup-banner");
-    if (p.announced) {
-      var parts = [t(p.date), t(p.place)].filter(Boolean);
-      banner.textContent = "📅 " + parts.join(" · ");
-    } else {
-      banner.textContent = "📅 " + t(p.tba);
+    var bannerText = p.announced
+      ? [t(p.date), t(p.place)].filter(Boolean).join(" · ")
+      : t(p.tba);
+    if (ITEMS.some(function (i) { return i.available === "now"; }) && t(p.earlyNote)) {
+      bannerText += " " + t(p.earlyNote);
     }
+    banner.textContent = "📅 " + bannerText;
 
     /* LINE buttons */
     var url = (CONFIG.contact && CONFIG.contact.lineUrl) || "";
@@ -193,11 +221,15 @@
     if (ITEMS.some(function (i) { return i.price === 0; })) {
       defs.push({ id: "free", emoji: "🎁", label: T.free });
     }
+    if (ITEMS.some(function (i) { return i.available === "now"; })) {
+      defs.push({ id: "now", emoji: "⚡", label: T.availNow });
+    }
 
     defs.forEach(function (d) {
       var n = ITEMS.filter(function (i) {
         if (d.id === "all") return true;
         if (d.id === "free") return i.price === 0;
+        if (d.id === "now") return i.available === "now";
         return i.category === d.id;
       }).length;
 
@@ -281,6 +313,9 @@
       a.rel = "noopener noreferrer";
       body.appendChild(a);
     }
+
+    var avail = item.status === "sold" ? null : availability(item);
+    if (avail) body.appendChild(el("span", "avail " + avail.cls, avail.text));
 
     var p = priceText(item.price);
     body.appendChild(el("div", "price " + p.cls, p.text));

@@ -208,6 +208,10 @@ def main():
     ap.add_argument("--link-label", dest="link_label",
                     help="text for the link (defaults to the site's domain)")
     ap.add_argument("--status", choices=["available", "reserved", "sold"])
+    ap.add_argument("--available", metavar="WHEN",
+                    help="'now' if it can go before the main pickup day, or "
+                         "YYYY-MM-DD if it's in use until then, or 'pickup' to "
+                         "clear it back to the main day")
     ap.add_argument("--replace-photos", action="store_true",
                     help="drop the item's existing photos instead of appending")
     ap.add_argument("--remove", metavar="ID", help="delete an item")
@@ -299,6 +303,17 @@ def main():
         item.setdefault("note", {})["en"] = args.note_en
     if args.note_ja is not None:
         item.setdefault("note", {})["ja"] = args.note_ja
+
+    if args.available:
+        when = args.available.lower()
+        if when in ("pickup", "none", "clear"):
+            item.pop("available", None)
+        elif when == "now":
+            item["available"] = "now"
+        elif re.fullmatch(r"\d{4}-\d{2}-\d{2}", when):
+            item["available"] = when
+        else:
+            sys.exit("--available takes 'now', a YYYY-MM-DD date, or 'pickup'.")
 
     if args.link or args.link_ja:
         for url in (args.link, args.link_ja):

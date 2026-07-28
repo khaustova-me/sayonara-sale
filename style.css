@@ -302,6 +302,25 @@ main, .contact { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
 
 .item-link:hover { border-bottom-color: currentColor; }
 
+.avail {
+  align-self: flex-start;
+  margin-top: 8px;
+  font-size: .74rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.avail.now {
+  color: var(--free);
+  background: color-mix(in srgb, var(--free) 14%, transparent);
+}
+
+.avail.later {
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+}
+
 .price {
   margin-top: auto;
   padding-top: 8px;

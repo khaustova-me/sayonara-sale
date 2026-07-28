@@ -53,6 +53,11 @@ window.SALE_CONFIG = {
       en: "The main pickup day will be announced here — most likely around Obon, in mid-August.",
       ja: "引き取り日は決まり次第こちらでお知らせします。お盆（8月中旬）ごろの予定です。"
     },
+    // Only shown when at least one item is marked available: "now".
+    earlyNote: {
+      en: "Anything marked “Available now” can be collected before then — just ask.",
+      ja: "「すぐ引き取り可」の品は、それより前でもお渡しできます。お気軽にご相談ください。"
+    },
     // Exact apartment number is shared over LINE, not published here.
     addressNote: {
       en: "We'll send the exact address over LINE once we've agreed on a time.",

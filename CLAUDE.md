@@ -90,6 +90,20 @@ nameplates, and people reflected in glass or appliance doors. Crop or reshoot.
 Raw photos in `inbox/` are git-ignored, so the original never leaves the laptop
 — only what the tool writes gets published.
 
+## When an item is available
+
+`item.available` has three states, because the family is still living with most
+of this stuff:
+
+- **absent** — collectable on the main pickup day. The default; no badge.
+- **`"now"`** — can go before then. Green badge, and it adds an ⚡ filter chip
+  plus an extra sentence to the pickup banner (`pickup.earlyNote`), both of
+  which only appear when at least one item is marked this way.
+- **`"YYYY-MM-DD"`** — in use until that date. Terracotta "From 28 Aug" badge.
+
+Dates are formatted by hand in `fmtDate()` rather than with `new Date()`, which
+parses a bare ISO date as UTC and can render the day before in JST.
+
 ## Contact details
 
 `contact.lineUrl` is her LINE add-friend link, and `contact.qr` shows the QR
@@ -117,6 +131,8 @@ present after writing. Never copy a photo into `images/` by hand.
 | "pickup is Aug 23, 10–16" | edit `data/config.js` → `pickup.announced = true`, fill `date`/`place` in both languages |
 | "here's my LINE" | set `contact.lineUrl` in `data/config.js` |
 | "drop the price on X" | `--id x --price 3000` |
+| "we need the bed until the 28th" | `--id bed --available 2026-08-28` |
+| "the hairdryer can go any time" | `--id hairdryer --available now` |
 
 ## Before pushing
 
