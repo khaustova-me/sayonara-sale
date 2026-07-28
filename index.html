@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sayonara Sale</title>
+<meta name="description" content="Moving away from Japan — furniture, appliances, kitchen things, kids' stuff. Cheap or free.">
+<meta name="theme-color" content="#f7f4ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16150f" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Sayonara Sale">
+<meta property="og:description" content="Moving away from Japan — furniture, appliances, kitchen things, kids' stuff. Cheap or free.">
+<meta property="og:type" content="website">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">📦</text></svg>'>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="bar">
+    <h1 id="site-title">Sayonara Sale</h1>
+    <div class="bar-actions">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="lang-btn">EN</button>
+        <button type="button" data-lang="ja" class="lang-btn">日本語</button>
+      </div>
+      <a id="line-btn" class="line-btn" href="#contact">LINE</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="intro">
+    <p id="site-subtitle" class="subtitle"></p>
+    <p id="pickup-banner" class="pickup-banner"></p>
+  </section>
+
+  <nav id="filters" class="filters" aria-label="Categories"></nav>
+
+  <div id="grid" class="grid"></div>
+  <p id="empty" class="empty" hidden></p>
+</main>
+
+<footer id="contact" class="contact">
+  <h2 id="contact-heading"></h2>
+  <p id="contact-note"></p>
+  <p><a id="contact-line" class="line-btn big" href="#"></a></p>
+  <p id="contact-address" class="muted"></p>
+</footer>
+
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo" hidden>
+  <button type="button" class="lb-close" data-lb="close" aria-label="Close">&times;</button>
+  <button type="button" class="lb-nav lb-prev" data-lb="prev" aria-label="Previous photo">&#8249;</button>
+  <img id="lb-img" alt="">
+  <button type="button" class="lb-nav lb-next" data-lb="next" aria-label="Next photo">&#8250;</button>
+  <div class="lb-caption"><span id="lb-title"></span> <span id="lb-count" class="lb-count"></span></div>
+</div>
+
+<script src="data/config.js"></script>
+<script src="data/items.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

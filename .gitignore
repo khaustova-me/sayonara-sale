@@ -1,0 +1,8 @@
+# Raw photos you drop in — never published, only the optimized copies in images/
+inbox/*
+!inbox/README.md
+
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
