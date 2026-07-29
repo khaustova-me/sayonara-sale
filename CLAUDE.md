@@ -90,6 +90,16 @@ nameplates, and people reflected in glass or appliance doors. Crop or reshoot.
 Raw photos in `inbox/` are git-ignored, so the original never leaves the laptop
 — only what the tool writes gets published.
 
+## Order of the grid
+
+Dearest first, sold last — not the order things were added, which means nothing
+to a visitor. The expensive items need the most weeks to find a buyer; the ¥500
+things sell themselves. `price: null` ("Ask me") sorts to the very top, since a
+price on request signals a big-ticket item.
+
+The sort is stable, so items at the same price keep the order they were added.
+It applies inside a category filter too.
+
 ## When an item is available
 
 **Everything is available now unless Veronica gives a date** (her rule, and the

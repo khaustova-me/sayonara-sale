@@ -95,13 +95,25 @@
     return n;
   }
 
-  /* ---------- ordering: sold items sink to the bottom ---------- */
+  /* ---------- ordering ---------- */
 
+  /* "Ask me" items sort to the top: a price on request means a big-ticket
+     thing, not a cheap one. */
+  function priceRank(item) {
+    var p = item.price;
+    if (p === null || p === undefined || p === "") return Infinity;
+    return Number(p);
+  }
+
+  /* Dearest first, sold last. The expensive things need the most weeks to find
+     a buyer; a ¥500 blender sells itself. Sort is stable, so items at the same
+     price stay in the order they were added. */
   function ordered(list) {
     return list.slice().sort(function (a, b) {
       var as = a.status === "sold" ? 1 : 0;
       var bs = b.status === "sold" ? 1 : 0;
-      return as - bs;
+      if (as !== bs) return as - bs;
+      return priceRank(b) - priceRank(a);
     });
   }
 
