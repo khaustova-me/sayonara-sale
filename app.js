@@ -22,17 +22,13 @@
     availNow:   { en: "Available now", ja: "すぐ引き取り可" }
   };
 
-  var MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-  /* "2026-08-28" -> "28 Aug" / "8月28日". Parsed by hand rather than with
-     new Date(), which reads a bare ISO date as UTC and can slip a day. */
+  /* "2026-08-28" -> "08/28". The same in both languages, so a date reads
+     identically however you arrived at the page. Sliced out of the string
+     rather than parsed with new Date(), which reads a bare ISO date as UTC and
+     would slip a day in JST. */
   function fmtDate(iso) {
     var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso || ""));
-    if (!m) return "";
-    var month = parseInt(m[2], 10), day = parseInt(m[3], 10);
-    if (lang === "ja") return month + "月" + day + "日";
-    return day + " " + (MONTHS_EN[month - 1] || "");
+    return m ? m[2] + "/" + m[3] : "";
   }
 
   /* Everything is collectable now unless `available` carries a date, in which
@@ -43,7 +39,7 @@
     if (!d) return { cls: "now", text: t(T.availNow) };
     return {
       cls: "later",
-      text: lang === "ja" ? d + "から引き取り可" : "Available " + d
+      text: lang === "ja" ? d + " から引き取り可" : "Available " + d
     };
   }
 

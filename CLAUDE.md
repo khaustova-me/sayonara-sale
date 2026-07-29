@@ -96,8 +96,12 @@ Raw photos in `inbox/` are git-ignored, so the original never leaves the laptop
 only rule). So `item.available` is binary:
 
 - **absent** — collectable straight away. Green "Available now" badge.
-- **`"YYYY-MM-DD"`** — still in use until that date. Terracotta "Available 25
-  Aug" / 「8月25日から引き取り可」.
+- **`"YYYY-MM-DD"`** — still in use until that date. Terracotta "Available
+  08/25" / 「08/25 から引き取り可」.
+
+Dates render as **MM/DD in both languages** — Veronica asked for one format
+everywhere. Use the same form if you ever fill in `pickup.date`, so nothing on
+the page contradicts the badges.
 
 `--available now` therefore *deletes* the field rather than storing a value.
 
