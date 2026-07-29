@@ -22,10 +22,6 @@ window.SALE_CONFIG = {
   // Extra paragraphs under the opening line. Add or remove freely.
   intro: [
     {
-      en: "We'd much rather hand these things to someone who needs them than throw them away. Some are cheap, some are free — please have a look.",
-      ja: "捨ててしまうのではなく、必要な方にお譲りしたいと思っています。お安くお売りするものも、無料でお譲りするものもあります。どうぞご覧ください。"
-    },
-    {
       en: "If something catches your eye, just message us. We may be able to deliver the bigger items, so do ask and we'll see what we can arrange.",
       ja: "気になるものがありましたら、お気軽にご連絡ください。大きなものは配送できる場合もありますので、ご相談ください。"
     }
