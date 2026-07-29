@@ -161,7 +161,7 @@ window.SALE_ITEMS = [
       "en": "Toyota Crown Royal Saloon (2005)",
       "ja": "トヨタ クラウン ロイヤルサルーン 平成17年"
     },
-    "price": 200000,
+    "price": 150000,
     "category": "vehicle",
     "status": "available",
     "images": [
@@ -173,8 +173,8 @@ window.SALE_ITEMS = [
       "images/car-6.jpg"
     ],
     "note": {
-      "en": "3.0 V6 (3GR-FSE, 256 ps), rear-wheel drive, automatic. 156,432 km. Shaken valid until 2028/04/26 and all taxes paid. Beige leather, wood trim, factory navigation. The passenger-side dashboard trim is cracked and the driver's seat is worn — both are in the photos. Price and handover date are negotiable, so please just ask.",
-      "ja": "3.0L V6（3GR-FSE、256馬力）、FR、オートマ。走行156,432km。車検は令和10年4月26日まで有効、税金もすべて納めています。ベージュの本革シート、木目調パネル、純正ナビ。助手席側のダッシュボードにひび割れ、運転席シートに擦れがあります（写真をご覧ください）。価格・お渡し日はご相談に応じますので、お気軽にお問い合わせください。"
+      "en": "3.0 V6 (3GR-FSE, 256 ps), rear-wheel drive, automatic. 156,432 km. Shaken is already paid until 2028/04/26 — about 21 months left — so the next owner has no inspection to pay for, and all taxes are paid too. Beige leather, wood trim, factory navigation. The passenger-side dashboard trim is cracked and the driver's seat is worn — both are in the photos. Price and handover date are negotiable, so please just ask.",
+      "ja": "3.0L V6（3GR-FSE、256馬力）、FR、オートマ。走行156,432km。車検は令和10年4月26日まで（残り約1年9か月）有効ですので、次の車検費用はかかりません。税金もすべて納めています。ベージュの本革シート、木目調パネル、純正ナビ。助手席側のダッシュボードにひび割れ、運転席シートに擦れがあります（写真をご覧ください）。価格・お渡し日はご相談に応じますので、お気軽にお問い合わせください。"
     },
     "link": "https://gazoo.com/catalog/maker/TOYOTA/CROWN/200312/10030036/",
     "linkLabel": {
@@ -253,6 +253,24 @@ window.SALE_ITEMS = [
     "note": {
       "en": "Wooden peg puzzle, 8 pieces, ages 2+. Each piece plays its own sound when you put it in place, and there is a picture underneath it. Every sound works except the sheep, which is why this one is cheaper than the others. Runs on 2 AAA batteries. Some marks on the board from use.",
       "ja": "木製のつまみ付きパズル、8ピース、2歳から。ピースをはめると、それぞれの音が鳴ります。ピースの下には絵が描かれています。ひつじの音だけ鳴らないため、他より少しお安くしています。単4電池2本使用。使用による小さな傷があります。"
+    }
+  },
+  {
+    "id": "playground",
+    "name": {
+      "en": "Kids' climbing frame with slide",
+      "ja": "すべり台つき ジャングルジム"
+    },
+    "price": 0,
+    "category": "kids",
+    "status": "available",
+    "images": [
+      "images/playground-1.jpg",
+      "images/playground-2.jpg"
+    ],
+    "note": {
+      "en": "Really good fun to climb on — slide, climbing wall, steps and a basketball hoop. It folds flat for transport, as in the second photo. It has been standing outside, so it needs a wash. Free to a good home. If you need it delivered we can do that for 1,000 yen.",
+      "ja": "登って遊ぶのがとても楽しい遊具です。すべり台、クライミングウォール、ステップ、バスケットゴールつき。2枚目の写真のように折りたたんで運べます。屋外に置いていたので、洗っていただく必要があります。無料でお譲りします。配送をご希望の場合は1,000円で承ります。"
     }
   }
 ];
