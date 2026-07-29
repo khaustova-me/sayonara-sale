@@ -154,5 +154,32 @@ window.SALE_ITEMS = [
       "ja": "ブルーのビーセーフ製チャイルドシート。幼児用。サイドサポートが深く、ハーネスもクッションつきです。"
     },
     "available": "2026-08-28"
+  },
+  {
+    "id": "car",
+    "name": {
+      "en": "Toyota Crown Royal Saloon (2005)",
+      "ja": "トヨタ クラウン ロイヤルサルーン 平成17年"
+    },
+    "price": null,
+    "category": "vehicle",
+    "status": "available",
+    "images": [
+      "images/car-1.jpg",
+      "images/car-2.jpg",
+      "images/car-3.jpg",
+      "images/car-4.jpg",
+      "images/car-5.jpg",
+      "images/car-6.jpg"
+    ],
+    "note": {
+      "en": "156,432 km. Shaken passed and valid until 2028/04/26, and all taxes are paid. Beige leather, wood trim, factory navigation, automatic. Please note the cracked dashboard trim on the passenger side and the wear on the driver's seat — both are in the photos.",
+      "ja": "走行156,432km。車検は令和10年4月26日まで有効、税金もすべて納めています。ベージュの本革シート、木目調パネル、純正ナビ、オートマ。助手席側のダッシュボードにひび割れ、運転席シートに擦れがあります（写真をご覧ください）。"
+    },
+    "link": "https://gazoo.com/catalog/maker/TOYOTA/CROWN/200312/",
+    "linkLabel": {
+      "en": "Toyota catalogue (GAZOO)",
+      "ja": "トヨタ カタログ（GAZOO）"
+    }
   }
 ];
