@@ -161,7 +161,7 @@ window.SALE_ITEMS = [
       "en": "Toyota Crown Royal Saloon (2005)",
       "ja": "トヨタ クラウン ロイヤルサルーン 平成17年"
     },
-    "price": null,
+    "price": 200000,
     "category": "vehicle",
     "status": "available",
     "images": [
@@ -173,13 +173,14 @@ window.SALE_ITEMS = [
       "images/car-6.jpg"
     ],
     "note": {
-      "en": "156,432 km. Shaken passed and valid until 2028/04/26, and all taxes are paid. Beige leather, wood trim, factory navigation, automatic. Please note the cracked dashboard trim on the passenger side and the wear on the driver's seat — both are in the photos.",
-      "ja": "走行156,432km。車検は令和10年4月26日まで有効、税金もすべて納めています。ベージュの本革シート、木目調パネル、純正ナビ、オートマ。助手席側のダッシュボードにひび割れ、運転席シートに擦れがあります（写真をご覧ください）。"
+      "en": "3.0 V6 (3GR-FSE, 256 ps), rear-wheel drive, automatic. 156,432 km. Shaken valid until 2028/04/26 and all taxes paid. Beige leather, wood trim, factory navigation. The passenger-side dashboard trim is cracked and the driver's seat is worn — both are in the photos. Price and handover date are negotiable, so please just ask.",
+      "ja": "3.0L V6（3GR-FSE、256馬力）、FR、オートマ。走行156,432km。車検は令和10年4月26日まで有効、税金もすべて納めています。ベージュの本革シート、木目調パネル、純正ナビ。助手席側のダッシュボードにひび割れ、運転席シートに擦れがあります（写真をご覧ください）。価格・お渡し日はご相談に応じますので、お気軽にお問い合わせください。"
     },
-    "link": "https://gazoo.com/catalog/maker/TOYOTA/CROWN/200312/",
+    "link": "https://gazoo.com/catalog/maker/TOYOTA/CROWN/200312/10030036/",
     "linkLabel": {
       "en": "Toyota catalogue (GAZOO)",
       "ja": "トヨタ カタログ（GAZOO）"
-    }
+    },
+    "available": "2026-08-28"
   }
 ];
