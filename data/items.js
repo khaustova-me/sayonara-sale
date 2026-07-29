@@ -78,7 +78,7 @@ window.SALE_ITEMS = [
       "en": "Hand blender — Braun MultiQuick 5 MQ 500",
       "ja": "ハンドブレンダー ブラウン マルチクイック5 MQ 500"
     },
-    "price": 1000,
+    "price": 500,
     "category": "kitchen",
     "status": "available",
     "images": [
