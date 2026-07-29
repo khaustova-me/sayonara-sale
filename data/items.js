@@ -182,5 +182,73 @@ window.SALE_ITEMS = [
       "ja": "トヨタ カタログ（GAZOO）"
     },
     "available": "2026-08-28"
+  },
+  {
+    "id": "puzzle-vehicles",
+    "name": {
+      "en": "Sound puzzle — Vehicles (Melissa & Doug)",
+      "ja": "音の出るパズル のりもの（メリッサ＆ダグ）"
+    },
+    "price": 500,
+    "category": "kids",
+    "status": "available",
+    "images": [
+      "images/puzzle-vehicles-1.jpg"
+    ],
+    "note": {
+      "en": "Wooden peg puzzle, 8 pieces. Each piece plays its own sound when you put it in place. All the sounds work. Some marks on the board from use.",
+      "ja": "木製のつまみ付きパズル、8ピース。ピースをはめると、それぞれの音が鳴ります。音はすべて出ます。使用による小さな傷があります。"
+    }
+  },
+  {
+    "id": "puzzle-instruments",
+    "name": {
+      "en": "Sound puzzle — Musical instruments (Melissa & Doug)",
+      "ja": "音の出るパズル 楽器（メリッサ＆ダグ）"
+    },
+    "price": 500,
+    "category": "kids",
+    "status": "available",
+    "images": [
+      "images/puzzle-instruments-1.jpg"
+    ],
+    "note": {
+      "en": "Wooden peg puzzle, 8 pieces. Each piece plays its own sound when you put it in place. All the sounds work. Some marks on the board from use.",
+      "ja": "木製のつまみ付きパズル、8ピース。ピースをはめると、それぞれの音が鳴ります。音はすべて出ます。使用による小さな傷があります。"
+    }
+  },
+  {
+    "id": "puzzle-zoo",
+    "name": {
+      "en": "Sound puzzle — Zoo animals (Melissa & Doug)",
+      "ja": "音の出るパズル 動物園の動物（メリッサ＆ダグ）"
+    },
+    "price": 500,
+    "category": "kids",
+    "status": "available",
+    "images": [
+      "images/puzzle-zoo-1.jpg"
+    ],
+    "note": {
+      "en": "Wooden peg puzzle, 8 pieces. Each piece plays its own sound when you put it in place. All the sounds work. Some marks on the board from use.",
+      "ja": "木製のつまみ付きパズル、8ピース。ピースをはめると、それぞれの音が鳴ります。音はすべて出ます。使用による小さな傷があります。"
+    }
+  },
+  {
+    "id": "puzzle-farm",
+    "name": {
+      "en": "Sound puzzle — Farm animals (Melissa & Doug)",
+      "ja": "音の出るパズル 牧場の動物（メリッサ＆ダグ）"
+    },
+    "price": 300,
+    "category": "kids",
+    "status": "available",
+    "images": [
+      "images/puzzle-farm-1.jpg"
+    ],
+    "note": {
+      "en": "Wooden peg puzzle, 8 pieces. Each piece plays its own sound when you put it in place. Every sound works except the sheep, which is why this one is cheaper than the others. Some marks on the board from use.",
+      "ja": "木製のつまみ付きパズル、8ピース。ピースをはめると、それぞれの音が鳴ります。ひつじの音だけ鳴らないため、他より少しお安くしています。使用による小さな傷があります。"
+    }
   }
 ];
