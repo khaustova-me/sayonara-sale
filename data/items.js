@@ -193,11 +193,12 @@ window.SALE_ITEMS = [
     "category": "kids",
     "status": "available",
     "images": [
-      "images/puzzle-vehicles-1.jpg"
+      "images/puzzle-vehicles-1.jpg",
+      "images/puzzle-vehicles-2.jpg"
     ],
     "note": {
-      "en": "Wooden peg puzzle, 8 pieces. Each piece plays its own sound when you put it in place. All the sounds work. Some marks on the board from use.",
-      "ja": "木製のつまみ付きパズル、8ピース。ピースをはめると、それぞれの音が鳴ります。音はすべて出ます。使用による小さな傷があります。"
+      "en": "Wooden peg puzzle, 8 pieces, ages 2+. Each piece plays its own sound when you put it in place, and there is a picture underneath it. All the sounds work. Runs on 2 AAA batteries. Some marks on the board from use.",
+      "ja": "木製のつまみ付きパズル、8ピース、2歳から。ピースをはめると、それぞれの音が鳴ります。ピースの下には絵が描かれています。音はすべて出ます。単4電池2本使用。使用による小さな傷があります。"
     }
   },
   {
@@ -210,11 +211,12 @@ window.SALE_ITEMS = [
     "category": "kids",
     "status": "available",
     "images": [
-      "images/puzzle-instruments-1.jpg"
+      "images/puzzle-instruments-1.jpg",
+      "images/puzzle-instruments-2.jpg"
     ],
     "note": {
-      "en": "Wooden peg puzzle, 8 pieces. Each piece plays its own sound when you put it in place. All the sounds work. Some marks on the board from use.",
-      "ja": "木製のつまみ付きパズル、8ピース。ピースをはめると、それぞれの音が鳴ります。音はすべて出ます。使用による小さな傷があります。"
+      "en": "Wooden peg puzzle, 8 pieces, ages 2+. Each piece plays its own sound when you put it in place, and there is a picture underneath it. All the sounds work. Runs on 2 AAA batteries. Some marks on the board from use.",
+      "ja": "木製のつまみ付きパズル、8ピース、2歳から。ピースをはめると、それぞれの音が鳴ります。ピースの下には絵が描かれています。音はすべて出ます。単4電池2本使用。使用による小さな傷があります。"
     }
   },
   {
@@ -227,11 +229,12 @@ window.SALE_ITEMS = [
     "category": "kids",
     "status": "available",
     "images": [
-      "images/puzzle-zoo-1.jpg"
+      "images/puzzle-zoo-1.jpg",
+      "images/puzzle-zoo-2.jpg"
     ],
     "note": {
-      "en": "Wooden peg puzzle, 8 pieces. Each piece plays its own sound when you put it in place. All the sounds work. Some marks on the board from use.",
-      "ja": "木製のつまみ付きパズル、8ピース。ピースをはめると、それぞれの音が鳴ります。音はすべて出ます。使用による小さな傷があります。"
+      "en": "Wooden peg puzzle, 8 pieces, ages 2+. Each piece plays its own sound when you put it in place, and there is a picture underneath it. All the sounds work. Runs on 2 AAA batteries. Some marks on the board from use.",
+      "ja": "木製のつまみ付きパズル、8ピース、2歳から。ピースをはめると、それぞれの音が鳴ります。ピースの下には絵が描かれています。音はすべて出ます。単4電池2本使用。使用による小さな傷があります。"
     }
   },
   {
@@ -244,11 +247,12 @@ window.SALE_ITEMS = [
     "category": "kids",
     "status": "available",
     "images": [
-      "images/puzzle-farm-1.jpg"
+      "images/puzzle-farm-1.jpg",
+      "images/puzzle-farm-2.jpg"
     ],
     "note": {
-      "en": "Wooden peg puzzle, 8 pieces. Each piece plays its own sound when you put it in place. Every sound works except the sheep, which is why this one is cheaper than the others. Some marks on the board from use.",
-      "ja": "木製のつまみ付きパズル、8ピース。ピースをはめると、それぞれの音が鳴ります。ひつじの音だけ鳴らないため、他より少しお安くしています。使用による小さな傷があります。"
+      "en": "Wooden peg puzzle, 8 pieces, ages 2+. Each piece plays its own sound when you put it in place, and there is a picture underneath it. Every sound works except the sheep, which is why this one is cheaper than the others. Runs on 2 AAA batteries. Some marks on the board from use.",
+      "ja": "木製のつまみ付きパズル、8ピース、2歳から。ピースをはめると、それぞれの音が鳴ります。ピースの下には絵が描かれています。ひつじの音だけ鳴らないため、他より少しお安くしています。単4電池2本使用。使用による小さな傷があります。"
     }
   }
 ];
