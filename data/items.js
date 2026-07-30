@@ -122,7 +122,7 @@ window.SALE_ITEMS = [
       "en": "Car seat — Combi, rotating (brown)",
       "ja": "チャイルドシート コンビ 回転式（ブラウン）"
     },
-    "price": 1000,
+    "price": 500,
     "category": "kids",
     "status": "available",
     "images": [
