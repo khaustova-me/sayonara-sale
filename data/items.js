@@ -419,5 +419,26 @@ window.SALE_ITEMS = [
       "en": "https://www.amazon.co.jp/-/en/dp/B07BYHGYTW",
       "ja": "https://www.amazon.co.jp/dp/B07BYHGYTW"
     }
+  },
+  {
+    "id": "kids-table-kitchen",
+    "name": {
+      "en": "Kids' table with bench and storage — flips into a play kitchen",
+      "ja": "子ども用テーブル＋ベンチ（収納付き）／裏返すとキッチン"
+    },
+    "price": 500,
+    "category": "kids",
+    "status": "available",
+    "images": [
+      "images/kids-table-kitchen-1.jpg",
+      "images/kids-table-kitchen-2.jpg",
+      "images/kids-table-kitchen-3.jpg",
+      "images/kids-table-kitchen-4.jpg",
+      "images/kids-table-kitchen-5.jpg"
+    ],
+    "note": {
+      "en": "A really convenient table with a bench and cupboards underneath for books and toys. Flip the top over and you have a kitchen — three hobs, a wooden tap and a metal sink. Solid wood, top 80 x 39 cm. It is a bit old and shows it, but our children love playing with it.",
+      "ja": "とても便利なテーブルとベンチのセットで、下は絵本やおもちゃをしまえる収納になっています。天板を裏返すと、コンロ3つ・木の蛇口・シンクつきのキッチンに変わります。無垢材、天板は80×39cm。少し古くて傷もありますが、子どもたちは大好きでよく遊んでいます。"
+    }
   }
 ];
