@@ -272,5 +272,23 @@ window.SALE_ITEMS = [
       "en": "Really good fun to climb on — slide, climbing wall, steps and a basketball hoop. It folds flat for transport, as in the second photo. It has been standing outside, so it needs a wash. Free to a good home. If you need it delivered we can do that for 1,000 yen.",
       "ja": "登って遊ぶのがとても楽しい遊具です。すべり台、クライミングウォール、ステップ、バスケットゴールつき。2枚目の写真のように折りたたんで運べます。屋外に置いていたので、洗っていただく必要があります。無料でお譲りします。配送をご希望の場合は1,000円で承ります。"
     }
+  },
+  {
+    "id": "storage-baskets",
+    "name": {
+      "en": "Plastic storage baskets and boxes — lots of them",
+      "ja": "プラスチックの収納ケース・カゴ たくさんあります"
+    },
+    "price": 0,
+    "category": "misc",
+    "status": "available",
+    "images": [
+      "images/storage-baskets-1.jpg",
+      "images/storage-baskets-2.jpg"
+    ],
+    "note": {
+      "en": "We have many different storage baskets and boxes in all sorts of sizes and shapes — the one in the photos is just an example. Please have a look and take whatever is useful to you. All free.",
+      "ja": "収納ケースやカゴがたくさんあります。サイズも形もいろいろで、写真はその一例です。ぜひご覧いただき、使えそうなものをお持ちください。すべて無料です。"
+    }
   }
 ];
