@@ -169,11 +169,6 @@
     var when = p.announced
       ? [t(p.date), t(p.place)].filter(Boolean).join(" · ")
       : t(p.tba);
-    if (t(p.readyNote)) when += " " + t(p.readyNote);
-    /* Only explain the date badge when something actually carries one. */
-    if (ITEMS.some(function (i) { return fmtDate(i.available); }) && t(p.datedNote)) {
-      when += " " + t(p.datedNote);
-    }
     banner.appendChild(el("div", null, "📅 " + when));
 
     /* LINE buttons */

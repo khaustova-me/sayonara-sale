@@ -50,18 +50,8 @@ window.SALE_CONFIG = {
     date: { en: "", ja: "" },
     place: { en: "", ja: "" },
     tba: {
-      en: "The main pickup day will be announced here — most likely around Obon, in mid-August.",
-      ja: "引き取り日は決まり次第こちらでお知らせします。お盆（8月中旬）ごろの予定です。"
-    },
-    // Everything is collectable straight away by default.
-    readyNote: {
-      en: "Most things can be collected right away — just ask.",
-      ja: "ほとんどの品はすぐにお渡しできます。お気軽にご相談ください。"
-    },
-    // Added only when at least one item carries a date.
-    datedNote: {
-      en: "Items showing a date are still in use by us until then.",
-      ja: "日付のある品は、その日まで私たちが使用しています。"
+      en: "Please get in touch — collection during Obon is possible, and many things can be delivered to you if you need.",
+      ja: "お気軽にご連絡ください。お盆の期間中の引き取りも可能です。多くの品は、ご希望があればお届けもできます。"
     },
     // Exact apartment number is shared over LINE, not published here.
     addressNote: {
