@@ -280,7 +280,7 @@ window.SALE_ITEMS = [
       "ja": "プラスチックの収納ケース・カゴ たくさんあります"
     },
     "price": 0,
-    "category": "misc",
+    "category": "kitchen",
     "status": "available",
     "images": [
       "images/storage-baskets-1.jpg",
