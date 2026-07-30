@@ -481,7 +481,7 @@ window.SALE_ITEMS = [
       "en": "Blackout curtains — set of 4, blue-grey (bedroom)",
       "ja": "遮光カーテン 4枚セット ブルーグレー（寝室用）"
     },
-    "price": null,
+    "price": 500,
     "category": "furniture",
     "status": "available",
     "images": [
@@ -498,7 +498,7 @@ window.SALE_ITEMS = [
       "en": "Curtains — set of 4, pale sage green",
       "ja": "カーテン 4枚セット ペールセージグリーン"
     },
-    "price": null,
+    "price": 500,
     "category": "furniture",
     "status": "available",
     "images": [
@@ -515,7 +515,7 @@ window.SALE_ITEMS = [
       "en": "Kitchen curtains — leaf pattern",
       "ja": "キッチンのカーテン 葉柄"
     },
-    "price": null,
+    "price": 500,
     "category": "furniture",
     "status": "available",
     "images": [
