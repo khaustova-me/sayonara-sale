@@ -448,7 +448,7 @@ window.SALE_ITEMS = [
       "ja": "クッション 4個（うち1個は子ども用）"
     },
     "price": 0,
-    "category": "misc",
+    "category": "furniture",
     "status": "available",
     "images": [
       "images/cushions-1.jpg"
@@ -473,6 +473,57 @@ window.SALE_ITEMS = [
     "note": {
       "en": "Two identical chests, four deep drawers each, with a wood-effect top. 55 x 40 x 77 cm. Take one or both.",
       "ja": "同じものが2台あります。深めの引き出し4段、天板は木目調。幅55×奥行40×高さ77cm。1台でも2台でもどうぞ。"
+    }
+  },
+  {
+    "id": "curtains-blackout",
+    "name": {
+      "en": "Blackout curtains — set of 4, blue-grey (bedroom)",
+      "ja": "遮光カーテン 4枚セット ブルーグレー（寝室用）"
+    },
+    "price": null,
+    "category": "furniture",
+    "status": "available",
+    "images": [
+      "images/curtains-blackout-1.jpg"
+    ],
+    "note": {
+      "en": "A set of four pieces for a bedroom — blackout drapes with net curtains. They make the room properly dark even in bright sunshine, which is a real help for getting small children to sleep. Please ask for the exact size.",
+      "ja": "寝室用の4枚セット。遮光カーテンとレースカーテンです。日差しの強い日でもしっかり暗くなるので、お子さんのお昼寝にも助かります。サイズはお問い合わせください。"
+    }
+  },
+  {
+    "id": "curtains-sage",
+    "name": {
+      "en": "Curtains — set of 4, pale sage green",
+      "ja": "カーテン 4枚セット ペールセージグリーン"
+    },
+    "price": null,
+    "category": "furniture",
+    "status": "available",
+    "images": [
+      "images/curtains-sage-1.jpg"
+    ],
+    "note": {
+      "en": "Another set of four pieces, a soft sage green with net curtains. Lined. Please ask for the exact size.",
+      "ja": "もう1セット、4枚。やわらかいセージグリーンとレースカーテンです。裏地つき。サイズはお問い合わせください。"
+    }
+  },
+  {
+    "id": "curtains-kitchen",
+    "name": {
+      "en": "Kitchen curtains — leaf pattern",
+      "ja": "キッチンのカーテン 葉柄"
+    },
+    "price": null,
+    "category": "furniture",
+    "status": "available",
+    "images": [
+      "images/curtains-kitchen-1.jpg"
+    ],
+    "note": {
+      "en": "For a kitchen window. Cream with a leaf pattern in lilac, green and mustard, with a net curtain. Please ask for the exact size.",
+      "ja": "キッチンの窓用。クリーム地に、ライラック・グリーン・マスタードの葉柄。レースカーテンつき。サイズはお問い合わせください。"
     }
   }
 ];
