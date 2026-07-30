@@ -352,5 +352,24 @@ window.SALE_ITEMS = [
       "en": "Oxelo at Decathlon",
       "ja": "オクセロ（デカトロン）"
     }
+  },
+  {
+    "id": "water-pot",
+    "name": {
+      "en": "Electric hot water pot — Zojirushi CD-WY30, 3 L",
+      "ja": "マイコン沸とう電動ポット 象印 CD-WY30 3.0L"
+    },
+    "price": 500,
+    "category": "kitchen",
+    "status": "available",
+    "images": [
+      "images/water-pot-1.jpg",
+      "images/water-pot-2.jpg"
+    ],
+    "note": {
+      "en": "3 litres. Keeps the water at 98, 90 or 70 degrees, has a slow cafe-drip pour for coffee, and a 7-hour timer. Bought new about three years ago and comes with the manual.",
+      "ja": "容量3.0L。保温は98℃・90℃・70℃の3段階、コーヒー用のドリップ給湯、7時間タイマーつき。3年ほど前に新品で購入しました。取扱説明書もお付けします。"
+    },
+    "link": "https://www.zojirushi.co.jp/syohin/electronic-pot/cdwy/"
   }
 ];
