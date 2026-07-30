@@ -6,3 +6,6 @@ inbox/*
 Thumbs.db
 __pycache__/
 *.pyc
+
+# Notice with the real room number and phone in it — never publish this
+print/notice-board-print.md
