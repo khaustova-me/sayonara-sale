@@ -440,5 +440,22 @@ window.SALE_ITEMS = [
       "en": "A really convenient table with a bench and cupboards underneath for books and toys. Flip the top over and you have a kitchen — three hobs, a wooden tap and a metal sink. Solid wood, top 80 x 39 cm. It is a bit old and shows it, but our children love playing with it.",
       "ja": "とても便利なテーブルとベンチのセットで、下は絵本やおもちゃをしまえる収納になっています。天板を裏返すと、コンロ3つ・木の蛇口・シンクつきのキッチンに変わります。無垢材、天板は80×39cm。少し古くて傷もありますが、子どもたちは大好きでよく遊んでいます。"
     }
+  },
+  {
+    "id": "cushions",
+    "name": {
+      "en": "Cushions — four of them, one for a child's room",
+      "ja": "クッション 4個（うち1個は子ども用）"
+    },
+    "price": 0,
+    "category": "misc",
+    "status": "available",
+    "images": [
+      "images/cushions-1.jpg"
+    ],
+    "note": {
+      "en": "Four cushions: two with the same leaf pattern in brown and in cream, one plain olive green, and one with a cow, sun and clouds for a child's room. Take one or take all four.",
+      "ja": "クッション4個：ブラウンとアイボリーの葉柄（同じ柄の色違い）、オリーブグリーンの無地、そして牛と太陽の柄の子ども用。1つでも、4つまとめてでもどうぞ。"
+    }
   }
 ];
