@@ -525,5 +525,23 @@ window.SALE_ITEMS = [
       "en": "For a kitchen window. Cream with a leaf pattern in lilac, green and mustard, with a net curtain. Please ask for the exact size.",
       "ja": "キッチンの窓用。クリーム地に、ライラック・グリーン・マスタードの葉柄。レースカーテンつき。サイズはお問い合わせください。"
     }
+  },
+  {
+    "id": "fridge",
+    "name": {
+      "en": "Fridge-freezer — SANYO, about 180 cm tall",
+      "ja": "冷蔵庫 サンヨー 高さ約180cm"
+    },
+    "price": 0,
+    "category": "appliances",
+    "status": "available",
+    "images": [
+      "images/fridge-1.jpg"
+    ],
+    "note": {
+      "en": "A big one, roughly 180 cm tall. Two freezer sections, and a fresh box for vegetables at the bottom. It is heavy, so please come with two people and a van. Ready from the morning of 08/28. The magnets in the photo are ours and will be taken off.",
+      "ja": "大型で高さは約180cmです。冷凍室が2段、一番下は野菜用のフレッシュボックスになっています。重量がありますので、2名と車をご用意ください。08/28の午前中からお渡しできます。写真のマグネットは私たちのもので、お渡し前に外します。"
+    },
+    "available": "2026-08-28"
   }
 ];
