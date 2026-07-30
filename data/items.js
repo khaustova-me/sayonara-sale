@@ -290,5 +290,43 @@ window.SALE_ITEMS = [
       "en": "We have many different storage baskets and boxes in all sorts of sizes and shapes — the one in the photos is just an example. Please have a look and take whatever is useful to you. All free.",
       "ja": "収納ケースやカゴがたくさんあります。サイズも形もいろいろで、写真はその一例です。ぜひご覧いただき、使えそうなものをお持ちください。すべて無料です。"
     }
+  },
+  {
+    "id": "cot-white",
+    "name": {
+      "en": "Baby cot — Katoji, folding, white (120 x 70 cm)",
+      "ja": "ベビーベッド カトージ 折りたたみ ホワイト（内寸120×70cm）"
+    },
+    "price": 0,
+    "category": "kids",
+    "status": "available",
+    "images": [
+      "images/cot-white-1.jpg"
+    ],
+    "note": {
+      "en": "Inner size 120 x 70 cm, for use up to around 24 months. Folds away for storage. The futon and covers come with it if you would like them. Free.",
+      "ja": "内寸120×70cm、24か月頃まで使えます。折りたたんで収納できます。お布団とカバーもご希望であればお付けします。無料です。"
+    },
+    "link": {
+      "en": "https://www.amazon.co.jp/-/en/dp/B0CKBF6PYH",
+      "ja": "https://www.amazon.co.jp/dp/B0CKBF6PYH"
+    }
+  },
+  {
+    "id": "cot-wood",
+    "name": {
+      "en": "Baby cot — natural wood (120 x 70 cm)",
+      "ja": "ベビーベッド 木製ナチュラル（120×70cm）"
+    },
+    "price": 0,
+    "category": "kids",
+    "status": "available",
+    "images": [
+      "images/cot-wood-1.jpg"
+    ],
+    "note": {
+      "en": "Same size as the white one, 120 x 70 cm. The futon and covers come with it if you would like them. Free.",
+      "ja": "白いベッドと同じサイズ、120×70cmです。お布団とカバーもご希望であればお付けします。無料です。"
+    }
   }
 ];
