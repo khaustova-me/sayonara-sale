@@ -142,7 +142,7 @@ window.SALE_ITEMS = [
       "en": "Car seat — BeSafe (blue)",
       "ja": "チャイルドシート ビーセーフ（ブルー）"
     },
-    "price": 1000,
+    "price": 500,
     "category": "kids",
     "status": "available",
     "images": [
