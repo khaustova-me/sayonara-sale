@@ -457,5 +457,22 @@ window.SALE_ITEMS = [
       "en": "Four cushions: two with the same leaf pattern in brown and in cream, one plain olive green, and one with a cow, sun and clouds for a child's room. Take one or take all four.",
       "ja": "クッション4個：ブラウンとアイボリーの葉柄（同じ柄の色違い）、オリーブグリーンの無地、そして牛と太陽の柄の子ども用。1つでも、4つまとめてでもどうぞ。"
     }
+  },
+  {
+    "id": "dressers-red",
+    "name": {
+      "en": "Plastic chest of drawers — two of them, red (55 x 40 x 77 cm)",
+      "ja": "プラスチック引き出しケース 2台 レッド（幅55×奥行40×高さ77cm）"
+    },
+    "price": 0,
+    "category": "furniture",
+    "status": "available",
+    "images": [
+      "images/dressers-red-1.jpg"
+    ],
+    "note": {
+      "en": "Two identical chests, four deep drawers each, with a wood-effect top. 55 x 40 x 77 cm. Take one or both.",
+      "ja": "同じものが2台あります。深めの引き出し4段、天板は木目調。幅55×奥行40×高さ77cm。1台でも2台でもどうぞ。"
+    }
   }
 ];
