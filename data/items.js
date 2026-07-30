@@ -34,7 +34,7 @@ window.SALE_ITEMS = [
       "en": "Hair dryer — TESCOM ione",
       "ja": "ドライヤー テスコム ione"
     },
-    "price": 1000,
+    "price": 500,
     "category": "appliances",
     "status": "available",
     "images": [
