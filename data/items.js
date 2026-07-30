@@ -304,8 +304,8 @@ window.SALE_ITEMS = [
       "images/cot-white-1.jpg"
     ],
     "note": {
-      "en": "Inner size 120 x 70 cm, for use up to around 24 months. Folds away for storage. Comes with the mattress or futon and the covers, if you would like them.",
-      "ja": "内寸120×70cm、24か月頃まで使えます。折りたたんで収納できます。マットレス（またはお布団）とカバーもご希望であればお付けします。"
+      "en": "Inner size 120 x 70 cm, for use up to around 24 months. Folds away for storage. Comes with the mattress or futon and the covers, if you would like them. All the parts are there — some are taken apart at the moment for storage, but nothing is missing.",
+      "ja": "内寸120×70cm、24か月頃まで使えます。折りたたんで収納できます。マットレス（またはお布団）とカバーもご希望であればお付けします。部品はすべて揃っています。収納のため一部を分解していますが、欠品はありません。"
     },
     "link": {
       "en": "https://www.amazon.co.jp/-/en/dp/B0CKBF6PYH",
@@ -325,8 +325,8 @@ window.SALE_ITEMS = [
       "images/cot-wood-1.jpg"
     ],
     "note": {
-      "en": "Same size as the white one, 120 x 70 cm. Comes with the mattress or futon and the covers, if you would like them. The baby monitor camera on the stand in the photo is not included.",
-      "ja": "白いベッドと同じサイズ、120×70cmです。マットレス（またはお布団）とカバーもご希望であればお付けします。写真に写っているベビーモニターのカメラは付きません。"
+      "en": "Same size as the white one, 120 x 70 cm. Comes with the mattress or futon and the covers, if you would like them. All the parts are there — some are taken apart at the moment for storage, but nothing is missing. The baby monitor camera on the stand in the photo is not included.",
+      "ja": "白いベッドと同じサイズ、120×70cmです。マットレス（またはお布団）とカバーもご希望であればお付けします。部品はすべて揃っています。収納のため一部を分解していますが、欠品はありません。写真に写っているベビーモニターのカメラは付きません。"
     }
   }
 ];
