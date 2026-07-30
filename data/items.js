@@ -189,7 +189,7 @@ window.SALE_ITEMS = [
       "en": "Sound puzzle — Vehicles (Melissa & Doug)",
       "ja": "音の出るパズル のりもの（メリッサ＆ダグ）"
     },
-    "price": 500,
+    "price": 400,
     "category": "kids",
     "status": "available",
     "images": [
@@ -207,7 +207,7 @@ window.SALE_ITEMS = [
       "en": "Sound puzzle — Musical instruments (Melissa & Doug)",
       "ja": "音の出るパズル 楽器（メリッサ＆ダグ）"
     },
-    "price": 500,
+    "price": 400,
     "category": "kids",
     "status": "available",
     "images": [
@@ -225,7 +225,7 @@ window.SALE_ITEMS = [
       "en": "Sound puzzle — Zoo animals (Melissa & Doug)",
       "ja": "音の出るパズル 動物園の動物（メリッサ＆ダグ）"
     },
-    "price": 500,
+    "price": 400,
     "category": "kids",
     "status": "available",
     "images": [
