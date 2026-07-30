@@ -4,8 +4,8 @@ window.SALE_CONFIG = {
 
   // The opening line, printed a little larger than the rest.
   subtitle: {
-    en: "We're Victor and Veronica. After ten years in Japan we're moving away for a year, so all the things we've lived with need to find a new home.",
-    ja: "はじめまして、ヴィクトルとベロニカです。日本に10年間住んでいましたが、このたび1年間日本を離れることになりました。そのため、大切に使ってきたものたちに新しい家を探しています。"
+    en: "We're Victor, Veronica, Mark and Emilia. After ten wonderful years in Aizuwakamatsu we're moving to Europe for a year, so all the things we've lived with need to find a new home.",
+    ja: "はじめまして、ヴィクトル、ベロニカ、マーク、エミリアです。会津若松で過ごした素敵な10年を経て、このたび1年間ヨーロッパへ移ることになりました。そのため、大切に使ってきたものたちに新しい家を探しています。"
   },
 
   // A photo of us, shown next to the introduction. Leave src as "" for none.
@@ -13,8 +13,8 @@ window.SALE_CONFIG = {
   aboutPhoto: {
     src: "images/about-us.jpg",
     alt: {
-      en: "Victor and Veronica with their two children, under the cherry blossoms",
-      ja: "桜の下のヴィクトルとベロニカ、そして子どもたち"
+      en: "Victor, Veronica, Mark and Emilia under the cherry blossoms",
+      ja: "桜の下のヴィクトル、ベロニカ、マーク、エミリア"
     },
     caption: { en: "", ja: "" }
   },
