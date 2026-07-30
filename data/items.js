@@ -330,5 +330,27 @@ window.SALE_ITEMS = [
       "ja": "白いベッドと同じサイズ、120×70cmです。マットレス（またはお布団）とカバーもご希望であればお付けします。部品はすべて揃っています。一部を分解していますが、欠品はありません。写真に写っているベビーモニターのカメラは付きません。"
     },
     "available": "2026-08-25"
+  },
+  {
+    "id": "scooter",
+    "name": {
+      "en": "Kids' scooter — Oxelo B1, three wheels",
+      "ja": "キックスケーター オクセロ B1 3輪"
+    },
+    "price": 500,
+    "category": "kids",
+    "status": "available",
+    "images": [
+      "images/scooter-1.jpg"
+    ],
+    "note": {
+      "en": "Three-wheel scooter for ages 2 and up. You steer it by leaning — the handlebar tilts the deck, so a small child keeps their balance through turns. Some scuffs from use.",
+      "ja": "2歳から使える3輪キックスケーター。ハンドルを傾けるとデッキも傾く仕組みで、小さな子どもでもカーブでバランスを崩しにくくなっています。使用による小さな傷があります。"
+    },
+    "link": "https://www.decathlon.co.jp/collections/kids-scooters",
+    "linkLabel": {
+      "en": "Oxelo at Decathlon",
+      "ja": "オクセロ（デカトロン）"
+    }
   }
 ];
