@@ -216,6 +216,9 @@ def main():
                     help="YYYY-MM-DD if the item is in use until that date, or "
                          "'now' to clear it (everything is available now by "
                          "default, so 'now' just removes the date)")
+    ap.add_argument("--available-to", dest="available_to", metavar="WHEN",
+                    help="closing date of a collection window, YYYY-MM-DD, or "
+                         "'none' to clear it. Only shows when --available is set")
     ap.add_argument("--replace-photos", action="store_true",
                     help="drop the item's existing photos instead of appending")
     ap.add_argument("--remove", metavar="ID", help="delete an item")
@@ -314,10 +317,25 @@ def main():
         # date rather than as a value.
         if when in ("now", "pickup", "none", "clear"):
             item.pop("available", None)
+            item.pop("availableTo", None)
         elif re.fullmatch(r"\d{4}-\d{2}-\d{2}", when):
             item["available"] = when
         else:
             sys.exit("--available takes a YYYY-MM-DD date, or 'now' to clear it.")
+
+    if args.available_to:
+        to = args.available_to.lower()
+        if to in ("none", "clear"):
+            item.pop("availableTo", None)
+        elif re.fullmatch(r"\d{4}-\d{2}-\d{2}", to):
+            if not item.get("available"):
+                sys.exit("--available-to needs --available set as well.")
+            if to < item["available"]:
+                sys.exit(f"--available-to ({to}) is before --available "
+                         f"({item['available']}).")
+            item["availableTo"] = to
+        else:
+            sys.exit("--available-to takes a YYYY-MM-DD date, or 'none'.")
 
     if args.link or args.link_ja:
         for url in (args.link, args.link_ja):

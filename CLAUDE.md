@@ -108,6 +108,11 @@ only rule). So `item.available` is binary:
 - **absent** — collectable straight away. Green "Available now" badge.
 - **`"YYYY-MM-DD"`** — still in use until that date. Terracotta "Available
   08/25" / 「08/25 から引き取り可」.
+- plus **`availableTo`** — a closing date, making it a collection window:
+  "Available 08/25–08/28" / 「08/25〜08/28 引き取り可」. The curtains need this
+  because they come off the windows on one day and must be gone before the family
+  flies. `--available-to` refuses a date earlier than `available`, or one set
+  without it.
 
 Dates render as **MM/DD in both languages** — Veronica asked for one format
 everywhere. Use the same form if you ever fill in `pickup.date`, so nothing on

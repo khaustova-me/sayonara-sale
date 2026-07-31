@@ -37,6 +37,15 @@
   function availability(item) {
     var d = fmtDate(item.available);
     if (!d) return { cls: "now", text: t(T.availNow) };
+    /* A closing date turns it into a collection window — some things come off
+       the wall on one day and have to be gone by the next. */
+    var to = fmtDate(item.availableTo);
+    if (to) {
+      return {
+        cls: "later",
+        text: lang === "ja" ? d + "〜" + to + " 引き取り可" : "Available " + d + "–" + to
+      };
+    }
     return {
       cls: "later",
       text: lang === "ja" ? d + " から引き取り可" : "Available " + d

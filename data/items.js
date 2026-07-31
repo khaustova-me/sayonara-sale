@@ -490,7 +490,9 @@ window.SALE_ITEMS = [
     "note": {
       "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. A set of four pieces for a bedroom: blackout drapes with net curtains. They make the room properly dark even in bright sunshine, which is a real help for getting small children to sleep. Please ask us for the exact size.",
       "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。寝室用の4枚セットで、遮光カーテンとレースカーテンです。日差しの強い日でもしっかり暗くなるので、お子さんのお昼寝にも助かります。サイズはお問い合わせください。"
-    }
+    },
+    "available": "2026-08-25",
+    "availableTo": "2026-08-28"
   },
   {
     "id": "curtains-sage",
@@ -507,7 +509,9 @@ window.SALE_ITEMS = [
     "note": {
       "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. A set of four pieces, a soft sage green with net curtains. Lined. Please ask us for the exact size.",
       "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。4枚セット、やわらかいセージグリーンとレースカーテンです。裏地つき。サイズはお問い合わせください。"
-    }
+    },
+    "available": "2026-08-25",
+    "availableTo": "2026-08-28"
   },
   {
     "id": "curtains-kitchen",
@@ -524,7 +528,9 @@ window.SALE_ITEMS = [
     "note": {
       "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. For a kitchen window: cream with a leaf pattern in lilac, green and mustard, with a net curtain. Please ask us for the exact size.",
       "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。キッチンの窓用。クリーム地に、ライラック・グリーン・マスタードの葉柄。レースカーテンつき。サイズはお問い合わせください。"
-    }
+    },
+    "available": "2026-08-25",
+    "availableTo": "2026-08-28"
   },
   {
     "id": "fridge",
