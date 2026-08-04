@@ -549,5 +549,26 @@ window.SALE_ITEMS = [
       "ja": "大型で高さは約180cmです。冷凍室が2段、一番下は野菜用のフレッシュボックスになっています。重量がありますので、2名と車をご用意ください。08/28の午前中からお渡しできます。写真のマグネットは私たちのもので、お渡し前に外します。"
     },
     "available": "2026-08-28"
+  },
+  {
+    "id": "floor-chair",
+    "name": {
+      "en": "Floor chair — grey, reclines flat",
+      "ja": "座椅子 グレー リクライニング"
+    },
+    "price": 1000,
+    "category": "furniture",
+    "status": "available",
+    "images": [
+      "images/floor-chair-1.jpg",
+      "images/floor-chair-2.jpg",
+      "images/floor-chair-3.jpg",
+      "images/floor-chair-4.jpg"
+    ],
+    "note": {
+      "en": "A grey fabric floor chair with a reclining back and a folding headrest. It goes from upright all the way down to flat, so it works as a floor lounger too. Comfortable for reading or watching TV.",
+      "ja": "グレーの布張り座椅子。背もたれはリクライニング式で、ヘッドレストも折りたためます。起こした状態からフラットまで倒せるので、床でくつろぐマットとしても使えます。読書やテレビを見るのにちょうどいい椅子です。"
+    },
+    "available": "2026-08-25"
   }
 ];
