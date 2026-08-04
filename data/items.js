@@ -478,8 +478,8 @@ window.SALE_ITEMS = [
   {
     "id": "curtains-blackout",
     "name": {
-      "en": "Blackout curtains — set of 4, blue-grey (bedroom)",
-      "ja": "遮光カーテン 4枚セット ブルーグレー（寝室用）"
+      "en": "Blackout curtains — set of 4, blue-grey, 190 cm drop",
+      "ja": "遮光カーテン 4枚セット ブルーグレー 丈190cm"
     },
     "price": 0,
     "category": "furniture",
@@ -488,8 +488,8 @@ window.SALE_ITEMS = [
       "images/curtains-blackout-1.jpg"
     ],
     "note": {
-      "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. A set of four pieces for a bedroom: blackout drapes with net curtains. They make the room properly dark even in bright sunshine, which is a real help for getting small children to sleep. Please ask us for the exact size.",
-      "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。寝室用の4枚セットで、遮光カーテンとレースカーテンです。日差しの強い日でもしっかり暗くなるので、お子さんのお昼寝にも助かります。サイズはお問い合わせください。"
+      "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. A set of four pieces for a bedroom: blackout drapes with net curtains, 190 cm drop. They make the room properly dark even in bright sunshine, which is a real help for getting small children to sleep.",
+      "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。寝室用の4枚セットで、遮光カーテンとレースカーテン、丈は190cmです。日差しの強い日でもしっかり暗くなるので、お子さんのお昼寝にも助かります。"
     },
     "available": "2026-08-25",
     "availableTo": "2026-08-28"
@@ -497,8 +497,8 @@ window.SALE_ITEMS = [
   {
     "id": "curtains-sage",
     "name": {
-      "en": "Curtains — set of 4, pale sage green",
-      "ja": "カーテン 4枚セット ペールセージグリーン"
+      "en": "Curtains — set of 4, pale sage green, 190 cm drop",
+      "ja": "カーテン 4枚セット ペールセージグリーン 丈190cm"
     },
     "price": 0,
     "category": "furniture",
@@ -507,8 +507,8 @@ window.SALE_ITEMS = [
       "images/curtains-sage-1.jpg"
     ],
     "note": {
-      "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. A set of four pieces, a soft sage green with net curtains. Lined. Please ask us for the exact size.",
-      "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。4枚セット、やわらかいセージグリーンとレースカーテンです。裏地つき。サイズはお問い合わせください。"
+      "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. A set of four pieces, a soft sage green with net curtains, 190 cm drop. Lined.",
+      "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。4枚セット、やわらかいセージグリーンとレースカーテン、丈は190cmです。裏地つき。"
     },
     "available": "2026-08-25",
     "availableTo": "2026-08-28"
@@ -516,8 +516,8 @@ window.SALE_ITEMS = [
   {
     "id": "curtains-kitchen",
     "name": {
-      "en": "Kitchen curtains — leaf pattern",
-      "ja": "キッチンのカーテン 葉柄"
+      "en": "Kitchen curtains — leaf pattern, 110 cm drop",
+      "ja": "キッチンのカーテン 葉柄 丈110cm"
     },
     "price": 0,
     "category": "furniture",
@@ -526,8 +526,8 @@ window.SALE_ITEMS = [
       "images/curtains-kitchen-1.jpg"
     ],
     "note": {
-      "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. For a kitchen window: cream with a leaf pattern in lilac, green and mustard, with a net curtain. Please ask us for the exact size.",
-      "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。キッチンの窓用。クリーム地に、ライラック・グリーン・マスタードの葉柄。レースカーテンつき。サイズはお問い合わせください。"
+      "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. For a kitchen window: cream with a leaf pattern in lilac, green and mustard, with a net curtain, 110 cm drop.",
+      "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。キッチンの窓用。クリーム地に、ライラック・グリーン・マスタードの葉柄。レースカーテンつき、丈は110cmです。"
     },
     "available": "2026-08-25",
     "availableTo": "2026-08-28"
