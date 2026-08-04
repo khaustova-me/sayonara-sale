@@ -283,8 +283,11 @@ main, .contact { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
   color: var(--bg);
 }
 
+/* Both "gone for now" states are monochrome, so a glance down the page shows
+   what is still actually going. Reserved is darker than sold: it's a firmer
+   statement, and sold items are already dimmed further by .is-sold. */
 .badge.sold { background: #8a8378; }
-.badge.reserved { background: var(--accent); color: #fff; }
+.badge.reserved { background: #3c3a35; color: #fff; }
 
 .card-body { padding: 11px 12px 13px; display: flex; flex-direction: column; gap: 3px; flex: 1; }
 
@@ -337,6 +340,11 @@ main, .contact { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
 .card.is-sold { opacity: .6; }
 .card.is-sold .card-media img { filter: grayscale(1); }
 .card.is-sold .price { text-decoration: line-through; color: var(--ink-soft); }
+
+/* Reserved: greyed so it reads as unavailable at a glance, but not struck
+   through — the price still stands if the reservation falls through. */
+.card.is-reserved { opacity: .8; }
+.card.is-reserved .card-media img { filter: grayscale(1); }
 
 .empty { text-align: center; color: var(--ink-soft); padding: 50px 0 70px; }
 

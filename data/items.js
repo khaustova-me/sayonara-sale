@@ -36,7 +36,7 @@ window.SALE_ITEMS = [
     },
     "price": 500,
     "category": "appliances",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/hair-dryer-1.jpg"
     ],
@@ -483,7 +483,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/curtains-blackout-1.jpg"
     ],
@@ -502,7 +502,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/curtains-sage-1.jpg"
     ],
@@ -521,7 +521,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/curtains-kitchen-1.jpg"
     ],

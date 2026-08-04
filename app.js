@@ -283,7 +283,9 @@
   }
 
   function card(item) {
-    var c = el("article", "card" + (item.status === "sold" ? " is-sold" : ""));
+    var c = el("article", "card"
+      + (item.status === "sold" ? " is-sold" : "")
+      + (item.status === "reserved" ? " is-reserved" : ""));
     var imgs = item.images || [];
     var primary = t(item.name);
     var secondary = t(item.name, other());
@@ -328,7 +330,10 @@
       body.appendChild(a);
     }
 
-    var avail = item.status === "sold" ? null : availability(item);
+    /* No availability pill on sold or reserved items — a green "Available now"
+       next to a RESERVED badge reads as a contradiction. */
+    var avail = (item.status === "sold" || item.status === "reserved")
+      ? null : availability(item);
     if (avail) body.appendChild(el("span", "avail " + avail.cls, avail.text));
 
     var p = priceText(item.price);
