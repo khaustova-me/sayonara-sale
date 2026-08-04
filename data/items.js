@@ -173,8 +173,8 @@ window.SALE_ITEMS = [
       "images/car-6.jpg"
     ],
     "note": {
-      "en": "3.0 V6 (3GR-FSE, 256 ps), rear-wheel drive, automatic. 156,432 km. Shaken is already paid until 2028/04/26 — about 21 months left — so the next owner has no inspection to pay for, and all taxes are paid too. Beige leather, wood trim, factory navigation. The passenger-side dashboard trim is cracked and the driver's seat is worn — both are in the photos. Price and handover date are negotiable, so please just ask.",
-      "ja": "3.0L V6（3GR-FSE、256馬力）、FR、オートマ。走行156,432km。車検は令和10年4月26日まで（残り約1年9か月）有効ですので、次の車検費用はかかりません。税金もすべて納めています。ベージュの本革シート、木目調パネル、純正ナビ。助手席側のダッシュボードにひび割れ、運転席シートに擦れがあります（写真をご覧ください）。価格・お渡し日はご相談に応じますので、お気軽にお問い合わせください。"
+      "en": "3.0 V6 (3GR-FSE, 256 ps), rear-wheel drive, automatic. 156,432 km. Shaken valid until 2028/04/26 and all taxes paid. A set of four winter tyres is included at no extra cost. Beige leather, wood trim, factory navigation. The passenger-side dashboard trim is cracked and the driver's seat is worn — both are in the photos. Price and handover date are negotiable, so please just ask.",
+      "ja": "3.0L V6（3GR-FSE、256馬力）、FR、オートマ。走行156,432km。車検は令和10年4月26日まで（残り約1年9か月）有効ですので、次の車検費用はかかりません。税金もすべて納めています。スタッドレスタイヤ4本も無料でお付けします。ベージュの本革シート、木目調パネル、純正ナビ。助手席側のダッシュボードにひび割れ、運転席シートに擦れがあります（写真をご覧ください）。価格・お渡し日はご相談に応じますので、お気軽にお問い合わせください。"
     },
     "link": "https://gazoo.com/catalog/maker/TOYOTA/CROWN/200312/10030036/",
     "linkLabel": {
