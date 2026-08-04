@@ -92,10 +92,12 @@ Raw photos in `inbox/` are git-ignored, so the original never leaves the laptop
 
 ## Order of the grid
 
-Dearest first, sold last — not the order things were added, which means nothing
-to a visitor. The expensive items need the most weeks to find a buyer; the ¥500
-things sell themselves. `price: null` ("Ask me") sorts to the very top, since a
-price on request signals a big-ticket item.
+Three groups, in this order: **still going → reserved → sold.** So the top of the
+page only holds things a visitor can actually have. Within each group, dearest
+first — not the order things were added, which means nothing to a visitor. The
+expensive items need the most weeks to find a buyer; the ¥500 things sell
+themselves. `price: null` ("Ask me") sorts to the top of its group, since a price
+on request signals a big-ticket item.
 
 The sort is stable, so items at the same price keep the order they were added.
 It applies inside a category filter too.
@@ -155,7 +157,7 @@ present after writing. Never copy a photo into `images/` by hand.
 | She says | You do |
 |---|---|
 | "the sofa is sold" | `--id sofa --status sold` (never delete it — sold items grey out and sink to the bottom, which is intended) |
-| "someone asked to keep the curtains" | `--status reserved` — greys the card and shows a dark **Reserved** / 「お取り置き」 badge. Unlike sold it does *not* sink or strike the price through: the reservation may fall through and the item is still for sale at that price. Both sold and reserved suppress the availability pill, since a green "Available now" beside a Reserved badge contradicts itself |
+| "someone asked to keep the curtains" | `--status reserved` — greys the card, shows a dark **Reserved** / 「お取り置き」 badge, and sinks it to the end of the page above the sold items. The price is *not* struck through, unlike sold: the reservation may fall through and it's still for sale at that price. Both sold and reserved suppress the availability pill, since a green "Available now" beside a Reserved badge contradicts itself |
 | "pickup is Aug 23, 10–16" | edit `data/config.js` → `pickup.announced = true`, fill `date`/`place` in both languages |
 | "we're in \<city\>" | `pickup.area` — printed first in the banner, with or without a date, because buyers need the location before anything else. The street address stays off the page and goes over LINE |
 | "here's my LINE" | set `contact.lineUrl` in `data/config.js` |

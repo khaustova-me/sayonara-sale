@@ -114,14 +114,21 @@
     return Number(p);
   }
 
-  /* Dearest first, sold last. The expensive things need the most weeks to find
-     a buyer; a ¥500 blender sells itself. Sort is stable, so items at the same
-     price stay in the order they were added. */
+  /* Still going, then reserved, then sold — so the top of the page is only
+     things a visitor can actually have. */
+  function statusRank(item) {
+    if (item.status === "sold") return 2;
+    if (item.status === "reserved") return 1;
+    return 0;
+  }
+
+  /* Within each of those groups: dearest first. The expensive things need the
+     most weeks to find a buyer; a ¥500 blender sells itself. Sort is stable, so
+     items at the same price stay in the order they were added. */
   function ordered(list) {
     return list.slice().sort(function (a, b) {
-      var as = a.status === "sold" ? 1 : 0;
-      var bs = b.status === "sold" ? 1 : 0;
-      if (as !== bs) return as - bs;
+      var byStatus = statusRank(a) - statusRank(b);
+      if (byStatus) return byStatus;
       return priceRank(b) - priceRank(a);
     });
   }
