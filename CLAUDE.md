@@ -157,7 +157,7 @@ present after writing. Never copy a photo into `images/` by hand.
 | She says | You do |
 |---|---|
 | "the sofa is sold" | `--id sofa --status sold` (never delete it — sold items grey out and sink to the bottom, which is intended) |
-| "someone asked to keep the curtains" | `--status reserved` — greys the card, shows a dark **Reserved** / 「お取り置き」 badge, and sinks it to the end of the page above the sold items. The price is *not* struck through, unlike sold: the reservation may fall through and it's still for sale at that price. Both sold and reserved suppress the availability pill, since a green "Available now" beside a Reserved badge contradicts itself |
+| "someone asked to keep the curtains" | `--status reserved` — greys the card, shows a dark **Reserved** / 「お取り置き」 badge, and sinks it to the end of the page above the sold items. The price is *not* struck through, unlike sold: the reservation may fall through and it's still for sale at that price. Sold hides the availability pill entirely; reserved keeps a *date* pill, since whoever is holding the item still needs to know when to collect, but drops the green "Available now", which would contradict the badge |
 | "pickup is Aug 23, 10–16" | edit `data/config.js` → `pickup.announced = true`, fill `date`/`place` in both languages |
 | "we're in \<city\>" | `pickup.area` — printed first in the banner, with or without a date, because buyers need the location before anything else. The street address stays off the page and goes over LINE |
 | "here's my LINE" | set `contact.lineUrl` in `data/config.js` |

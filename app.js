@@ -337,10 +337,14 @@
       body.appendChild(a);
     }
 
-    /* No availability pill on sold or reserved items — a green "Available now"
-       next to a RESERVED badge reads as a contradiction. */
-    var avail = (item.status === "sold" || item.status === "reserved")
-      ? null : availability(item);
+    /* Sold items say nothing about availability. Reserved ones keep a *date* —
+       whoever is holding it still needs to know when to collect — but drop the
+       green "Available now", which contradicts the Reserved badge. */
+    var avail = null;
+    if (item.status !== "sold") {
+      var a = availability(item);
+      if (item.status !== "reserved" || a.cls === "later") avail = a;
+    }
     if (avail) body.appendChild(el("span", "avail " + avail.cls, avail.text));
 
     var p = priceText(item.price);
