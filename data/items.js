@@ -191,7 +191,7 @@ window.SALE_ITEMS = [
     },
     "price": 400,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/puzzle-vehicles-1.jpg",
       "images/puzzle-vehicles-2.jpg"
@@ -209,7 +209,7 @@ window.SALE_ITEMS = [
     },
     "price": 400,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/puzzle-instruments-1.jpg",
       "images/puzzle-instruments-2.jpg"
@@ -227,7 +227,7 @@ window.SALE_ITEMS = [
     },
     "price": 400,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/puzzle-zoo-1.jpg",
       "images/puzzle-zoo-2.jpg"
@@ -245,7 +245,7 @@ window.SALE_ITEMS = [
     },
     "price": 300,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/puzzle-farm-1.jpg",
       "images/puzzle-farm-2.jpg"
