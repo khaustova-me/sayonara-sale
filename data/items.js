@@ -585,5 +585,28 @@ window.SALE_ITEMS = [
       "en": "A small kitchen table with a white top and solid wood legs, plus two chairs with cushion pads. Free to a good home.",
       "ja": "白い天板と木の脚の小さめのキッチンテーブルと、クッション付きの椅子2脚です。無料でお譲りします。"
     }
+  },
+  {
+    "id": "bed-frame",
+    "name": {
+      "en": "Double bed frame with futon — 210 x 140 cm",
+      "ja": "ベッドフレーム＋敷き布団 ダブル 210×140cm"
+    },
+    "price": 5000,
+    "category": "furniture",
+    "status": "available",
+    "images": [
+      "images/bed-frame-1.jpg"
+    ],
+    "note": {
+      "en": "A white-wash slatted wooden frame on legs. Outer size 210 x 140 cm, which is a Japanese double. The futon on top is included, so 5,000 yen covers the frame and the futon together. The futon is a bit old though, so you may want to get a fresh one for the frame.",
+      "ja": "ホワイトウォッシュの脚付きすのこベッドフレームです。外寸210×140cm（ダブルサイズ）。上に敷いている布団もセットでお付けしますので、5,000円でフレームと布団の両方です。ただ、布団は少し古くなっていますので、新しいものをご用意いただくのもよいかと思います。"
+    },
+    "available": "2026-08-28",
+    "link": "https://www.nitori-net.jp/ec/product/5655590/",
+    "linkLabel": {
+      "en": "similar model at Nitori",
+      "ja": "類似商品（ニトリ）"
+    }
   }
 ];
