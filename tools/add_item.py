@@ -29,6 +29,7 @@ Examples
 """
 
 import argparse
+import datetime as dt
 import json
 import re
 import subprocess
@@ -293,6 +294,10 @@ def main():
             "price": 0,
             "category": args.category or "misc",
             "status": "available",
+            # Stamped so the page can float just-added items to the top for a
+            # few days — people who have already seen the site want to spot
+            # what's changed without rereading all of it.
+            "added": dt.date.today().isoformat(),
             "images": [],
             "note": {"en": "", "ja": ""},
         }

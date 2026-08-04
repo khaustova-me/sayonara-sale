@@ -26,7 +26,8 @@ window.SALE_ITEMS = [
       "ja": "型番HD72J。2022年4月に新品で購入（53,900円）。温水コース・部屋干しコースつき。幅595×奥行672×高さ860mm。取扱説明書つきです。"
     },
     "link": "https://www.irisohyama.co.jp/products/electrical-appliances/large-appliances/washing-machine/front-load-washers/drum-type-washing-machine-hd71-w-s",
-    "available": "2026-08-25"
+    "available": "2026-08-25",
+    "added": "2026-07-28"
   },
   {
     "id": "hair-dryer",
@@ -51,7 +52,8 @@ window.SALE_ITEMS = [
     "linkLabel": {
       "en": "similar model on Amazon",
       "ja": "類似モデル（Amazon）"
-    }
+    },
+    "added": "2026-07-28"
   },
   {
     "id": "printer",
@@ -70,7 +72,8 @@ window.SALE_ITEMS = [
       "en": "Prints, copies and scans, and does photo prints. Works perfectly. Comes with a full set of colour cartridges and some paper. 2017 model.",
       "ja": "コピー・スキャン、写真プリントもできます。問題なく動作します。カラーインクカートリッジ一式と用紙も少しお付けします。2017年発売モデル。"
     },
-    "link": "https://www.epson.jp/support/portal/support_menu/ep-810ab.htm"
+    "link": "https://www.epson.jp/support/portal/support_menu/ep-810ab.htm",
+    "added": "2026-07-28"
   },
   {
     "id": "blender",
@@ -90,7 +93,8 @@ window.SALE_ITEMS = [
       "en": "Braun MQ 500, 350 W. Complete with the blender shaft, 600 ml beaker and the original box — this model is blender-only, it never came with a chopper or whisk. Works fine.",
       "ja": "ブラウン MQ 500、350W。本体・ブレンダー・600ml計量カップ・元箱つき。このモデルはブレンダーのみで、チョッパーや泡立て器はもともと付属しません。問題なく使えます。"
     },
-    "link": "https://www.braunhousehold.com/ja-jp/%E3%83%9E%E3%83%AB%E3%83%81%E3%82%AF%E3%82%A4%E3%83%83%E3%82%AF-5-%E3%83%8F%E3%83%B3%E3%83%89%E3%83%96%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-mq-500-gy/p/4165-MQ500GY"
+    "link": "https://www.braunhousehold.com/ja-jp/%E3%83%9E%E3%83%AB%E3%83%81%E3%82%AF%E3%82%A4%E3%83%83%E3%82%AF-5-%E3%83%8F%E3%83%B3%E3%83%89%E3%83%96%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-mq-500-gy/p/4165-MQ500GY",
+    "added": "2026-07-28"
   },
   {
     "id": "stroller-car-seat",
@@ -114,7 +118,8 @@ window.SALE_ITEMS = [
       "en": "Sold together as one set: the Litetrax Air stroller, the i-Snug i-Size infant carrier (ECE R129/02, for 40-75 cm) and the ISOFIX i-Base. The carrier clicks straight onto the stroller, so a sleeping baby goes from the car to the stroller without waking. Rain cover and all original boxes included. Rear air tyres; folds to 85 x 53 x 28.5 cm. The stroller on its own retails at 33,880 yen.",
       "ja": "3点セットでのお譲りです：ベビーカー ライトトラックスエア、ベビーシート アイスナグ（ECE R129/02適合、身長40〜75cm）、ISOFIX対応 i-Base。ベビーシートをそのままベビーカーに装着できるので、寝ている赤ちゃんを起こさずに車から移動できます。レインカバー・元箱すべて付属。後輪エアタイヤ、折りたたみサイズ85×53×28.5cm。ベビーカー単体の希望小売価格は33,880円です。"
     },
-    "link": "https://www.katoji.co.jp/products-detail_2278.html"
+    "link": "https://www.katoji.co.jp/products-detail_2278.html",
+    "added": "2026-07-28"
   },
   {
     "id": "car-seat-combi",
@@ -134,7 +139,8 @@ window.SALE_ITEMS = [
       "en": "The seat rotates to face the door, which makes lifting a child in and out much easier. Fitted with the car's own seatbelt.",
       "ja": "座面が回転してドア側を向くので、乗せ降ろしがとても楽です。車のシートベルトで固定するタイプです。"
     },
-    "available": "2026-08-28"
+    "available": "2026-08-28",
+    "added": "2026-07-28"
   },
   {
     "id": "car-seat-besafe",
@@ -153,7 +159,8 @@ window.SALE_ITEMS = [
       "en": "BeSafe seat in blue, for a toddler. Deep side supports and a padded harness.",
       "ja": "ブルーのビーセーフ製チャイルドシート。幼児用。サイドサポートが深く、ハーネスもクッションつきです。"
     },
-    "available": "2026-08-28"
+    "available": "2026-08-28",
+    "added": "2026-07-28"
   },
   {
     "id": "car",
@@ -181,7 +188,8 @@ window.SALE_ITEMS = [
       "en": "Toyota catalogue (GAZOO)",
       "ja": "トヨタ カタログ（GAZOO）"
     },
-    "available": "2026-08-28"
+    "available": "2026-08-28",
+    "added": "2026-07-29"
   },
   {
     "id": "puzzle-vehicles",
@@ -199,7 +207,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "Wooden peg puzzle, 8 pieces, ages 2+. Each piece plays its own sound when you put it in place, and there is a picture underneath it. All the sounds work. Runs on 2 AAA batteries. Some marks on the board from use.",
       "ja": "木製のつまみ付きパズル、8ピース、2歳から。ピースをはめると、それぞれの音が鳴ります。ピースの下には絵が描かれています。音はすべて出ます。単4電池2本使用。使用による小さな傷があります。"
-    }
+    },
+    "added": "2026-07-29"
   },
   {
     "id": "puzzle-instruments",
@@ -217,7 +226,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "Wooden peg puzzle, 8 pieces, ages 2+. Each piece plays its own sound when you put it in place, and there is a picture underneath it. All the sounds work. Runs on 2 AAA batteries. Some marks on the board from use.",
       "ja": "木製のつまみ付きパズル、8ピース、2歳から。ピースをはめると、それぞれの音が鳴ります。ピースの下には絵が描かれています。音はすべて出ます。単4電池2本使用。使用による小さな傷があります。"
-    }
+    },
+    "added": "2026-07-29"
   },
   {
     "id": "puzzle-zoo",
@@ -235,7 +245,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "Wooden peg puzzle, 8 pieces, ages 2+. Each piece plays its own sound when you put it in place, and there is a picture underneath it. All the sounds work. Runs on 2 AAA batteries. Some marks on the board from use.",
       "ja": "木製のつまみ付きパズル、8ピース、2歳から。ピースをはめると、それぞれの音が鳴ります。ピースの下には絵が描かれています。音はすべて出ます。単4電池2本使用。使用による小さな傷があります。"
-    }
+    },
+    "added": "2026-07-29"
   },
   {
     "id": "puzzle-farm",
@@ -253,7 +264,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "Wooden peg puzzle, 8 pieces, ages 2+. Each piece plays its own sound when you put it in place, and there is a picture underneath it. Every sound works except the sheep, which is why this one is cheaper than the others. Runs on 2 AAA batteries. Some marks on the board from use.",
       "ja": "木製のつまみ付きパズル、8ピース、2歳から。ピースをはめると、それぞれの音が鳴ります。ピースの下には絵が描かれています。ひつじの音だけ鳴らないため、他より少しお安くしています。単4電池2本使用。使用による小さな傷があります。"
-    }
+    },
+    "added": "2026-07-29"
   },
   {
     "id": "playground",
@@ -271,7 +283,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "Really good fun to climb on — slide, climbing wall, steps and a basketball hoop. It folds flat for transport, as in the second photo. It has been standing outside, so it needs a wash. Free to a good home. If you need it delivered we can do that for 1,000 yen.",
       "ja": "登って遊ぶのがとても楽しい遊具です。すべり台、クライミングウォール、ステップ、バスケットゴールつき。2枚目の写真のように折りたたんで運べます。屋外に置いていたので、洗っていただく必要があります。無料でお譲りします。配送をご希望の場合は1,000円で承ります。"
-    }
+    },
+    "added": "2026-07-29"
   },
   {
     "id": "storage-baskets",
@@ -289,7 +302,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "We have many different storage baskets and boxes in all sorts of sizes and shapes — the one in the photos is just an example. Please have a look and take whatever is useful to you. All free.",
       "ja": "収納ケースやカゴがたくさんあります。サイズも形もいろいろで、写真はその一例です。ぜひご覧いただき、使えそうなものをお持ちください。すべて無料です。"
-    }
+    },
+    "added": "2026-07-30"
   },
   {
     "id": "cot-white",
@@ -311,7 +325,8 @@ window.SALE_ITEMS = [
       "en": "https://www.amazon.co.jp/-/en/dp/B0CKBF6PYH",
       "ja": "https://www.amazon.co.jp/dp/B0CKBF6PYH"
     },
-    "available": "2026-08-25"
+    "available": "2026-08-25",
+    "added": "2026-07-30"
   },
   {
     "id": "cot-wood",
@@ -329,7 +344,8 @@ window.SALE_ITEMS = [
       "en": "Same size as the white one, 120 x 70 cm. Comes with the mattress or futon and the covers, if you would like them. All the parts are there — some are taken apart at the moment, but nothing is missing. The baby monitor camera on the stand in the photo is not included.",
       "ja": "白いベッドと同じサイズ、120×70cmです。マットレス（またはお布団）とカバーもご希望であればお付けします。部品はすべて揃っています。一部を分解していますが、欠品はありません。写真に写っているベビーモニターのカメラは付きません。"
     },
-    "available": "2026-08-25"
+    "available": "2026-08-25",
+    "added": "2026-07-30"
   },
   {
     "id": "scooter",
@@ -351,7 +367,8 @@ window.SALE_ITEMS = [
     "linkLabel": {
       "en": "Oxelo at Decathlon",
       "ja": "オクセロ（デカトロン）"
-    }
+    },
+    "added": "2026-07-30"
   },
   {
     "id": "water-pot",
@@ -370,7 +387,8 @@ window.SALE_ITEMS = [
       "en": "3 litres. Keeps the water at 98, 90 or 70 degrees, has a slow cafe-drip pour for coffee, and a 7-hour timer. Bought new about three years ago and comes with the manual.",
       "ja": "容量3.0L。保温は98℃・90℃・70℃の3段階、コーヒー用のドリップ給湯、7時間タイマーつき。3年ほど前に新品で購入しました。取扱説明書もお付けします。"
     },
-    "link": "https://www.zojirushi.co.jp/syohin/electronic-pot/cdwy/"
+    "link": "https://www.zojirushi.co.jp/syohin/electronic-pot/cdwy/",
+    "added": "2026-07-30"
   },
   {
     "id": "shelf-stickers",
@@ -394,7 +412,8 @@ window.SALE_ITEMS = [
     "link": {
       "en": "https://www.amazon.co.jp/-/en/dp/B07BYHGYTW",
       "ja": "https://www.amazon.co.jp/dp/B07BYHGYTW"
-    }
+    },
+    "added": "2026-07-30"
   },
   {
     "id": "shelf-new",
@@ -418,7 +437,8 @@ window.SALE_ITEMS = [
     "link": {
       "en": "https://www.amazon.co.jp/-/en/dp/B07BYHGYTW",
       "ja": "https://www.amazon.co.jp/dp/B07BYHGYTW"
-    }
+    },
+    "added": "2026-07-30"
   },
   {
     "id": "kids-table-kitchen",
@@ -439,7 +459,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "A really convenient table with a bench and cupboards underneath for books and toys. Flip the top over and you have a kitchen — three hobs, a wooden tap and a metal sink. Solid wood, top 80 x 39 cm. It is a bit old and shows it, but our children love playing with it.",
       "ja": "とても便利なテーブルとベンチのセットで、下は絵本やおもちゃをしまえる収納になっています。天板を裏返すと、コンロ3つ・木の蛇口・シンクつきのキッチンに変わります。無垢材、天板は80×39cm。少し古くて傷もありますが、子どもたちは大好きでよく遊んでいます。"
-    }
+    },
+    "added": "2026-07-30"
   },
   {
     "id": "cushions",
@@ -456,7 +477,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "Four cushions: two with the same leaf pattern in brown and in cream, one plain olive green, and one with a cow, sun and clouds for a child's room. Take one or take all four.",
       "ja": "クッション4個：ブラウンとアイボリーの葉柄（同じ柄の色違い）、オリーブグリーンの無地、そして牛と太陽の柄の子ども用。1つでも、4つまとめてでもどうぞ。"
-    }
+    },
+    "added": "2026-07-30"
   },
   {
     "id": "dressers-red",
@@ -473,7 +495,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "Two identical chests, four deep drawers each, with a wood-effect top. 55 x 40 x 77 cm. Take one or both.",
       "ja": "同じものが2台あります。深めの引き出し4段、天板は木目調。幅55×奥行40×高さ77cm。1台でも2台でもどうぞ。"
-    }
+    },
+    "added": "2026-07-30"
   },
   {
     "id": "curtains-blackout",
@@ -491,7 +514,8 @@ window.SALE_ITEMS = [
       "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. A set of four pieces for a bedroom: blackout drapes with net curtains, 190 cm drop. They make the room properly dark even in bright sunshine, which is a real help for getting small children to sleep.",
       "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。寝室用の4枚セットで、遮光カーテンとレースカーテン、丈は190cmです。日差しの強い日でもしっかり暗くなるので、お子さんのお昼寝にも助かります。"
     },
-    "available": "2026-08-28"
+    "available": "2026-08-28",
+    "added": "2026-07-30"
   },
   {
     "id": "curtains-sage",
@@ -509,7 +533,8 @@ window.SALE_ITEMS = [
       "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. A set of four pieces, a soft sage green with net curtains, 190 cm drop. Lined.",
       "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。4枚セット、やわらかいセージグリーンとレースカーテン、丈は190cmです。裏地つき。"
     },
-    "available": "2026-08-28"
+    "available": "2026-08-28",
+    "added": "2026-07-30"
   },
   {
     "id": "curtains-kitchen",
@@ -527,7 +552,8 @@ window.SALE_ITEMS = [
       "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. For a kitchen window: cream with a leaf pattern in lilac, green and mustard, with a net curtain, 110 cm drop.",
       "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。キッチンの窓用。クリーム地に、ライラック・グリーン・マスタードの葉柄。レースカーテンつき、丈は110cmです。"
     },
-    "available": "2026-08-28"
+    "available": "2026-08-28",
+    "added": "2026-07-30"
   },
   {
     "id": "fridge",
@@ -545,7 +571,8 @@ window.SALE_ITEMS = [
       "en": "A big one, roughly 180 cm tall. Two freezer sections, and a fresh box for vegetables at the bottom. It is heavy, so please come with two people and a van. Ready from the morning of 08/28. The magnets in the photo are ours and will be taken off.",
       "ja": "大型で高さは約180cmです。冷凍室が2段、一番下は野菜用のフレッシュボックスになっています。重量がありますので、2名と車をご用意ください。08/28の午前中からお渡しできます。写真のマグネットは私たちのもので、お渡し前に外します。"
     },
-    "available": "2026-08-28"
+    "available": "2026-08-28",
+    "added": "2026-07-30"
   },
   {
     "id": "floor-chair",
@@ -566,7 +593,8 @@ window.SALE_ITEMS = [
       "en": "A grey fabric floor chair with a reclining back and a folding headrest. It goes from upright all the way down to flat, so it works as a floor lounger too. Comfortable for reading or watching TV.",
       "ja": "グレーの布張り座椅子。背もたれはリクライニング式で、ヘッドレストも折りたためます。起こした状態からフラットまで倒せるので、床でくつろぐマットとしても使えます。読書やテレビを見るのにちょうどいい椅子です。"
     },
-    "available": "2026-08-25"
+    "available": "2026-08-25",
+    "added": "2026-08-04"
   },
   {
     "id": "kitchen-table",
@@ -584,7 +612,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "A small kitchen table with a white top and solid wood legs, plus two chairs with cushion pads. Free to a good home.",
       "ja": "白い天板と木の脚の小さめのキッチンテーブルと、クッション付きの椅子2脚です。無料でお譲りします。"
-    }
+    },
+    "added": "2026-08-04"
   },
   {
     "id": "bed-frame",
@@ -602,11 +631,12 @@ window.SALE_ITEMS = [
       "en": "A white-wash slatted wooden frame on legs. Outer size 210 x 140 cm, which is a Japanese double. The futon on top is included, so 5,000 yen covers the frame and the futon together. The futon is a bit old though, so you may want to get a fresh one for the frame.",
       "ja": "ホワイトウォッシュの脚付きすのこベッドフレームです。外寸210×140cm（ダブルサイズ）。上に敷いている布団もセットでお付けしますので、5,000円でフレームと布団の両方です。ただ、布団は少し古くなっていますので、新しいものをご用意いただくのもよいかと思います。"
     },
-    "available": "2026-08-28",
+    "available": "2026-08-25",
     "link": "https://www.nitori-net.jp/ec/product/5655590/",
     "linkLabel": {
       "en": "similar model at Nitori",
       "ja": "類似商品（ニトリ）"
-    }
+    },
+    "added": "2026-08-04"
   }
 ];

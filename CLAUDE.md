@@ -93,8 +93,21 @@ Raw photos in `inbox/` are git-ignored, so the original never leaves the laptop
 ## Order of the grid
 
 Three groups, in this order: **still going → reserved → sold.** So the top of the
-page only holds things a visitor can actually have. Within each group, dearest
-first — not the order things were added, which means nothing to a visitor. The
+page only holds things a visitor can actually have.
+
+Inside each group, anything **added in the last 3 days** comes first, newest
+first, carrying a terracotta **New** / 「新着」 badge on the opposite corner from
+Reserved. Veronica shared the link early and keeps adding things, so returning
+visitors need to see what changed without rereading the page. The window is
+deliberately short: once items age out, the expensive ones return to the top
+where they need to be. `NEW_DAYS` in `app.js`.
+
+`added` is stamped automatically by `add_item.py` on creation. The existing items
+were backfilled from git history — the commit date when each id first appeared in
+`data/items.js` — rather than invented. An item with no `added` simply never
+counts as new.
+
+After that, dearest first — not the order things were added, which means nothing to a visitor. The
 expensive items need the most weeks to find a buyer; the ¥500 things sell
 themselves. `price: null` ("Ask me") sorts to the top of its group, since a price
 on request signals a big-ticket item.

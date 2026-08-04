@@ -19,7 +19,8 @@
     lineCta:    { en: "Message us on LINE", ja: "LINEで連絡する" },
     emptyCat:   { en: "Nothing in this category yet.", ja: "このカテゴリーにはまだ何もありません。" },
     emptyAll:   { en: "Nothing listed yet — photos are coming soon.", ja: "まだ掲載がありません。写真を準備中です。" },
-    availNow:   { en: "Available now", ja: "すぐ引き取り可" }
+    availNow:   { en: "Available now", ja: "すぐ引き取り可" },
+    justAdded:  { en: "New", ja: "新着" }
   };
 
   /* "2026-08-28" -> "08/28". The same in both languages, so a date reads
@@ -122,6 +123,26 @@
     return 0;
   }
 
+  /* Items added in the last few days lead the page, so someone who has already
+     seen it can spot what's changed. A short window on purpose: once things
+     settle back into price order the expensive items return to the top, where
+     they need to be. */
+  var NEW_DAYS = 3;
+
+  function daysSince(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso || ""));
+    if (!m) return Infinity;
+    var then = Date.UTC(+m[1], +m[2] - 1, +m[3]);
+    var n = new Date();
+    var today = Date.UTC(n.getFullYear(), n.getMonth(), n.getDate());
+    return Math.round((today - then) / 86400000);
+  }
+
+  function isNew(item) {
+    var d = daysSince(item.added);
+    return d >= 0 && d <= NEW_DAYS;
+  }
+
   /* Within each of those groups: dearest first. The expensive things need the
      most weeks to find a buyer; a ¥500 blender sells itself. Sort is stable, so
      items at the same price stay in the order they were added. */
@@ -129,6 +150,13 @@
     return list.slice().sort(function (a, b) {
       var byStatus = statusRank(a) - statusRank(b);
       if (byStatus) return byStatus;
+
+      var an = isNew(a), bn = isNew(b);
+      if (an !== bn) return an ? -1 : 1;          // just-added items lead
+      if (an) {
+        var byAge = daysSince(a.added) - daysSince(b.added);
+        if (byAge) return byAge;                  // newest of those first
+      }
       return priceRank(b) - priceRank(a);
     });
   }
@@ -317,6 +345,8 @@
 
     if (item.status === "sold") media.appendChild(el("span", "badge sold", t(T.sold)));
     else if (item.status === "reserved") media.appendChild(el("span", "badge reserved", t(T.reserved)));
+    /* Sits on the opposite corner, so it can coexist with Reserved. */
+    if (isNew(item)) media.appendChild(el("span", "badge new", t(T.justAdded)));
 
     c.appendChild(media);
 
