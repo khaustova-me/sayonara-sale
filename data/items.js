@@ -567,5 +567,23 @@ window.SALE_ITEMS = [
       "ja": "グレーの布張り座椅子。背もたれはリクライニング式で、ヘッドレストも折りたためます。起こした状態からフラットまで倒せるので、床でくつろぐマットとしても使えます。読書やテレビを見るのにちょうどいい椅子です。"
     },
     "available": "2026-08-25"
+  },
+  {
+    "id": "kitchen-table",
+    "name": {
+      "en": "Kitchen table with 2 chairs",
+      "ja": "キッチンテーブル＋椅子2脚"
+    },
+    "price": 0,
+    "category": "furniture",
+    "status": "available",
+    "images": [
+      "images/kitchen-table-1.jpg",
+      "images/kitchen-table-2.jpg"
+    ],
+    "note": {
+      "en": "A small kitchen table with a white top and solid wood legs, plus two chairs with cushion pads. Free to a good home.",
+      "ja": "白い天板と木の脚の小さめのキッチンテーブルと、クッション付きの椅子2脚です。無料でお譲りします。"
+    }
   }
 ];
