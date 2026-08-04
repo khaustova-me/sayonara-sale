@@ -263,7 +263,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/playground-1.jpg",
       "images/playground-2.jpg"
@@ -361,7 +361,7 @@ window.SALE_ITEMS = [
     },
     "price": 1200,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/water-pot-1.jpg",
       "images/water-pot-2.jpg"
