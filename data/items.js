@@ -621,15 +621,15 @@ window.SALE_ITEMS = [
       "en": "Double bed frame with futon — 210 x 140 cm",
       "ja": "ベッドフレーム＋敷き布団 ダブル 210×140cm"
     },
-    "price": 5000,
+    "price": 0,
     "category": "furniture",
     "status": "available",
     "images": [
       "images/bed-frame-1.jpg"
     ],
     "note": {
-      "en": "A white-wash slatted wooden frame on legs. Outer size 210 x 140 cm, which is a Japanese double. The futon on top is included, so 5,000 yen covers the frame and the futon together. The futon is a bit old though, so you may want to get a fresh one for the frame.",
-      "ja": "ホワイトウォッシュの脚付きすのこベッドフレームです。外寸210×140cm（ダブルサイズ）。上に敷いている布団もセットでお付けしますので、5,000円でフレームと布団の両方です。ただ、布団は少し古くなっていますので、新しいものをご用意いただくのもよいかと思います。"
+      "en": "A white-wash slatted wooden frame on legs. Outer size 210 x 140 cm, which is a Japanese double. The futon on top comes with it. The futon is a bit old though, so you may want to get a fresh one for the frame.",
+      "ja": "ホワイトウォッシュの脚付きすのこベッドフレームです。外寸210×140cm（ダブルサイズ）。上に敷いている布団もお付けします。ただ、布団は少し古くなっていますので、新しいものをご用意いただくのもよいかと思います。"
     },
     "available": "2026-08-25",
     "link": "https://www.nitori-net.jp/ec/product/5655590/",
