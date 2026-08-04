@@ -80,7 +80,7 @@ window.SALE_ITEMS = [
     },
     "price": 500,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/blender-1.jpg",
       "images/blender-2.jpg",
