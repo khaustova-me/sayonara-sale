@@ -540,7 +540,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "appliances",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/fridge-1.jpg"
     ],
