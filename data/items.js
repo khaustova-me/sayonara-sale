@@ -645,7 +645,7 @@ window.SALE_ITEMS = [
       "en": "Toaster oven — Twinbird TS-4118, with 2 baking trays",
       "ja": "オーブントースター ツインバード TS-4118（天板2枚つき）"
     },
-    "price": 3000,
+    "price": 2500,
     "category": "kitchen",
     "status": "available",
     "added": "2026-08-04",
