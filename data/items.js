@@ -163,7 +163,7 @@ window.SALE_ITEMS = [
     },
     "price": 150000,
     "category": "vehicle",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/car-1.jpg",
       "images/car-2.jpg",
