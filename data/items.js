@@ -638,5 +638,25 @@ window.SALE_ITEMS = [
       "ja": "類似商品（ニトリ）"
     },
     "added": "2026-08-04"
+  },
+  {
+    "id": "oven",
+    "name": {
+      "en": "Toaster oven — Twinbird TS-4118, with 2 baking trays",
+      "ja": "オーブントースター ツインバード TS-4118（天板2枚つき）"
+    },
+    "price": 3000,
+    "category": "kitchen",
+    "status": "available",
+    "added": "2026-08-04",
+    "images": [
+      "images/oven-1.jpg"
+    ],
+    "note": {
+      "en": "A proper little oven, and one we've used a lot — fish, vegetables, cakes. It heats up very fast. Temperature dial up to 200C and a 60-minute timer. The manual comes with it, and two baking trays are included at no extra cost.",
+      "ja": "しっかり使える小さなオーブンです。魚や野菜、ケーキもよく焼いていました。予熱がとても早いのが気に入っています。温度調節は200℃まで、60分タイマーつき。取扱説明書つき、天板2枚も追加料金なしでお付けします。"
+    },
+    "available": "2026-08-25",
+    "link": "https://kakaku.com/item/K0000046607/"
   }
 ];
