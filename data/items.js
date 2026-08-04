@@ -61,7 +61,7 @@ window.SALE_ITEMS = [
     },
     "price": 15000,
     "category": "appliances",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/printer-1.jpg",
       "images/printer-2.jpg"
