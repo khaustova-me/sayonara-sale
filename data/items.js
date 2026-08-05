@@ -168,7 +168,7 @@ window.SALE_ITEMS = [
       "en": "Toyota Crown Royal Saloon (2005)",
       "ja": "トヨタ クラウン ロイヤルサルーン 平成17年"
     },
-    "price": 190000,
+    "price": 150000,
     "category": "vehicle",
     "status": "reserved",
     "images": [
