@@ -376,7 +376,7 @@ window.SALE_ITEMS = [
       "en": "Electric hot water pot — Zojirushi CD-WY30, 3 L",
       "ja": "マイコン沸とう電動ポット 象印 CD-WY30 3.0L"
     },
-    "price": 1200,
+    "price": 1500,
     "category": "kitchen",
     "status": "reserved",
     "images": [
@@ -613,7 +613,8 @@ window.SALE_ITEMS = [
       "en": "A small kitchen table with a white top and solid wood legs, plus two chairs with cushion pads. Free to a good home.",
       "ja": "白い天板と木の脚の小さめのキッチンテーブルと、クッション付きの椅子2脚です。無料でお譲りします。"
     },
-    "added": "2026-08-04"
+    "added": "2026-08-04",
+    "available": "2026-08-28"
   },
   {
     "id": "bed-frame",
