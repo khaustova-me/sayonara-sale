@@ -376,7 +376,7 @@ window.SALE_ITEMS = [
       "en": "Electric hot water pot — Zojirushi CD-WY30, 3 L",
       "ja": "マイコン沸とう電動ポット 象印 CD-WY30 3.0L"
     },
-    "price": 1500,
+    "price": 1200,
     "category": "kitchen",
     "status": "reserved",
     "images": [
