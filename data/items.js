@@ -488,7 +488,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/dressers-red-1.jpg"
     ],
