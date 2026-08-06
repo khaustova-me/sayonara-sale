@@ -659,5 +659,23 @@ window.SALE_ITEMS = [
     },
     "available": "2026-08-25",
     "link": "https://kakaku.com/item/K0000046607/"
+  },
+  {
+    "id": "storage-drawers-small",
+    "name": {
+      "en": "Small plastic storage drawers — 3 drawers",
+      "ja": "小物収納ケース — 引き出し3段"
+    },
+    "price": 0,
+    "category": "furniture",
+    "status": "available",
+    "added": "2026-08-06",
+    "images": [
+      "images/storage-drawers-small-1.jpg"
+    ],
+    "note": {
+      "en": "",
+      "ja": ""
+    }
   }
 ];
