@@ -745,5 +745,25 @@ window.SALE_ITEMS = [
       "en": "Take them all, or just the ones you need: a 30 L slide-lid bin (press the lid from the side and it opens wide), a pedal bin, a slim lidded bin, and a two-tier stacked bin labelled for cans, bottles and non-burnables.",
       "ja": "まとめてでも、必要なものだけでもどうぞ：30Lのスライドペール（横から押すと大きく開くタイプ）、ペダル式のゴミ箱、スリムなフタつきゴミ箱、カン・ビン・燃えないゴミに分別できる2段式ダストボックス。"
     }
+  },
+  {
+    "id": "frying-pans",
+    "name": {
+      "en": "Frying pans — three of them, one with a glass lid",
+      "ja": "フライパン3点 — ガラスふたつき1点"
+    },
+    "price": 0,
+    "category": "kitchen",
+    "status": "available",
+    "added": "2026-08-06",
+    "images": [
+      "images/frying-pans-1.jpg",
+      "images/frying-pans-2.jpg",
+      "images/frying-pans-3.jpg"
+    ],
+    "note": {
+      "en": "All three going together: a deep cream-coloured pan with a wooden handle and a Tefal non-stick pan, both about 26 cm across, plus a small white ceramic-coated pan of about 18-20 cm that comes with its glass lid.",
+      "ja": "3点まとめてお譲りします：木製ハンドルの深型フライパン（生成り色）と、ティファールのフッ素樹脂加工フライパン（どちらも約26cm）、それに約18〜20cmの白いセラミック加工の小さめフライパン（ガラスふたつき）。"
+    }
   }
 ];
