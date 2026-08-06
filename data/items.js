@@ -528,7 +528,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/kitchen-table-1.jpg",
       "images/kitchen-table-2.jpg"
