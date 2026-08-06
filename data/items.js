@@ -601,5 +601,31 @@ window.SALE_ITEMS = [
       "en": "",
       "ja": ""
     }
+  },
+  {
+    "id": "microwave",
+    "name": {
+      "en": "Microwave oven — Haier JM-V16A, 16 L",
+      "ja": "オーブンレンジ ハイアール JM-V16A 16L"
+    },
+    "price": 0,
+    "category": "kitchen",
+    "status": "available",
+    "added": "2026-08-06",
+    "images": [
+      "images/microwave-1.jpg",
+      "images/microwave-2.jpg",
+      "images/microwave-3.jpg"
+    ],
+    "note": {
+      "en": "16 L, 600 W microwave, oven up to 210°C, and a grill setting. Turntable, weight sensor and auto menus (reheat, defrost, toast, vegetables). 461 x 293 x 360 mm. Two honest notes: it needs a clean inside, and we only ever used it as a microwave — that works perfectly, but we never tried the oven or grill, so those are untested.",
+      "ja": "16L、レンジ最大600W、オーブンは210℃まで、グリル機能つき。ターンテーブル式で、重量センサーとオートメニュー（あたため・解凍・トースト・ゆで野菜など）つき。外形寸法 幅461×高さ293×奥行360mm。正直にお伝えします：庫内に汚れがあり、お掃除が必要です。また、電子レンジとしてしか使ったことがなく、レンジ機能は問題なく使えますが、オーブンとグリルは未使用のため動作は未確認です。"
+    },
+    "available": "2026-08-27",
+    "link": "https://kakaku.com/item/K0000278514/",
+    "linkLabel": {
+      "en": "specs on Kakaku.com",
+      "ja": "スペック（価格.com）"
+    }
   }
 ];
