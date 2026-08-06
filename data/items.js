@@ -687,5 +687,23 @@ window.SALE_ITEMS = [
       "en": "1.0 L, 600 W, with an OFF / LOW / HIGH dial. Comes with the glass lid, steamer plate, egg stand, the original box and the 16-recipe booklet. 250 x 185 x 225 mm with the steamer and lid fitted; 104 cm cord. Small enough to pack — we used to take it travelling. Works perfectly.",
       "ja": "1.0L、600W、OFF／LOW／HIGH の切替ダイヤルつき。ガラスふた・蒸し皿・エッグスタンド・元箱・16品のレシピブックが付属します。サイズは約250×185×225mm（蒸し皿・ガラスふた使用時、電源コードは含まず）、コードの長さ約104cm。小さいので旅行にも持って行っていました。問題なく使えます。"
     }
+  },
+  {
+    "id": "strainers",
+    "name": {
+      "en": "Metal kitchen strainers — cone sieve, round sieve and a garlic press",
+      "ja": "キッチンのステンレス小物 — 円すいこし器・丸ざる・ガーリックプレス"
+    },
+    "price": 0,
+    "category": "kitchen",
+    "status": "available",
+    "added": "2026-08-06",
+    "images": [
+      "images/strainers-1.jpg"
+    ],
+    "note": {
+      "en": "Three stainless steel pieces, going together: a cone-shaped mesh strainer, a round mesh sieve with hooks to rest it on a bowl, and a garlic press.",
+      "ja": "ステンレス製の3点まとめてお譲りします：円すい型のこし器、ボウルに掛けられるフックつきの丸いこし器（ざる）、ガーリックプレス。"
+    }
   }
 ];
