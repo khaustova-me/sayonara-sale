@@ -724,5 +724,26 @@ window.SALE_ITEMS = [
       "en": "Officially licensed Audi TT S Roadster in white, with a seat belt and a working steering wheel. The battery still holds a good charge. Much loved by our child — it is only going because we are leaving.",
       "ja": "正規ライセンスの電動乗用玩具、アウディ TT S ロードスター（ホワイト）。シートベルトとハンドルつき。バッテリーはまだしっかり充電できます。子どもがとても気に入って乗っていたものですが、帰国のためお譲りします。"
     }
+  },
+  {
+    "id": "bins",
+    "name": {
+      "en": "Rubbish bins — several, different sizes",
+      "ja": "ゴミ箱 — 大小いくつか"
+    },
+    "price": 0,
+    "category": "kitchen",
+    "status": "available",
+    "added": "2026-08-06",
+    "images": [
+      "images/bins-1.jpg",
+      "images/bins-2.jpg",
+      "images/bins-3.jpg",
+      "images/bins-4.jpg"
+    ],
+    "note": {
+      "en": "Take them all, or just the ones you need: a 30 L slide-lid bin (press the lid from the side and it opens wide), a pedal bin, a slim lidded bin, and a two-tier stacked bin labelled for cans, bottles and non-burnables.",
+      "ja": "まとめてでも、必要なものだけでもどうぞ：30Lのスライドペール（横から押すと大きく開くタイプ）、ペダル式のゴミ箱、スリムなフタつきゴミ箱、カン・ビン・燃えないゴミに分別できる2段式ダストボックス。"
+    }
   }
 ];
