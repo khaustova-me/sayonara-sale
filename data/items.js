@@ -627,5 +627,65 @@ window.SALE_ITEMS = [
       "en": "specs on Kakaku.com",
       "ja": "スペック（価格.com）"
     }
+  },
+  {
+    "id": "coffee-maker",
+    "name": {
+      "en": "Drip coffee maker — Panasonic NC-P26",
+      "ja": "コーヒーメーカー パナソニック NC-P26"
+    },
+    "price": 2000,
+    "category": "kitchen",
+    "status": "available",
+    "added": "2026-08-06",
+    "images": [
+      "images/coffee-maker-1.jpg",
+      "images/coffee-maker-2.jpg",
+      "images/coffee-maker-3.jpg"
+    ],
+    "note": {
+      "en": "Stainless thermal carafe, so the coffee keeps hot without sitting on a hotplate. Water gauge marked up to 6 cups (4 mugs), swing-out filter basket, and it switches itself off. Works well. The stainless has some scuffs from years of use — you can see them in the photos.",
+      "ja": "ステンレス製の保温サーバーなので、ヒーターにのせておかなくても冷めにくいです。目盛りはコーヒーカップ6杯（マグカップ4杯）まで。バスケットは横に開くタイプで、自動電源オフつき。問題なく使えます。ステンレス部分には長年の使用による小キズがあります（写真をご覧ください）。"
+    }
+  },
+  {
+    "id": "rice-cooker",
+    "name": {
+      "en": "Rice cooker — BONABONA BK-R60, 3.5 cups",
+      "ja": "炊飯器 ボナボナ BK-R60 3.5合"
+    },
+    "price": 1000,
+    "category": "kitchen",
+    "status": "available",
+    "added": "2026-08-06",
+    "images": [
+      "images/rice-cooker-1.jpg",
+      "images/rice-cooker-2.jpg",
+      "images/rice-cooker-3.jpg"
+    ],
+    "note": {
+      "en": "CCP BONABONA BK-R60, a microcomputer cooker for 3.5 go — the right size for one person or a small household. Menus for white rice, quick cook, mixed grain and porridge, plus keep-warm and a delay timer. Works perfectly.",
+      "ja": "CCP ボナボナ BK-R60。マイコン式の3.5合炊きで、一人暮らしや少人数のご家庭にちょうどいいサイズです。白米・白米高速・雑穀・おかゆのメニュー、保温と予約タイマーつき。問題なく使えます。"
+    },
+    "available": "2026-08-25"
+  },
+  {
+    "id": "multipot",
+    "name": {
+      "en": "Electric multi-pot — KEVNHAUN KDS.8762, 1 L",
+      "ja": "電気マルチポット ケヴンハウン KDS.8762 1L"
+    },
+    "price": 1500,
+    "category": "kitchen",
+    "status": "available",
+    "added": "2026-08-06",
+    "images": [
+      "images/multipot-1.jpg",
+      "images/multipot-2.jpg"
+    ],
+    "note": {
+      "en": "1.0 L, 600 W, with an OFF / LOW / HIGH dial. Comes with the glass lid, steamer plate, egg stand, the original box and the 16-recipe booklet. 250 x 185 x 225 mm with the steamer and lid fitted; 104 cm cord. Small enough to pack — we used to take it travelling. Works perfectly.",
+      "ja": "1.0L、600W、OFF／LOW／HIGH の切替ダイヤルつき。ガラスふた・蒸し皿・エッグスタンド・元箱・16品のレシピブックが付属します。サイズは約250×185×225mm（蒸し皿・ガラスふた使用時、電源コードは含まず）、コードの長さ約104cm。小さいので旅行にも持って行っていました。問題なく使えます。"
+    }
   }
 ];
