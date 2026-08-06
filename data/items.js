@@ -765,5 +765,42 @@ window.SALE_ITEMS = [
       "en": "All three going together: a deep cream-coloured pan with a wooden handle and a Tefal non-stick pan, both about 26 cm across, plus a small white ceramic-coated pan of about 18-20 cm that comes with its glass lid.",
       "ja": "3点まとめてお譲りします：木製ハンドルの深型フライパン（生成り色）と、ティファールのフッ素樹脂加工フライパン（どちらも約26cm）、それに約18〜20cmの白いセラミック加工の小さめフライパン（ガラスふたつき）。"
     }
+  },
+  {
+    "id": "pot-ikea",
+    "name": {
+      "en": "Stainless steel pot with lid — IKEA 365+",
+      "ja": "ステンレス鍋（ふたつき） IKEA 365+"
+    },
+    "price": 0,
+    "category": "kitchen",
+    "status": "available",
+    "added": "2026-08-06",
+    "images": [
+      "images/pot-ikea-1.jpg",
+      "images/pot-ikea-2.jpg"
+    ],
+    "note": {
+      "en": "IKEA 365+ stainless steel pot with its lid and two side handles. Still perfectly usable — the base is scratched and discoloured from years of cooking, which you can see in the second photo.",
+      "ja": "IKEA 365+ のステンレス鍋。ふたと両手ハンドルつきです。問題なく使えますが、底は長年の使用で傷や変色があります（2枚目の写真をご覧ください）。"
+    }
+  },
+  {
+    "id": "tricycle",
+    "name": {
+      "en": "Kids' tricycle with sun canopy and push handle",
+      "ja": "三輪車 — 日よけほろ・押し手棒つき"
+    },
+    "price": 0,
+    "category": "kids",
+    "status": "available",
+    "added": "2026-08-06",
+    "images": [
+      "images/tricycle-1.jpg"
+    ],
+    "note": {
+      "en": "Tricycle with a folding sun canopy, a parent push handle, a basket at the back and another on the handlebars, and fold-away footrests. Well used and showing its age.",
+      "ja": "折りたたみ式の日よけほろ、押し手棒、後ろのかごとハンドル前のかご、足のせステップつきの三輪車。だいぶ使い込んでおり、古さがあります。"
+    }
   }
 ];
