@@ -705,5 +705,24 @@ window.SALE_ITEMS = [
       "en": "Three stainless steel pieces, going together: a cone-shaped mesh strainer, a round mesh sieve with hooks to rest it on a bowl, and a garlic press.",
       "ja": "ステンレス製の3点まとめてお譲りします：円すい型のこし器、ボウルに掛けられるフックつきの丸いこし器（ざる）、ガーリックプレス。"
     }
+  },
+  {
+    "id": "ride-on-audi",
+    "name": {
+      "en": "Kids' ride-on car — Audi TT S Roadster, battery powered",
+      "ja": "電動乗用玩具 アウディ TT S ロードスター"
+    },
+    "price": 5000,
+    "category": "kids",
+    "status": "available",
+    "added": "2026-08-06",
+    "images": [
+      "images/ride-on-audi-1.jpg",
+      "images/ride-on-audi-2.jpg"
+    ],
+    "note": {
+      "en": "Officially licensed Audi TT S Roadster in white, with a seat belt and a working steering wheel. The battery still holds a good charge. Much loved by our child — it is only going because we are leaving.",
+      "ja": "正規ライセンスの電動乗用玩具、アウディ TT S ロードスター（ホワイト）。シートベルトとハンドルつき。バッテリーはまだしっかり充電できます。子どもがとても気に入って乗っていたものですが、帰国のためお譲りします。"
+    }
   }
 ];
