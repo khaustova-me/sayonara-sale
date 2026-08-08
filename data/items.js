@@ -829,7 +829,7 @@ window.SALE_ITEMS = [
       "en": "Kids' ride-on digger — King Shovel",
       "ja": "乗用玩具 ショベルカー KING SHOVEL"
     },
-    "price": 1000,
+    "price": 800,
     "category": "kids",
     "status": "available",
     "added": "2026-08-08",
