@@ -861,5 +861,25 @@ window.SALE_ITEMS = [
       "en": "Three low folding chairs with armrests — two tan, one olive green. Good for the beach, camping or a barbecue. They fold flat and stack together, as in the last two photos. Used, with some marks on the fabric. Going as a set of three.",
       "ja": "肘掛けつきの折りたたみローチェア3脚（ブラウン2脚・カーキ1脚）。海やキャンプ、バーベキューにどうぞ。写真のようにコンパクトに折りたためます。使用感があり、生地に多少の汚れがあります。3脚まとめてお譲りします。"
     }
+  },
+  {
+    "id": "baby-carrier-montbell",
+    "name": {
+      "en": "Baby carrier backpack — mont-bell, for hiking",
+      "ja": "ベビーキャリア（バックパック型） モンベル"
+    },
+    "price": 500,
+    "category": "kids",
+    "status": "available",
+    "added": "2026-08-08",
+    "images": [
+      "images/baby-carrier-montbell-1.jpg",
+      "images/baby-carrier-montbell-2.jpg",
+      "images/baby-carrier-montbell-3.jpg"
+    ],
+    "note": {
+      "en": "A framed carrier that takes a baby or toddler on your back, made for hiking. Padded seat with a harness, adjustable shoulder straps and hip belt, a zipped compartment underneath for your things, and a stand so it sits upright on the ground while you load the child in. Used, but in good order.",
+      "ja": "ハイキング用の、赤ちゃんや小さなお子さんを背負えるフレーム式ベビーキャリアです。クッションつきシートと安全ベルト、調節できるショルダーハーネスとウエストベルト、下部にはファスナーつきの収納スペース。スタンドを開くと自立するので、乗せ降ろしも楽にできます。使用感はありますが、状態は良好です。"
+    }
   }
 ];
