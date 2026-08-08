@@ -902,5 +902,24 @@ window.SALE_ITEMS = [
       "en": "Cordless: it heats on the base, then you lift it off and iron without a cable trailing behind you. Steam on high, medium, low or off, and the base has a temperature guide printed on it for each kind of fabric. Comes with the base and the yellow carrying case that holds the whole set.",
       "ja": "コードレスタイプで、台にのせて温めてから外して、コードなしでアイロンがけができます。スチームは高・中・低・切の切替つき。台には生地別の温度の目安が印刷されています。専用の台と、ひとまとめに収納できるイエローのケースつきです。"
     }
+  },
+  {
+    "id": "hangers",
+    "name": {
+      "en": "Clothes hangers — lots of them",
+      "ja": "洋服ハンガー — たくさんあります"
+    },
+    "price": 0,
+    "category": "misc",
+    "status": "available",
+    "added": "2026-08-08",
+    "images": [
+      "images/hangers-1.jpg"
+    ],
+    "note": {
+      "en": "Wooden and plastic hangers, plenty of both — the photo is only a sample of the kinds there are. Come and take as many as you like.",
+      "ja": "木製とプラスチックのハンガーが大量にあります。写真は種類の一例です。必要な分だけ、いくらでもお持ちください。"
+    },
+    "available": "2026-08-22"
   }
 ];
