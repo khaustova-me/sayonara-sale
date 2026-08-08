@@ -279,7 +279,7 @@ window.SALE_ITEMS = [
     },
     "price": 500,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/scooter-1.jpg"
     ],
