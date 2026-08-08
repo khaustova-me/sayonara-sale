@@ -802,5 +802,25 @@ window.SALE_ITEMS = [
       "en": "Tricycle with a folding sun canopy, a parent push handle, a basket at the back and another on the handlebars, and fold-away footrests. Well used and showing its age.",
       "ja": "折りたたみ式の日よけほろ、押し手棒、後ろのかごとハンドル前のかご、足のせステップつきの三輪車。だいぶ使い込んでおり、古さがあります。"
     }
+  },
+  {
+    "id": "high-chair-aprica",
+    "name": {
+      "en": "Aprica high-low chair — reclines flat, with tray and wheels",
+      "ja": "アップリカ ハイローベッド＆チェア — フラットになる、テーブル・キャスターつき"
+    },
+    "price": 0,
+    "category": "kids",
+    "status": "available",
+    "added": "2026-08-08",
+    "images": [
+      "images/high-chair-aprica-1.jpg",
+      "images/high-chair-aprica-2.jpg",
+      "images/high-chair-aprica-3.jpg"
+    ],
+    "note": {
+      "en": "The back reclines all the way flat, so it works as a bed for a small baby, and sits upright as a feeding chair with the removable tray. Height adjusts, safety harness, four castors with brakes. Used condition — there are some marks on the seat pad, which you can see in the photos.",
+      "ja": "背もたれはフラットまで倒れるので、小さい赤ちゃんのベッドとしても使えます。起こせば、取り外せるテーブルつきの食事用チェアになります。高さ調節、安全ベルト、ストッパーつきキャスター4輪。使用感があり、シートに少し汚れがあります（写真をご覧ください）。"
+    }
   }
 ];
