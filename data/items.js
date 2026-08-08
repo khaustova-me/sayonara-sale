@@ -882,5 +882,25 @@ window.SALE_ITEMS = [
       "en": "A framed carrier that takes a baby or toddler on your back, made for hiking. Padded seat with a harness, adjustable shoulder straps and hip belt, a zipped compartment underneath for your things, and a stand so it sits upright on the ground while you load the child in. Used, but in good order.",
       "ja": "ハイキング用の、赤ちゃんや小さなお子さんを背負えるフレーム式ベビーキャリアです。クッションつきシートと安全ベルト、調節できるショルダーハーネスとウエストベルト、下部にはファスナーつきの収納スペース。スタンドを開くと自立するので、乗せ降ろしも楽にできます。使用感はありますが、状態は良好です。"
     }
+  },
+  {
+    "id": "iron",
+    "name": {
+      "en": "Cordless steam iron — National Se-Pa-Re NI-SL46, with case",
+      "ja": "コードレススチームアイロン ナショナル Se・Pa・Re NI-SL46（ケースつき）"
+    },
+    "price": 500,
+    "category": "appliances",
+    "status": "available",
+    "added": "2026-08-08",
+    "images": [
+      "images/iron-1.jpg",
+      "images/iron-2.jpg",
+      "images/iron-3.jpg"
+    ],
+    "note": {
+      "en": "Cordless: it heats on the base, then you lift it off and iron without a cable trailing behind you. Steam on high, medium, low or off, and the base has a temperature guide printed on it for each kind of fabric. Comes with the base and the yellow carrying case that holds the whole set.",
+      "ja": "コードレスタイプで、台にのせて温めてから外して、コードなしでアイロンがけができます。スチームは高・中・低・切の切替つき。台には生地別の温度の目安が印刷されています。専用の台と、ひとまとめに収納できるイエローのケースつきです。"
+    }
   }
 ];
