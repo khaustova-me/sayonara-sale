@@ -977,6 +977,7 @@ window.SALE_ITEMS = [
     "note": {
       "en": "Bidet seat with a control panel on the side: washing with adjustable water pressure and temperature, and a heated seat you can set. The lid and seat close slowly and the seat lifts off for cleaning. Shown fitted in our bathroom — it unbolts from the pan, so bring someone happy to shut the water off at the valve.",
       "ja": "横に操作パネルのついた温水洗浄便座です。洗浄の水勢と温度、便座の温度を調節できます。ふたと便座はゆっくり閉まる機構で、便座は取り外してお掃除できます。写真は取り付けた状態です。便器から取り外してお渡しします（給水を止めての取り外し作業が必要です）。"
-    }
+    },
+    "available": "2026-08-25"
   }
 ];
