@@ -764,7 +764,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "All three going together: a deep cream-coloured pan with a wooden handle and a Tefal non-stick pan, both about 26 cm across, plus a small white ceramic-coated pan of about 18-20 cm that comes with its glass lid.",
       "ja": "3点まとめてお譲りします：木製ハンドルの深型フライパン（生成り色）と、ティファールのフッ素樹脂加工フライパン（どちらも約26cm）、それに約18〜20cmの白いセラミック加工の小さめフライパン（ガラスふたつき）。"
-    }
+    },
+    "available": "2026-08-25"
   },
   {
     "id": "pot-ikea",
