@@ -835,7 +835,8 @@ window.SALE_ITEMS = [
     "status": "available",
     "added": "2026-08-08",
     "images": [
-      "images/ride-on-digger-1.jpg"
+      "images/ride-on-digger-1.jpg",
+      "images/ride-on-digger-2.jpg"
     ],
     "note": {
       "en": "A sit-on digger the child pushes along with their feet. The shovel arm swings and the grab at the end opens and closes by hand. Steering wheel with a button panel.",
@@ -921,5 +922,42 @@ window.SALE_ITEMS = [
       "ja": "木製とプラスチックのハンガーが大量にあります。写真は種類の一例です。必要な分だけ、いくらでもお持ちください。"
     },
     "available": "2026-08-22"
+  },
+  {
+    "id": "kids-chair-adjustable",
+    "name": {
+      "en": "Wooden high chair — height-adjustable, with cushion",
+      "ja": "木製ハイチェア — 高さ調節式、クッションつき"
+    },
+    "price": 1000,
+    "category": "kids",
+    "status": "available",
+    "added": "2026-08-08",
+    "images": [
+      "images/kids-chair-adjustable-1.jpg"
+    ],
+    "note": {
+      "en": "Solid wood chair that grows with the child — the seat board and the footrest board both move up and down the frame. Armrests, a curved base and a soft grey seat cushion. Pulls up to an ordinary dining table.",
+      "ja": "お子さまの成長に合わせて、座面と足のせ板の高さを調節できる木製チェアです。肘掛けつき、脚は曲線のデザイン。グレーの座面クッションつき。ふつうのダイニングテーブルに合わせて使えます。"
+    },
+    "available": "2026-08-25"
+  },
+  {
+    "id": "kids-chair-folding",
+    "name": {
+      "en": "Wooden high chair — folding",
+      "ja": "木製ハイチェア — 折りたたみ式"
+    },
+    "price": 500,
+    "category": "kids",
+    "status": "available",
+    "added": "2026-08-08",
+    "images": [
+      "images/kids-chair-folding-1.jpg"
+    ],
+    "note": {
+      "en": "Natural wood high chair with a footrest board and armrests, and the green SG safety mark on the leg. Folds flat for storage when you don't need it.",
+      "ja": "木製のハイチェアです。足のせ板と肘掛けつき、脚には製品安全協会のSGマークのシールがあります。使わないときは折りたたんで収納できます。"
+    }
   }
 ];
