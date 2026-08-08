@@ -959,5 +959,24 @@ window.SALE_ITEMS = [
       "en": "Natural wood high chair with a footrest board and armrests, and the green SG safety mark on the leg. Folds flat for storage when you don't need it.",
       "ja": "木製のハイチェアです。足のせ板と肘掛けつき、脚には製品安全協会のSGマークのシールがあります。使わないときは折りたたんで収納できます。"
     }
+  },
+  {
+    "id": "washlet",
+    "name": {
+      "en": "Warm-water bidet toilet seat — Toshiba SCS-S300",
+      "ja": "温水洗浄便座 東芝 SCS-S300"
+    },
+    "price": 0,
+    "category": "appliances",
+    "status": "available",
+    "added": "2026-08-08",
+    "images": [
+      "images/washlet-1.jpg",
+      "images/washlet-2.jpg"
+    ],
+    "note": {
+      "en": "Bidet seat with a control panel on the side: washing with adjustable water pressure and temperature, and a heated seat you can set. The lid and seat close slowly and the seat lifts off for cleaning. Shown fitted in our bathroom — it unbolts from the pan, so bring someone happy to shut the water off at the valve.",
+      "ja": "横に操作パネルのついた温水洗浄便座です。洗浄の水勢と温度、便座の温度を調節できます。ふたと便座はゆっくり閉まる機構で、便座は取り外してお掃除できます。写真は取り付けた状態です。便器から取り外してお渡しします（給水を止めての取り外し作業が必要です）。"
+    }
   }
 ];
