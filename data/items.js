@@ -822,5 +822,44 @@ window.SALE_ITEMS = [
       "en": "The back reclines all the way flat, so it works as a bed for a small baby, and sits upright as a feeding chair with the removable tray. Height adjusts, safety harness, four castors with brakes. Used condition — there are some marks on the seat pad, which you can see in the photos.",
       "ja": "背もたれはフラットまで倒れるので、小さい赤ちゃんのベッドとしても使えます。起こせば、取り外せるテーブルつきの食事用チェアになります。高さ調節、安全ベルト、ストッパーつきキャスター4輪。使用感があり、シートに少し汚れがあります（写真をご覧ください）。"
     }
+  },
+  {
+    "id": "ride-on-digger",
+    "name": {
+      "en": "Kids' ride-on digger — King Shovel",
+      "ja": "乗用玩具 ショベルカー KING SHOVEL"
+    },
+    "price": 1000,
+    "category": "kids",
+    "status": "available",
+    "added": "2026-08-08",
+    "images": [
+      "images/ride-on-digger-1.jpg"
+    ],
+    "note": {
+      "en": "A sit-on digger the child pushes along with their feet. The shovel arm swings and the grab at the end opens and closes by hand. Steering wheel with a button panel.",
+      "ja": "足で床をけって進む乗用のショベルカーです。アームは手で動かせて、先端のつかみも開閉します。ボタンつきのハンドル。"
+    }
+  },
+  {
+    "id": "beach-chairs",
+    "name": {
+      "en": "Folding low chairs — North Eagle, three of them",
+      "ja": "折りたたみローチェア ノースイーグル 3脚"
+    },
+    "price": 1500,
+    "category": "furniture",
+    "status": "available",
+    "added": "2026-08-08",
+    "images": [
+      "images/beach-chairs-1.jpg",
+      "images/beach-chairs-2.jpg",
+      "images/beach-chairs-3.jpg",
+      "images/beach-chairs-4.jpg"
+    ],
+    "note": {
+      "en": "Three low folding chairs with armrests — two tan, one olive green. Good for the beach, camping or a barbecue. They fold flat and stack together, as in the last two photos. Used, with some marks on the fabric. Going as a set of three.",
+      "ja": "肘掛けつきの折りたたみローチェア3脚（ブラウン2脚・カーキ1脚）。海やキャンプ、バーベキューにどうぞ。写真のようにコンパクトに折りたためます。使用感があり、生地に多少の汚れがあります。3脚まとめてお譲りします。"
+    }
   }
 ];
