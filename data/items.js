@@ -712,7 +712,7 @@ window.SALE_ITEMS = [
       "en": "Kids' ride-on car — Audi TT S Roadster, battery powered",
       "ja": "電動乗用玩具 アウディ TT S ロードスター"
     },
-    "price": 5000,
+    "price": 3000,
     "category": "kids",
     "status": "available",
     "added": "2026-08-06",
