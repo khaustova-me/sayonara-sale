@@ -150,7 +150,7 @@ window.SALE_ITEMS = [
     },
     "price": 500,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/car-seat-besafe-1.jpg",
       "images/car-seat-besafe-2.jpg"
