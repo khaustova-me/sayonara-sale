@@ -504,7 +504,7 @@ window.SALE_ITEMS = [
       "en": "Floor chair — grey, reclines flat",
       "ja": "座椅子 グレー リクライニング"
     },
-    "price": 1000,
+    "price": 0,
     "category": "furniture",
     "status": "available",
     "images": [
