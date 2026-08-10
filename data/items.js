@@ -849,7 +849,7 @@ window.SALE_ITEMS = [
       "en": "Folding low chairs — North Eagle, three of them",
       "ja": "折りたたみローチェア ノースイーグル 3脚"
     },
-    "price": 1500,
+    "price": 1000,
     "category": "furniture",
     "status": "available",
     "added": "2026-08-08",
