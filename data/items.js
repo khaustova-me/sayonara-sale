@@ -1051,5 +1051,79 @@ window.SALE_ITEMS = [
       "en": "Deep stainless mixing bowl with volume markings pressed into the inside. Scratched from years of use, but perfectly sound.",
       "ja": "内側に容量の目盛りが刻まれた深型のステンレスボウルです。長年の使用による傷はありますが、問題なく使えます。"
     }
+  },
+  {
+    "id": "storage-basket-woven",
+    "name": {
+      "en": "Storage basket with cloth liner — plastic, woven like wicker",
+      "ja": "収納バスケット（布インナーつき）— 樹脂製、かご編み風"
+    },
+    "price": 0,
+    "category": "misc",
+    "status": "available",
+    "added": "2026-08-11",
+    "images": [
+      "images/storage-basket-woven-1.jpg",
+      "images/storage-basket-woven-2.jpg"
+    ],
+    "note": {
+      "en": "Looks like wicker, but it is woven plastic — it wipes clean and doesn't mind a damp room. The cream cloth liner lifts out and can be washed.",
+      "ja": "見た目はかごですが、素材は樹脂なので水拭きできて、湿気のある場所でも安心です。生成りの布インナーは取り外して洗えます。"
+    }
+  },
+  {
+    "id": "snow-shovels",
+    "name": {
+      "en": "Snow shovels — two, plastic and metal",
+      "ja": "雪かきスコップ2本（樹脂製と金属製）"
+    },
+    "price": 0,
+    "category": "misc",
+    "status": "available",
+    "added": "2026-08-11",
+    "images": [
+      "images/snow-shovels-1.jpg"
+    ],
+    "note": {
+      "en": "Two snow shovels with wooden shafts: a green plastic scoop with a metal strip along the edge, and a metal one. Both going together.",
+      "ja": "木の柄の雪かきスコップ2本セットです。1本はグリーンの樹脂製（先端に金属の補強つき）、もう1本は金属製のスコップ。2本まとめてどうぞ。"
+    }
+  },
+  {
+    "id": "laundry-basket",
+    "name": {
+      "en": "Wicker laundry basket with cotton liner",
+      "ja": "ランドリーバスケット（かご編み・布インナーつき）"
+    },
+    "price": 0,
+    "category": "misc",
+    "status": "available",
+    "added": "2026-08-11",
+    "images": [
+      "images/laundry-basket-1.jpg",
+      "images/laundry-basket-2.jpg"
+    ],
+    "note": {
+      "en": "Woven wicker laundry basket with a rope handle at each end. The cream cotton liner ties in at the corners and lifts out for washing.",
+      "ja": "両端にロープの持ち手がついた、かご編みのランドリーバスケットです。生成りのコットンインナーは四隅のひもで留めるタイプで、取り外して洗えます。"
+    }
+  },
+  {
+    "id": "office-chair",
+    "name": {
+      "en": "Office chair — swivel, red and black mesh",
+      "ja": "オフィスチェア（回転式・メッシュ）レッド／ブラック"
+    },
+    "price": 0,
+    "category": "furniture",
+    "status": "available",
+    "added": "2026-08-11",
+    "images": [
+      "images/office-chair-1.jpg"
+    ],
+    "note": {
+      "en": "Swivel desk chair with a red mesh back and a black mesh seat. Armrests, height adjustment and five castors.",
+      "ja": "回転式のデスクチェアです。背もたれはレッドのメッシュ、座面はブラックのメッシュ。肘掛け・高さ調節・キャスター5個つき。"
+    }
   }
 ];
