@@ -979,5 +979,77 @@ window.SALE_ITEMS = [
       "ja": "横に操作パネルのついた温水洗浄便座です。洗浄の水勢と温度、便座の温度を調節できます。ふたと便座はゆっくり閉まる機構で、便座は取り外してお掃除できます。写真は取り付けた状態です。便器から取り外してお渡しします（給水を止めての取り外し作業が必要です）。"
     },
     "available": "2026-08-25"
+  },
+  {
+    "id": "champagne-flutes",
+    "name": {
+      "en": "Champagne flutes — a pair",
+      "ja": "シャンパングラス 2脚"
+    },
+    "price": 0,
+    "category": "kitchen",
+    "status": "available",
+    "added": "2026-08-11",
+    "images": [
+      "images/champagne-flutes-1.jpg"
+    ],
+    "note": {
+      "en": "Two plain clear champagne flutes.",
+      "ja": "シンプルな透明のシャンパングラス2脚です。"
+    }
+  },
+  {
+    "id": "glass-jug",
+    "name": {
+      "en": "Glass water jug with lid",
+      "ja": "ガラスの冷水ポット（ふたつき）"
+    },
+    "price": 0,
+    "category": "kitchen",
+    "status": "available",
+    "added": "2026-08-11",
+    "images": [
+      "images/glass-jug-1.jpg"
+    ],
+    "note": {
+      "en": "Tall glass jug with a white pouring lid and a stainless ring at the neck — for cold water, barley tea or juice in the fridge.",
+      "ja": "白い注ぎ口つきのふたと、首元にステンレスのリングがついた背の高いガラスポットです。冷水や麦茶、ジュースを冷やすのにどうぞ。"
+    }
+  },
+  {
+    "id": "mugs",
+    "name": {
+      "en": "Mugs — a pair, 'we love the earth'",
+      "ja": "マグカップ2個「we love the earth」"
+    },
+    "price": 0,
+    "category": "kitchen",
+    "status": "available",
+    "added": "2026-08-11",
+    "images": [
+      "images/mugs-1.jpg"
+    ],
+    "note": {
+      "en": "Two white mugs printed with 'we love the earth' and a small animal, one in blue and one in black.",
+      "ja": "「we love the earth」の文字と小さな動物のイラストが入った白いマグカップ2個（ブルーとブラック）。"
+    }
+  },
+  {
+    "id": "mixing-bowl",
+    "name": {
+      "en": "Stainless steel mixing bowl",
+      "ja": "ステンレスボウル"
+    },
+    "price": 0,
+    "category": "kitchen",
+    "status": "available",
+    "added": "2026-08-11",
+    "images": [
+      "images/mixing-bowl-1.jpg"
+    ],
+    "note": {
+      "en": "Deep stainless mixing bowl with volume markings pressed into the inside. Scratched from years of use, but perfectly sound.",
+      "ja": "内側に容量の目盛りが刻まれた深型のステンレスボウルです。長年の使用による傷はありますが、問題なく使えます。"
+    }
   }
 ];
