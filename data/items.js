@@ -102,7 +102,7 @@ window.SALE_ITEMS = [
       "en": "Joie travel system — stroller + i-Snug car seat + ISOFIX base",
       "ja": "ジョイー トラベルシステム ベビーカー＋アイスナグ＋ISOFIXベース"
     },
-    "price": 18000,
+    "price": 15000,
     "category": "kids",
     "status": "available",
     "images": [
