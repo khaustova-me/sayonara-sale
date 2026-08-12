@@ -372,7 +372,7 @@ window.SALE_ITEMS = [
     },
     "price": 500,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/kids-table-kitchen-1.jpg",
       "images/kids-table-kitchen-2.jpg",
@@ -890,7 +890,7 @@ window.SALE_ITEMS = [
       "en": "Cordless steam iron — National Se-Pa-Re NI-SL46, with case",
       "ja": "コードレススチームアイロン ナショナル Se・Pa・Re NI-SL46（ケースつき）"
     },
-    "price": 500,
+    "price": 0,
     "category": "appliances",
     "status": "available",
     "added": "2026-08-08",
@@ -1125,5 +1125,24 @@ window.SALE_ITEMS = [
       "en": "Swivel desk chair with a red mesh back and a black mesh seat. Armrests, height adjustment and five castors.",
       "ja": "回転式のデスクチェアです。背もたれはレッドのメッシュ、座面はブラックのメッシュ。肘掛け・高さ調節・キャスター5個つき。"
     }
+  },
+  {
+    "id": "laundry-rack",
+    "name": {
+      "en": "Laundry rack — shelving that stands over the washing machine",
+      "ja": "ランドリーラック（洗濯機ラック）"
+    },
+    "price": 0,
+    "category": "furniture",
+    "status": "available",
+    "added": "2026-08-12",
+    "images": [
+      "images/laundry-rack-1.jpg"
+    ],
+    "note": {
+      "en": "Stands over the washing machine — the legs go either side, so nothing is fixed to the wall. Two white mesh shelves with front rails, a wire basket on the side, and a bar across the top for hangers. Shown in place with our things on it; it comes to you empty.",
+      "ja": "洗濯機をまたいで置くタイプのランドリーラックです。脚は洗濯機の両側に立つので、壁に固定する必要はありません。前面にガードのついた白いメッシュ棚が2段、サイドにワイヤーバスケット、上部にはハンガーをかけられるバーがついています。写真は使用中の状態のもので、中身はお付けしません。"
+    },
+    "available": "2026-08-25"
   }
 ];
