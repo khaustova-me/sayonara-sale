@@ -1144,5 +1144,29 @@ window.SALE_ITEMS = [
       "ja": "洗濯機をまたいで置くタイプのランドリーラックです。脚は洗濯機の両側に立つので、壁に固定する必要はありません。前面にガードのついた白いメッシュ棚が2段、サイドにワイヤーバスケット、上部にはハンガーをかけられるバーがついています。写真は使用中の状態のもので、中身はお付けしません。"
     },
     "available": "2026-08-25"
+  },
+  {
+    "id": "shoe-dryer",
+    "name": {
+      "en": "Shoe dryer with ozone deodoriser — IRIS Ohyama Kararie SDO-C1-C",
+      "ja": "脱臭くつ乾燥機 アイリスオーヤマ カラリエ SDO-C1-C"
+    },
+    "price": 1500,
+    "category": "appliances",
+    "status": "available",
+    "added": "2026-08-12",
+    "images": [
+      "images/shoe-dryer-1.jpg",
+      "images/shoe-dryer-2.jpg"
+    ],
+    "note": {
+      "en": "Bought new. Two telescoping nozzles dry both shoes at once, and it deodorises with ozone as well as drying. Three modes — standard (about 50°C), leather shoes (about 40°C) and quiet — with a timer for 30, 60, 120 or 180 minutes. 215 W, 137 x 101 x 289 mm, 2 m cord. Very handy through the rainy season and in winter. Original box included.",
+      "ja": "新品で購入したものです。伸縮するダブルノズルで左右の靴を同時に乾かせ、乾燥だけでなくオゾンによる脱臭もできます。モードは標準（約50℃）・革靴（約40℃）・低騒音の3種類、タイマーは30・60・120・180分。消費電力215W、サイズ幅137×奥行101×高さ289mm、コードの長さ約2m。梅雨の時期や冬にとても便利です。元箱つき。"
+    },
+    "link": "https://www.amazon.co.jp/dp/B06VSMYG6N",
+    "linkLabel": {
+      "en": "this model on Amazon",
+      "ja": "同じモデル（Amazon）"
+    }
   }
 ];
