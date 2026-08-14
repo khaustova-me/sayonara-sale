@@ -1250,5 +1250,24 @@ window.SALE_ITEMS = [
       "en": "Beginners' conversation course for people living in Japan. Everything is printed in kana and kanji with romanised letters and English translations, so it works from day one. The audio is a free download rather than a disc, so there is nothing to be missing. Published by ASK. Cover price ¥2,200.",
       "ja": "日本で暮らす人のための初級会話テキストです。かな・漢字とローマ字を併記し、英訳もついているので、日本語がはじめての方でも使えます。音声はCDではなく無料ダウンロード方式なので、付属品の欠品はありません。アスク刊、定価2,200円（本体2,000円＋税10%）。"
     }
+  },
+  {
+    "id": "books-minna",
+    "name": {
+      "en": "Minna no Nihongo Elementary I — main textbook + English translation & grammar notes",
+      "ja": "『みんなの日本語 初級I 第2版』本冊＋翻訳・文法解説 英語版"
+    },
+    "price": 1200,
+    "category": "books",
+    "status": "available",
+    "added": "2026-08-14",
+    "images": [
+      "images/books-minna-1.jpg",
+      "images/books-minna-2.jpg"
+    ],
+    "note": {
+      "en": "Both volumes together: the main textbook and the English translation and grammar notes that go with it — you need the pair to work through this series in English. Second edition, 3A Network. Cover prices are ¥2,500 and ¥2,000 plus tax. In good condition, though the covers have picked up some creasing at the edges.",
+      "ja": "2冊セットでのお譲りです：本冊と、対応する『翻訳・文法解説 英語版』。英語で学習する場合は、この2冊が揃っている必要があります。第2版、スリーエーネットワーク刊。定価は本体2,500円と2,000円（＋税）。状態は良好ですが、表紙の端に折れがあります。"
+    }
   }
 ];
