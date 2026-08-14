@@ -1219,7 +1219,7 @@ window.SALE_ITEMS = [
       "en": "JLPT N4 grammar workbook — Bunpou Training (ALC), unused",
       "ja": "『耳から覚える 日本語能力試験 文法トレーニング N4』アルク（未使用）"
     },
-    "price": 1000,
+    "price": 500,
     "category": "books",
     "status": "available",
     "added": "2026-08-14",
@@ -1230,7 +1230,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "Never used. Covers the N4 grammar points in order from easy to hard, with 603 practice questions and four full mock papers in the same format as the real exam. Cover price ¥1,760.",
       "ja": "未使用です。『耳から覚える 日本語能力試験 文法トレーニング N4』（アルク、安藤栄里子・今川和 著）。N4の機能語を易しい順に網羅し、練習問題は全603問、本試験と同じ形式の総合問題4回分つき。定価1,760円（本体1,600円＋税10%）。"
-    }
+    },
+    "wasPrice": 1000
   },
   {
     "id": "books-fun-easy",
