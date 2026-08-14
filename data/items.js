@@ -14,7 +14,7 @@ window.SALE_ITEMS = [
       "en": "Drum washing machine — IRIS Ohyama 7.5 kg",
       "ja": "ドラム式洗濯機 アイリスオーヤマ 7.5kg"
     },
-    "price": 17000,
+    "price": 12000,
     "category": "appliances",
     "status": "available",
     "images": [
@@ -27,7 +27,9 @@ window.SALE_ITEMS = [
     },
     "link": "https://www.irisohyama.co.jp/products/electrical-appliances/large-appliances/washing-machine/front-load-washers/drum-type-washing-machine-hd71-w-s",
     "available": "2026-08-25",
-    "added": "2026-07-28"
+    "added": "2026-07-28",
+    "wasPrice": 17000,
+    "pinned": true
   },
   {
     "id": "hair-dryer",
@@ -394,7 +396,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/cushions-1.jpg"
     ],

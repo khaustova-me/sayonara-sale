@@ -33,7 +33,8 @@ first file alphabetically becomes the cover. HEIC is handled (via `sips`, since
 Pillow can't read it) because that's what iPhones shoot by default.
 
 Other flags: `--note-en`, `--note-ja`, `--status`, `--id`, `--replace-photos`,
-`--link`, `--link-ja`, `--link-label`, `--remove ID`, `--list`.
+`--link`, `--link-ja`, `--link-label`, `--was-price`, `--pin`, `--unpin`,
+`--remove ID`, `--list`.
 
 `--price 0` means free, `--price ask` means negotiable.
 Categories: `vehicle appliances kitchen furniture kids clothes misc`.
@@ -114,6 +115,22 @@ on request signals a big-ticket item.
 
 The sort is stable, so items at the same price keep the order they were added.
 It applies inside a category filter too.
+
+## Pinning and price cuts
+
+`--pin` sets `pinned: true`, which puts one item first inside its status group,
+ahead of both the New badge and price order. `--pin` clears the flag from every
+other item first, because two things claiming first place just means one of them
+quietly loses. `--unpin` removes it. A pinned item that gets marked sold still
+sinks — the pin only wins within a group, never across them.
+
+`--was-price 17000` records the old price, which renders struck through beside
+the new one (`~~¥17,000~~ ¥12,000`) and puts a terracotta **Price drop** /
+「値下げ」 badge in the same corner as New. If an item is both new and reduced,
+only **New** shows — it's the newer fact, and the window is short. Set `--price`
+first: the tool refuses a `--was-price` that isn't above the current price, and
+`app.js` ignores one that slips through, so no card can ever claim a reduction
+that didn't happen. `--was-price none` clears it once the cut is old news.
 
 ## When an item is available
 

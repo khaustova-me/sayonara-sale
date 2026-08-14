@@ -345,6 +345,23 @@ main, .contact { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
 .price.is-free { color: var(--free); }
 .price.is-ask { font-size: .9rem; font-weight: 600; color: var(--ink-soft); }
 
+/* Marked-down items show the old price struck through beside the new one. Its
+   own colour and weight, so it stays quiet next to the price that matters. */
+.price-was {
+  margin-right: 7px;
+  font-size: .85em;
+  font-weight: 600;
+  color: var(--ink-soft);
+  text-decoration: line-through;
+}
+
+.badge.cut {
+  left: auto;
+  right: 8px;
+  background: var(--accent);
+  color: #fff;
+}
+
 .card.is-sold { opacity: .6; }
 .card.is-sold .card-media img { filter: grayscale(1); }
 .card.is-sold .price { text-decoration: line-through; color: var(--ink-soft); }

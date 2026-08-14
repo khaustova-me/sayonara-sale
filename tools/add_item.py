@@ -200,6 +200,12 @@ def main():
     ap.add_argument("--en", help="name in English")
     ap.add_argument("--ja", help="name in Japanese")
     ap.add_argument("--price", help="yen, 0 for free, 'ask' for negotiable")
+    ap.add_argument("--was-price", dest="was_price", metavar="YEN",
+                    help="old price to show struck through beside the new one, "
+                         "or 'none' to clear it. Must be above --price")
+    ap.add_argument("--pin", action="store_true",
+                    help="show this item first, ahead of price and New order")
+    ap.add_argument("--unpin", action="store_true", help="undo --pin")
     ap.add_argument("--category", help="vehicle | appliances | kitchen | furniture | kids | clothes | misc")
     ap.add_argument("--note-en", dest="note_en")
     ap.add_argument("--note-ja", dest="note_ja")
@@ -360,6 +366,31 @@ def main():
             item["price"] = None
         else:
             item["price"] = int(str(args.price).replace(",", "").replace("¥", ""))
+
+    if args.was_price is not None:
+        if args.was_price.lower() in ("none", "clear", "0"):
+            item.pop("wasPrice", None)
+        else:
+            was = int(str(args.was_price).replace(",", "").replace("¥", ""))
+            now = item.get("price")
+            # A "was" that isn't above the current price would render as a
+            # markdown from nothing, so refuse it here rather than ship a card
+            # claiming a reduction that never happened.
+            if not isinstance(now, int) or was <= now:
+                sys.exit(f"--was-price {was} must be above the current price "
+                         f"({now!r}). Set --price first.")
+            item["wasPrice"] = was
+
+    if args.pin and args.unpin:
+        sys.exit("Pick one of --pin or --unpin.")
+    if args.pin:
+        # One pinned item at a time: two things both claiming first place just
+        # means the second one silently loses.
+        for other in items:
+            other.pop("pinned", None)
+        item["pinned"] = True
+    elif args.unpin:
+        item.pop("pinned", None)
 
     if args.replace_photos:
         item["images"] = []

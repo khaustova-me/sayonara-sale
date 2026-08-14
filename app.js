@@ -20,7 +20,8 @@
     emptyCat:   { en: "Nothing in this category yet.", ja: "このカテゴリーにはまだ何もありません。" },
     emptyAll:   { en: "Nothing listed yet — photos are coming soon.", ja: "まだ掲載がありません。写真を準備中です。" },
     availNow:   { en: "Available now", ja: "すぐ引き取り可" },
-    justAdded:  { en: "New", ja: "新着" }
+    justAdded:  { en: "New", ja: "新着" },
+    priceDrop:  { en: "Price drop", ja: "値下げ" }
   };
 
   /* "2026-08-28" -> "08/28". The same in both languages, so a date reads
@@ -76,11 +77,26 @@
     return { id: id, emoji: "📦", label: { en: "Other", ja: "その他" } };
   }
 
+  function money(n) {
+    return (CONFIG.currency || "¥") + Number(n).toLocaleString("en-US");
+  }
+
   function priceText(price) {
     if (price === 0) return { text: t(T.freePrice), cls: "is-free" };
     if (price === null || price === undefined || price === "") return { text: t(T.ask), cls: "is-ask" };
-    var cur = CONFIG.currency || "¥";
-    return { text: cur + Number(price).toLocaleString("en-US"), cls: "" };
+    return { text: money(price), cls: "" };
+  }
+
+  /* A `wasPrice` is the old price of something that has been marked down: it
+     renders struck through beside the new one. Ignored unless it's a real
+     number above the current price, so a stale or equal value can't produce a
+     "reduced from ¥500 to ¥500" card. */
+  function wasPrice(item) {
+    var w = item.wasPrice;
+    if (typeof w !== "number" || !isFinite(w) || w <= 0) return null;
+    var now = item.price;
+    if (typeof now !== "number" || !isFinite(now) || w <= now) return null;
+    return money(w);
   }
 
   /* Optional "more info" link. Accepts a plain URL string or an {en, ja} pair
@@ -150,6 +166,11 @@
     return list.slice().sort(function (a, b) {
       var byStatus = statusRank(a) - statusRank(b);
       if (byStatus) return byStatus;
+
+      /* `pinned` overrides everything below it — price, age, the lot. It's for
+         the one thing Veronica wants seen first, so keep it to one item. */
+      var ap = a.pinned ? 0 : 1, bp = b.pinned ? 0 : 1;
+      if (ap !== bp) return ap - bp;
 
       var an = isNew(a), bn = isNew(b);
       if (an !== bn) return an ? -1 : 1;          // just-added items lead
@@ -345,8 +366,11 @@
 
     if (item.status === "sold") media.appendChild(el("span", "badge sold", t(T.sold)));
     else if (item.status === "reserved") media.appendChild(el("span", "badge reserved", t(T.reserved)));
-    /* Sits on the opposite corner, so it can coexist with Reserved. */
+    /* Sits on the opposite corner, so it can coexist with Reserved. A price cut
+       gets the same corner, so an item that is both only shows New — the newer
+       fact, and the one the badge window is short enough to be worth. */
     if (isNew(item)) media.appendChild(el("span", "badge new", t(T.justAdded)));
+    else if (wasPrice(item)) media.appendChild(el("span", "badge cut", t(T.priceDrop)));
 
     c.appendChild(media);
 
@@ -378,7 +402,11 @@
     if (avail) body.appendChild(el("span", "avail " + avail.cls, avail.text));
 
     var p = priceText(item.price);
-    body.appendChild(el("div", "price " + p.cls, p.text));
+    var priceRow = el("div", "price " + p.cls);
+    var was = wasPrice(item);
+    if (was) priceRow.appendChild(el("span", "price-was", was));
+    priceRow.appendChild(el("span", "price-now", p.text));
+    body.appendChild(priceRow);
 
     c.appendChild(body);
     return c;
