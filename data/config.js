@@ -66,6 +66,7 @@ window.SALE_CONFIG = {
     { id: "kitchen",    emoji: "🍳", label: { en: "Kitchen",    ja: "キッチン" } },
     { id: "furniture",  emoji: "🪑", label: { en: "Furniture",  ja: "家具" } },
     { id: "kids",       emoji: "🧸", label: { en: "Kids",       ja: "子ども用品" } },
+    { id: "books",      emoji: "📚", label: { en: "Books",      ja: "本" } },
     { id: "clothes",    emoji: "👕", label: { en: "Clothes",    ja: "衣類" } },
     { id: "misc",       emoji: "📦", label: { en: "Other",      ja: "その他" } }
   ]

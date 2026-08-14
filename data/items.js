@@ -1174,5 +1174,43 @@ window.SALE_ITEMS = [
       "en": "this model on Amazon",
       "ja": "同じモデル（Amazon）"
     }
+  },
+  {
+    "id": "books-hakase",
+    "name": {
+      "en": "Japanese textbooks — Basic Japanese for Students, Hakase 1 & 2",
+      "ja": "日本語教科書『はかせ1・2』Basic Japanese for Students（新装版）"
+    },
+    "price": 1500,
+    "category": "books",
+    "status": "available",
+    "added": "2026-08-14",
+    "images": [
+      "images/books-hakase-1.jpg",
+      "images/books-hakase-2.jpg"
+    ],
+    "note": {
+      "en": "The two volumes together — a beginners' course for international students in Japan (留学生の日本語初級45時間, published by 3A Network). Every page is clean and unmarked. The covers advertise a CD, but both CDs are missing, so this is the books only. Cover prices are ¥2,000 and ¥2,500 plus tax.",
+      "ja": "『はかせ1』『はかせ2』の2冊セットです（スリーエーネットワーク、留学生の日本語初級45時間）。中のページはすべてきれいで、書き込みはありません。表紙に「CD付き」とありますが、CDは紛失しているため本のみのお渡しとなります。定価は本体2,000円と2,500円（＋税）です。"
+    }
+  },
+  {
+    "id": "books-genki",
+    "name": {
+      "en": "Japanese textbook — GENKI I, second edition",
+      "ja": "日本語教科書『初級日本語 げんき I』第2版"
+    },
+    "price": 1000,
+    "category": "books",
+    "status": "available",
+    "added": "2026-08-14",
+    "images": [
+      "images/books-genki-1.jpg",
+      "images/books-genki-2.jpg"
+    ],
+    "note": {
+      "en": "GENKI I, second edition (The Japan Times) — the standard beginners' course. Cover price ¥3,500 plus tax. The cover has some creasing and scuffing from use.",
+      "ja": "『初級日本語 げんき I』第2版（ジャパンタイムズ）。定番の初級テキストです。定価は本体3,500円（税別）。表紙に使用による折れ・スレがあります。"
+    }
   }
 ];

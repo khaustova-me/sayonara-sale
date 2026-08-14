@@ -206,7 +206,9 @@ def main():
     ap.add_argument("--pin", action="store_true",
                     help="show this item first, ahead of price and New order")
     ap.add_argument("--unpin", action="store_true", help="undo --pin")
-    ap.add_argument("--category", help="vehicle | appliances | kitchen | furniture | kids | clothes | misc")
+    ap.add_argument("--category",
+                    help="vehicle | appliances | kitchen | furniture | kids | "
+                         "books | clothes | misc")
     ap.add_argument("--note-en", dest="note_en")
     ap.add_argument("--note-ja", dest="note_ja")
     ap.add_argument("--link", help="manufacturer / spec page URL")
