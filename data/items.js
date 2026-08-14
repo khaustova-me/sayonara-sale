@@ -1212,5 +1212,24 @@ window.SALE_ITEMS = [
       "en": "GENKI I, second edition (The Japan Times) — the standard beginners' course. Cover price ¥3,500 plus tax. The cover has some creasing and scuffing from use.",
       "ja": "『初級日本語 げんき I』第2版（ジャパンタイムズ）。定番の初級テキストです。定価は本体3,500円（税別）。表紙に使用による折れ・スレがあります。"
     }
+  },
+  {
+    "id": "books-n4-grammar",
+    "name": {
+      "en": "JLPT N4 grammar workbook — Bunpou Training (ALC), unused",
+      "ja": "『耳から覚える 日本語能力試験 文法トレーニング N4』アルク（未使用）"
+    },
+    "price": 1000,
+    "category": "books",
+    "status": "available",
+    "added": "2026-08-14",
+    "images": [
+      "images/books-n4-grammar-1.jpg",
+      "images/books-n4-grammar-2.jpg"
+    ],
+    "note": {
+      "en": "Never used. Covers the N4 grammar points in order from easy to hard, with 603 practice questions and four full mock papers in the same format as the real exam. Cover price ¥1,760.",
+      "ja": "未使用です。『耳から覚える 日本語能力試験 文法トレーニング N4』（アルク、安藤栄里子・今川和 著）。N4の機能語を易しい順に網羅し、練習問題は全603問、本試験と同じ形式の総合問題4回分つき。定価1,760円（本体1,600円＋税10%）。"
+    }
   }
 ];
