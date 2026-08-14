@@ -680,7 +680,7 @@ window.SALE_ITEMS = [
       "en": "Electric multi-pot — KEVNHAUN KDS.8762, 1 L",
       "ja": "電気マルチポット ケヴンハウン KDS.8762 1L"
     },
-    "price": 1500,
+    "price": 1000,
     "category": "kitchen",
     "status": "available",
     "added": "2026-08-06",
@@ -691,7 +691,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "1.0 L, 600 W, with an OFF / LOW / HIGH dial. Comes with the glass lid, steamer plate, egg stand, the original box and the 16-recipe booklet. 250 x 185 x 225 mm with the steamer and lid fitted; 104 cm cord. Small enough to pack — we used to take it travelling. Works perfectly.",
       "ja": "1.0L、600W、OFF／LOW／HIGH の切替ダイヤルつき。ガラスふた・蒸し皿・エッグスタンド・元箱・16品のレシピブックが付属します。サイズは約250×185×225mm（蒸し皿・ガラスふた使用時、電源コードは含まず）、コードの長さ約104cm。小さいので旅行にも持って行っていました。問題なく使えます。"
-    }
+    },
+    "wasPrice": 1500
   },
   {
     "id": "strainers",
