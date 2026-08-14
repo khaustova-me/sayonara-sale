@@ -1231,5 +1231,24 @@ window.SALE_ITEMS = [
       "en": "Never used. Covers the N4 grammar points in order from easy to hard, with 603 practice questions and four full mock papers in the same format as the real exam. Cover price ¥1,760.",
       "ja": "未使用です。『耳から覚える 日本語能力試験 文法トレーニング N4』（アルク、安藤栄里子・今川和 著）。N4の機能語を易しい順に網羅し、練習問題は全603問、本試験と同じ形式の総合問題4回分つき。定価1,760円（本体1,600円＋税10%）。"
     }
+  },
+  {
+    "id": "books-fun-easy",
+    "name": {
+      "en": "Nihongo Fun & Easy — survival Japanese conversation, 2nd edition",
+      "ja": "『NIHONGO FUN & EASY』第2版（アスク）"
+    },
+    "price": 800,
+    "category": "books",
+    "status": "available",
+    "added": "2026-08-14",
+    "images": [
+      "images/books-fun-easy-1.jpg",
+      "images/books-fun-easy-2.jpg"
+    ],
+    "note": {
+      "en": "Beginners' conversation course for people living in Japan. Everything is printed in kana and kanji with romanised letters and English translations, so it works from day one. The audio is a free download rather than a disc, so there is nothing to be missing. Published by ASK. Cover price ¥2,200.",
+      "ja": "日本で暮らす人のための初級会話テキストです。かな・漢字とローマ字を併記し、英訳もついているので、日本語がはじめての方でも使えます。音声はCDではなく無料ダウンロード方式なので、付属品の欠品はありません。アスク刊、定価2,200円（本体2,000円＋税10%）。"
+    }
   }
 ];
