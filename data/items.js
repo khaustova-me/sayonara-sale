@@ -104,7 +104,7 @@ window.SALE_ITEMS = [
       "en": "Joie travel system — stroller + i-Snug car seat + ISOFIX base",
       "ja": "ジョイー トラベルシステム ベビーカー＋アイスナグ＋ISOFIXベース"
     },
-    "price": 15000,
+    "price": 12000,
     "category": "kids",
     "status": "available",
     "images": [
@@ -121,7 +121,8 @@ window.SALE_ITEMS = [
       "ja": "3点セットでのお譲りです：ベビーカー ライトトラックスエア、ベビーシート アイスナグ（ECE R129/02適合、身長40〜75cm）、ISOFIX対応 i-Base。ベビーシートをそのままベビーカーに装着できるので、寝ている赤ちゃんを起こさずに車から移動できます。レインカバー・元箱すべて付属。後輪エアタイヤ、折りたたみサイズ85×53×28.5cm。ベビーカー単体の希望小売価格は33,880円です。"
     },
     "link": "https://www.katoji.co.jp/products-detail_2278.html",
-    "added": "2026-07-28"
+    "added": "2026-07-28",
+    "wasPrice": 22000
   },
   {
     "id": "car-seat-combi",
