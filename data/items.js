@@ -636,7 +636,7 @@ window.SALE_ITEMS = [
       "en": "Drip coffee maker — Panasonic NC-P26",
       "ja": "コーヒーメーカー パナソニック NC-P26"
     },
-    "price": 2000,
+    "price": 1500,
     "category": "kitchen",
     "status": "available",
     "added": "2026-08-06",
@@ -648,7 +648,8 @@ window.SALE_ITEMS = [
     "note": {
       "en": "Stainless thermal carafe, so the coffee keeps hot without sitting on a hotplate. Water gauge marked up to 6 cups (4 mugs), swing-out filter basket, and it switches itself off. Works well. The stainless has some scuffs from years of use — you can see them in the photos.",
       "ja": "ステンレス製の保温サーバーなので、ヒーターにのせておかなくても冷めにくいです。目盛りはコーヒーカップ6杯（マグカップ4杯）まで。バスケットは横に開くタイプで、自動電源オフつき。問題なく使えます。ステンレス部分には長年の使用による小キズがあります（写真をご覧ください）。"
-    }
+    },
+    "wasPrice": 2000
   },
   {
     "id": "rice-cooker",
