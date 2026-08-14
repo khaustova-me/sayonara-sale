@@ -1044,7 +1044,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-11",
     "images": [
       "images/mixing-bowl-1.jpg"
