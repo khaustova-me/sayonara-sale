@@ -658,7 +658,7 @@ window.SALE_ITEMS = [
       "en": "Rice cooker — BONABONA BK-R60, 3.5 cups",
       "ja": "炊飯器 ボナボナ BK-R60 3.5合"
     },
-    "price": 1000,
+    "price": 500,
     "category": "kitchen",
     "status": "available",
     "added": "2026-08-06",
@@ -671,7 +671,8 @@ window.SALE_ITEMS = [
       "en": "CCP BONABONA BK-R60, a microcomputer cooker for 3.5 go — the right size for one person or a small household. Menus for white rice, quick cook, mixed grain and porridge, plus keep-warm and a delay timer. Works perfectly.",
       "ja": "CCP ボナボナ BK-R60。マイコン式の3.5合炊きで、一人暮らしや少人数のご家庭にちょうどいいサイズです。白米・白米高速・雑穀・おかゆのメニュー、保温と予約タイマーつき。問題なく使えます。"
     },
-    "available": "2026-08-25"
+    "available": "2026-08-25",
+    "wasPrice": 1000
   },
   {
     "id": "multipot",
