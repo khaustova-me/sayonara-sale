@@ -506,7 +506,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/floor-chair-1.jpg",
       "images/floor-chair-2.jpg",
@@ -1006,7 +1006,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-11",
     "images": [
       "images/glass-jug-1.jpg"
@@ -1134,7 +1134,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-12",
     "images": [
       "images/laundry-rack-1.jpg"
@@ -1153,7 +1153,7 @@ window.SALE_ITEMS = [
     },
     "price": 1500,
     "category": "appliances",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-12",
     "images": [
       "images/shoe-dryer-1.jpg",
