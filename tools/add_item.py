@@ -203,8 +203,10 @@ def main():
     ap.add_argument("--was-price", dest="was_price", metavar="YEN",
                     help="old price to show struck through beside the new one, "
                          "or 'none' to clear it. Must be above --price")
-    ap.add_argument("--pin", action="store_true",
-                    help="show this item first, ahead of price and New order")
+    ap.add_argument("--pin", nargs="?", const="next", metavar="N",
+                    help="show this item near the top, ahead of price and New "
+                         "order. '--pin 2' puts it second; bare --pin adds it "
+                         "after the ones already pinned")
     ap.add_argument("--unpin", action="store_true", help="undo --pin")
     ap.add_argument("--category",
                     help="vehicle | appliances | kitchen | furniture | kids | "
@@ -383,16 +385,32 @@ def main():
                          f"({now!r}). Set --price first.")
             item["wasPrice"] = was
 
-    if args.pin and args.unpin:
+    if args.pin is not None and args.unpin:
         sys.exit("Pick one of --pin or --unpin.")
-    if args.pin:
-        # One pinned item at a time: two things both claiming first place just
-        # means the second one silently loses.
-        for other in items:
-            other.pop("pinned", None)
-        item["pinned"] = True
-    elif args.unpin:
-        item.pop("pinned", None)
+    if args.pin is not None or args.unpin:
+        # Pins are ranks, so they're kept as one contiguous 1..n list and
+        # renumbered on every change. Two items holding the same rank would
+        # just leave the order down to whichever happened to be listed first.
+        def rank_of(it):
+            p = it.get("pinned")
+            return 1 if p is True else (p if isinstance(p, int) and p > 0 else None)
+
+        others = sorted((it for it in items if it is not item and rank_of(it)),
+                        key=rank_of)
+        if args.pin is not None:
+            if args.pin == "next":
+                pos = rank_of(item) or len(others) + 1
+            else:
+                try:
+                    pos = int(args.pin)
+                except ValueError:
+                    sys.exit(f"--pin takes a position number, not {args.pin!r}.")
+            pos = max(1, min(pos, len(others) + 1))
+            others.insert(pos - 1, item)
+        else:
+            item.pop("pinned", None)
+        for rank, it in enumerate(others, start=1):
+            it["pinned"] = rank
 
     if args.replace_photos:
         item["images"] = []

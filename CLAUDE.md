@@ -118,11 +118,15 @@ It applies inside a category filter too.
 
 ## Pinning and price cuts
 
-`--pin` sets `pinned: true`, which puts one item first inside its status group,
-ahead of both the New badge and price order. `--pin` clears the flag from every
-other item first, because two things claiming first place just means one of them
-quietly loses. `--unpin` removes it. A pinned item that gets marked sold still
-sinks — the pin only wins within a group, never across them.
+`pinned` is a **rank**, not a flag: `1` leads, `2` comes next, and so on, ahead
+of both the New badge and price order. `--pin 2` puts an item second; a bare
+`--pin` adds it after the ones already pinned, or leaves it where it is.
+`--unpin` removes it. Either way the tool renumbers the pinned items into one
+contiguous `1..n` run, since two items sharing a rank would leave the order down
+to whichever happened to sit earlier in the file. A pinned item that gets marked
+sold still sinks: the pin only orders things inside a status group, never across
+them. Keep the list short — pinning half the page just restores price order with
+extra steps.
 
 `--was-price 17000` records the old price, which renders struck through beside
 the new one (`~~¥17,000~~ ¥12,000`) and puts a terracotta **Price drop** /

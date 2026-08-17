@@ -29,7 +29,7 @@ window.SALE_ITEMS = [
     "available": "2026-08-25",
     "added": "2026-07-28",
     "wasPrice": 17000,
-    "pinned": true
+    "pinned": 1
   },
   {
     "id": "hair-dryer",
@@ -104,7 +104,7 @@ window.SALE_ITEMS = [
       "en": "Joie travel system — stroller + i-Snug car seat + ISOFIX base",
       "ja": "ジョイー トラベルシステム ベビーカー＋アイスナグ＋ISOFIXベース"
     },
-    "price": 12000,
+    "price": 10000,
     "category": "kids",
     "status": "available",
     "images": [
@@ -122,7 +122,8 @@ window.SALE_ITEMS = [
     },
     "link": "https://www.katoji.co.jp/products-detail_2278.html",
     "added": "2026-07-28",
-    "wasPrice": 22000
+    "wasPrice": 22000,
+    "pinned": 2
   },
   {
     "id": "car-seat-combi",

@@ -131,6 +131,16 @@
     return Number(p);
   }
 
+  /* `pinned` is a rank, not a flag: 1 shows first, 2 next, and so on. It only
+     orders items within a status group — a pinned item that sells still sinks
+     to the bottom with the rest of the sold ones. */
+  function pinRank(item) {
+    var p = item.pinned;
+    if (p === true) return 1;
+    if (typeof p === "number" && isFinite(p) && p > 0) return p;
+    return Infinity;
+  }
+
   /* Still going, then reserved, then sold — so the top of the page is only
      things a visitor can actually have. */
   function statusRank(item) {
@@ -167,10 +177,10 @@
       var byStatus = statusRank(a) - statusRank(b);
       if (byStatus) return byStatus;
 
-      /* `pinned` overrides everything below it — price, age, the lot. It's for
-         the one thing Veronica wants seen first, so keep it to one item. */
-      var ap = a.pinned ? 0 : 1, bp = b.pinned ? 0 : 1;
-      if (ap !== bp) return ap - bp;
+      /* Pinned items lead their group, in rank order, ahead of both New and
+         price. Everything unpinned ranks Infinity and falls through below. */
+      var ap = pinRank(a), bp = pinRank(b);
+      if (ap !== bp) return ap < bp ? -1 : 1;
 
       var an = isNew(a), bn = isNew(b);
       if (an !== bn) return an ? -1 : 1;          // just-added items lead
