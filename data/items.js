@@ -854,10 +854,10 @@ window.SALE_ITEMS = [
   {
     "id": "beach-chairs",
     "name": {
-      "en": "Folding low chairs — North Eagle, three of them",
-      "ja": "折りたたみローチェア ノースイーグル 3脚"
+      "en": "Folding low chairs — North Eagle, a pair",
+      "ja": "折りたたみローチェア ノースイーグル 2脚"
     },
-    "price": 1000,
+    "price": 800,
     "category": "furniture",
     "status": "available",
     "added": "2026-08-08",
@@ -868,9 +868,10 @@ window.SALE_ITEMS = [
       "images/beach-chairs-4.jpg"
     ],
     "note": {
-      "en": "Three low folding chairs with armrests — two tan, one olive green. Good for the beach, camping or a barbecue. They fold flat and stack together, as in the last two photos. Used, with some marks on the fabric. Going as a set of three.",
-      "ja": "肘掛けつきの折りたたみローチェア3脚（ブラウン2脚・カーキ1脚）。海やキャンプ、バーベキューにどうぞ。写真のようにコンパクトに折りたためます。使用感があり、生地に多少の汚れがあります。3脚まとめてお譲りします。"
-    }
+      "en": "Two matching North Eagle low chairs — the beach kind, with the seat close to the ground, a tall back and moulded armrests on a silver steel frame. The fabric is terracotta on the face and olive green on the reverse. They fold flat and stand together in a corner, as in the last photo. Used, with some marks on the seat fabric. Both going together for the pair price.",
+      "ja": "ノースイーグルのローチェア2脚セットです。座面が低いビーチタイプで、背もたれは高め、肘掛けつき、フレームはシルバーのスチール製。生地は表がテラコッタ、裏がカーキ色です。折りたたむと平らになり、写真のように隅に立てて置けます。使用感があり、座面の生地に多少の汚れがあります。2脚セットでのお値段です。"
+    },
+    "wasPrice": 1500
   },
   {
     "id": "baby-carrier-montbell",
