@@ -615,7 +615,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-06",
     "images": [
       "images/microwave-1.jpg",
