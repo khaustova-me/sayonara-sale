@@ -21,7 +21,8 @@
     emptyAll:   { en: "Nothing listed yet — photos are coming soon.", ja: "まだ掲載がありません。写真を準備中です。" },
     availNow:   { en: "Available now", ja: "すぐ引き取り可" },
     justAdded:  { en: "New", ja: "新着" },
-    priceDrop:  { en: "Price drop", ja: "値下げ" }
+    priceDrop:  { en: "Price drop", ja: "値下げ" },
+    availAsk:   { en: "Available — ask for exact date", ja: "引き取り日は応相談" }
   };
 
   /* "2026-08-28" -> "08/28". The same in both languages, so a date reads
@@ -33,10 +34,13 @@
     return m ? m[2] + "/" + m[3] : "";
   }
 
-  /* Everything is collectable now unless `available` carries a date, in which
-     case we're still using it until then. Both states get a badge: green for
-     now, terracotta for a date. */
+  /* Everything is collectable now unless `available` says otherwise. Three
+     states, all badged: green for now, terracotta for a date, terracotta for
+     "ask" — which is for things we know aren't collectable yet but can't put a
+     day on, because the flights depend on visas that haven't come through.
+     Checked before fmtDate(), which would read "ask" as no date and so as now. */
   function availability(item) {
+    if (item.available === "ask") return { cls: "later", text: t(T.availAsk) };
     var d = fmtDate(item.available);
     if (!d) return { cls: "now", text: t(T.availNow) };
     /* A closing date turns it into a collection window — some things come off

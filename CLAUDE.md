@@ -138,12 +138,20 @@ that didn't happen. `--was-price none` clears it once the cut is old news.
 
 ## When an item is available
 
-**Everything is available now unless Veronica gives a date** (her rule, and the
-only rule). So `item.available` is binary:
+**Everything is available now unless Veronica says otherwise** (her rule, and the
+only rule). So `item.available` is one of:
 
 - **absent** — collectable straight away. Green "Available now" badge.
 - **`"YYYY-MM-DD"`** — still in use until that date. Terracotta "Available
   08/25" / 「08/25 から引き取り可」.
+- **`"ask"`** — not collectable yet, but there is no date to promise. Terracotta
+  "Available — ask for exact date" / 「引き取り日は応相談」. Set with
+  `--available ask`. This is what the dated items became when the family's visas
+  slipped and every handover date stopped being certain; a wrong date on a
+  public page is worse than no date. `availableTo` is refused alongside it —
+  there is no opening date for a window to close. Note that `availability()`
+  tests for `"ask"` *before* `fmtDate()`, which finds no date in it and would
+  otherwise fall through to the green "Available now".
 - plus **`availableTo`** — a closing date, making it a collection window:
   "Available 08/25–08/28" / 「08/25〜08/28 引き取り可」. The curtains need this
   because they come off the windows on one day and must be gone before the family

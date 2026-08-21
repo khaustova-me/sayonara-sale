@@ -224,9 +224,10 @@ def main():
                     help="Japanese version of that label")
     ap.add_argument("--status", choices=["available", "reserved", "sold"])
     ap.add_argument("--available", metavar="WHEN",
-                    help="YYYY-MM-DD if the item is in use until that date, or "
-                         "'now' to clear it (everything is available now by "
-                         "default, so 'now' just removes the date)")
+                    help="YYYY-MM-DD if the item is in use until that date, "
+                         "'ask' if it isn't collectable yet but the date isn't "
+                         "settled, or 'now' to clear it (everything is "
+                         "available now by default, so 'now' just removes it)")
     ap.add_argument("--available-to", dest="available_to", metavar="WHEN",
                     help="closing date of a collection window, YYYY-MM-DD, or "
                          "'none' to clear it. Only shows when --available is set")
@@ -333,10 +334,16 @@ def main():
         if when in ("now", "pickup", "none", "clear"):
             item.pop("available", None)
             item.pop("availableTo", None)
+        elif when == "ask":
+            # Not now, but no date we can promise yet. A closing date would be
+            # a contradiction, so it goes.
+            item["available"] = "ask"
+            item.pop("availableTo", None)
         elif re.fullmatch(r"\d{4}-\d{2}-\d{2}", when):
             item["available"] = when
         else:
-            sys.exit("--available takes a YYYY-MM-DD date, or 'now' to clear it.")
+            sys.exit("--available takes a YYYY-MM-DD date, 'ask' for no date "
+                     "yet, or 'now' to clear it.")
 
     if args.available_to:
         to = args.available_to.lower()
@@ -345,6 +352,9 @@ def main():
         elif re.fullmatch(r"\d{4}-\d{2}-\d{2}", to):
             if not item.get("available"):
                 sys.exit("--available-to needs --available set as well.")
+            if item["available"] == "ask":
+                sys.exit("--available-to makes no sense with --available ask: "
+                         "there is no opening date to close.")
             if to < item["available"]:
                 sys.exit(f"--available-to ({to}) is before --available "
                          f"({item['available']}).")

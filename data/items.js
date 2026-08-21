@@ -26,7 +26,7 @@ window.SALE_ITEMS = [
       "ja": "型番HD72J。2022年4月に新品で購入（53,900円）。温水コース・部屋干しコースつき。幅595×奥行672×高さ860mm。取扱説明書つきです。"
     },
     "link": "https://www.irisohyama.co.jp/products/electrical-appliances/large-appliances/washing-machine/front-load-washers/drum-type-washing-machine-hd71-w-s",
-    "available": "2026-08-25",
+    "available": "ask",
     "added": "2026-07-28",
     "wasPrice": 17000,
     "pinned": 1
@@ -143,7 +143,7 @@ window.SALE_ITEMS = [
       "en": "The seat rotates to face the door, which makes lifting a child in and out much easier. Fitted with the car's own seatbelt.",
       "ja": "座面が回転してドア側を向くので、乗せ降ろしがとても楽です。車のシートベルトで固定するタイプです。"
     },
-    "available": "2026-08-28",
+    "available": "ask",
     "added": "2026-07-28"
   },
   {
@@ -163,7 +163,7 @@ window.SALE_ITEMS = [
       "en": "BeSafe seat in blue, for a toddler. Deep side supports and a padded harness.",
       "ja": "ブルーのビーセーフ製チャイルドシート。幼児用。サイドサポートが深く、ハーネスもクッションつきです。"
     },
-    "available": "2026-08-28",
+    "available": "ask",
     "added": "2026-07-28"
   },
   {
@@ -192,7 +192,7 @@ window.SALE_ITEMS = [
       "en": "Toyota catalogue (GAZOO)",
       "ja": "トヨタ カタログ（GAZOO）"
     },
-    "available": "2026-08-28",
+    "available": "ask",
     "added": "2026-07-29"
   },
   {
@@ -253,7 +253,7 @@ window.SALE_ITEMS = [
       "en": "https://www.amazon.co.jp/-/en/dp/B0CKBF6PYH",
       "ja": "https://www.amazon.co.jp/dp/B0CKBF6PYH"
     },
-    "available": "2026-08-25",
+    "available": "ask",
     "added": "2026-07-30"
   },
   {
@@ -272,7 +272,7 @@ window.SALE_ITEMS = [
       "en": "Same size as the white one, 120 x 70 cm. Comes with the mattress or futon and the covers, if you would like them. All the parts are there — some are taken apart at the moment, but nothing is missing. The baby monitor camera on the stand in the photo is not included.",
       "ja": "白いベッドと同じサイズ、120×70cmです。マットレス（またはお布団）とカバーもご希望であればお付けします。部品はすべて揃っています。一部を分解していますが、欠品はありません。写真に写っているベビーモニターのカメラは付きません。"
     },
-    "available": "2026-08-25",
+    "available": "ask",
     "added": "2026-07-30"
   },
   {
@@ -336,7 +336,7 @@ window.SALE_ITEMS = [
       "en": "IRIS Ohyama HTHR-34, 88 x 34.7 x 79.8 cm. Four pastel bins for toys, open shelves for books, and a flat top. Our son stuck an elephant and a giraffe on the side panel — we tried to peel them off, took a little of the surface with them, and put them back. You can remove them and cover the spot with a slightly bigger sticker. Everything else is in good order. The first photo is the maker's; the others are ours.",
       "ja": "アイリスオーヤマ HTHR-34、幅88×奥行34.7×高さ79.8cm。おもちゃ用のパステルカラーのボックス4個、絵本を並べられる棚、天板つき。息子が側面にゾウとキリンのシールを貼ってしまい、はがそうとしたら表面が少しめくれたので、そのまま貼り直しています。はがして少し大きめのシールを貼れば目立ちません。それ以外は問題なく使えます。1枚目はメーカーの写真、2枚目以降は実物です。"
     },
-    "available": "2026-08-25",
+    "available": "ask",
     "link": {
       "en": "https://www.amazon.co.jp/-/en/dp/B07BYHGYTW",
       "ja": "https://www.amazon.co.jp/dp/B07BYHGYTW"
@@ -361,7 +361,7 @@ window.SALE_ITEMS = [
       "en": "IRIS Ohyama HTHR-34, 88 x 34.7 x 79.8 cm. Four pastel bins for toys, open shelves for books, and a flat top. This one is in excellent condition, bought new in September 2025. The first photo is the maker's; the others are ours.",
       "ja": "アイリスオーヤマ HTHR-34、幅88×奥行34.7×高さ79.8cm。おもちゃ用のパステルカラーのボックス4個、絵本を並べられる棚、天板つき。こちらは2025年9月に新品で購入し、とてもきれいな状態です。1枚目はメーカーの写真、2枚目以降は実物です。"
     },
-    "available": "2026-08-25",
+    "available": "ask",
     "link": {
       "en": "https://www.amazon.co.jp/-/en/dp/B07BYHGYTW",
       "ja": "https://www.amazon.co.jp/dp/B07BYHGYTW"
@@ -442,7 +442,7 @@ window.SALE_ITEMS = [
       "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. A set of four pieces for a bedroom: blackout drapes with net curtains, 190 cm drop. They make the room properly dark even in bright sunshine, which is a real help for getting small children to sleep.",
       "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。寝室用の4枚セットで、遮光カーテンとレースカーテン、丈は190cmです。日差しの強い日でもしっかり暗くなるので、お子さんのお昼寝にも助かります。"
     },
-    "available": "2026-08-28",
+    "available": "ask",
     "added": "2026-07-30"
   },
   {
@@ -461,7 +461,7 @@ window.SALE_ITEMS = [
       "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. A set of four pieces, a soft sage green with net curtains, 190 cm drop. Lined.",
       "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。4枚セット、やわらかいセージグリーンとレースカーテン、丈は190cmです。裏地つき。"
     },
-    "available": "2026-08-28",
+    "available": "ask",
     "added": "2026-07-30"
   },
   {
@@ -480,7 +480,7 @@ window.SALE_ITEMS = [
       "en": "For our neighbours: the windows in this building are all the same, so these will fit yours straight away. They are good curtains, so please do take them. For a kitchen window: cream with a leaf pattern in lilac, green and mustard, with a net curtain, 110 cm drop.",
       "ja": "ご近所の皆さまへ：このマンションの窓はどこも同じですので、そのままお使いいただけます。しっかりしたカーテンですので、ぜひお持ちください。キッチンの窓用。クリーム地に、ライラック・グリーン・マスタードの葉柄。レースカーテンつき、丈は110cmです。"
     },
-    "available": "2026-08-28",
+    "available": "ask",
     "added": "2026-07-30"
   },
   {
@@ -499,7 +499,7 @@ window.SALE_ITEMS = [
       "en": "A big one, roughly 180 cm tall. Two freezer sections, and a fresh box for vegetables at the bottom. It is heavy, so please come with two people and a van. Ready from the morning of 08/28. The magnets in the photo are ours and will be taken off.",
       "ja": "大型で高さは約180cmです。冷凍室が2段、一番下は野菜用のフレッシュボックスになっています。重量がありますので、2名と車をご用意ください。08/28の午前中からお渡しできます。写真のマグネットは私たちのもので、お渡し前に外します。"
     },
-    "available": "2026-08-28",
+    "available": "ask",
     "added": "2026-07-30"
   },
   {
@@ -521,7 +521,7 @@ window.SALE_ITEMS = [
       "en": "A grey fabric floor chair with a reclining back and a folding headrest. It goes from upright all the way down to flat, so it works as a floor lounger too. Comfortable for reading or watching TV.",
       "ja": "グレーの布張り座椅子。背もたれはリクライニング式で、ヘッドレストも折りたためます。起こした状態からフラットまで倒せるので、床でくつろぐマットとしても使えます。読書やテレビを見るのにちょうどいい椅子です。"
     },
-    "available": "2026-08-25",
+    "available": "ask",
     "added": "2026-08-04"
   },
   {
@@ -542,7 +542,7 @@ window.SALE_ITEMS = [
       "ja": "白い天板と木の脚の小さめのキッチンテーブルと、クッション付きの椅子2脚です。無料でお譲りします。"
     },
     "added": "2026-08-04",
-    "available": "2026-08-28"
+    "available": "ask"
   },
   {
     "id": "bed-frame",
@@ -560,7 +560,7 @@ window.SALE_ITEMS = [
       "en": "A white-wash slatted wooden frame on legs. Outer size 210 x 140 cm, which is a Japanese double. The futon on top comes with it. The futon is a bit old though, so you may want to get a fresh one for the frame.",
       "ja": "ホワイトウォッシュの脚付きすのこベッドフレームです。外寸210×140cm（ダブルサイズ）。上に敷いている布団もお付けします。ただ、布団は少し古くなっていますので、新しいものをご用意いただくのもよいかと思います。"
     },
-    "available": "2026-08-25",
+    "available": "ask",
     "link": "https://www.nitori-net.jp/ec/product/5655590/",
     "linkLabel": {
       "en": "similar model at Nitori",
@@ -585,7 +585,7 @@ window.SALE_ITEMS = [
       "en": "A proper little oven, and one we've used a lot — fish, vegetables, cakes. It heats up very fast. Temperature dial up to 200C and a 60-minute timer. The manual comes with it, and two baking trays are included at no extra cost.",
       "ja": "しっかり使える小さなオーブンです。魚や野菜、ケーキもよく焼いていました。予熱がとても早いのが気に入っています。温度調節は200℃まで、60分タイマーつき。取扱説明書つき、天板2枚も追加料金なしでお付けします。"
     },
-    "available": "2026-08-25",
+    "available": "ask",
     "link": "https://kakaku.com/item/K0000046607/",
     "wasPrice": 2500
   },
@@ -626,7 +626,7 @@ window.SALE_ITEMS = [
       "en": "16 L, 600 W microwave, oven up to 210°C, and a grill setting. Turntable, weight sensor and auto menus (reheat, defrost, toast, vegetables). 461 x 293 x 360 mm. Two honest notes: it needs a clean inside, and we only ever used it as a microwave — that works perfectly, but we never tried the oven or grill, so those are untested.",
       "ja": "16L、レンジ最大600W、オーブンは210℃まで、グリル機能つき。ターンテーブル式で、重量センサーとオートメニュー（あたため・解凍・トースト・ゆで野菜など）つき。外形寸法 幅461×高さ293×奥行360mm。正直にお伝えします：庫内に汚れがあり、お掃除が必要です。また、電子レンジとしてしか使ったことがなく、レンジ機能は問題なく使えますが、オーブンとグリルは未使用のため動作は未確認です。"
     },
-    "available": "2026-08-27",
+    "available": "ask",
     "link": "https://kakaku.com/item/K0000278514/",
     "linkLabel": {
       "en": "specs on Kakaku.com",
@@ -673,7 +673,7 @@ window.SALE_ITEMS = [
       "en": "CCP BONABONA BK-R60, a microcomputer cooker for 3.5 go — the right size for one person or a small household. Menus for white rice, quick cook, mixed grain and porridge, plus keep-warm and a delay timer. Works perfectly.",
       "ja": "CCP ボナボナ BK-R60。マイコン式の3.5合炊きで、一人暮らしや少人数のご家庭にちょうどいいサイズです。白米・白米高速・雑穀・おかゆのメニュー、保温と予約タイマーつき。問題なく使えます。"
     },
-    "available": "2026-08-25",
+    "available": "ask",
     "wasPrice": 1000
   },
   {
@@ -773,7 +773,7 @@ window.SALE_ITEMS = [
       "en": "All three going together: a deep cream-coloured pan with a wooden handle and a Tefal non-stick pan, both about 26 cm across, plus a small white ceramic-coated pan of about 18-20 cm that comes with its glass lid.",
       "ja": "3点まとめてお譲りします：木製ハンドルの深型フライパン（生成り色）と、ティファールのフッ素樹脂加工フライパン（どちらも約26cm）、それに約18〜20cmの白いセラミック加工の小さめフライパン（ガラスふたつき）。"
     },
-    "available": "2026-08-25"
+    "available": "ask"
   },
   {
     "id": "pot-ikea",
@@ -929,7 +929,7 @@ window.SALE_ITEMS = [
       "en": "Wooden and plastic hangers, plenty of both — the photo is only a sample of the kinds there are. Come and take as many as you like.",
       "ja": "木製とプラスチックのハンガーが大量にあります。写真は種類の一例です。必要な分だけ、いくらでもお持ちください。"
     },
-    "available": "2026-08-22"
+    "available": "ask"
   },
   {
     "id": "kids-chair-adjustable",
@@ -948,7 +948,7 @@ window.SALE_ITEMS = [
       "en": "Solid wood chair that grows with the child — the seat board and the footrest board both move up and down the frame. Armrests, a curved base and a soft grey seat cushion. Pulls up to an ordinary dining table.",
       "ja": "お子さまの成長に合わせて、座面と足のせ板の高さを調節できる木製チェアです。肘掛けつき、脚は曲線のデザイン。グレーの座面クッションつき。ふつうのダイニングテーブルに合わせて使えます。"
     },
-    "available": "2026-08-25"
+    "available": "ask"
   },
   {
     "id": "kids-chair-folding",
@@ -986,7 +986,7 @@ window.SALE_ITEMS = [
       "en": "Bidet seat with a control panel on the side: washing with adjustable water pressure and temperature, and a heated seat you can set. The lid and seat close slowly and the seat lifts off for cleaning. Shown fitted in our bathroom — it unbolts from the pan, so bring someone happy to shut the water off at the valve.",
       "ja": "横に操作パネルのついた温水洗浄便座です。洗浄の水勢と温度、便座の温度を調節できます。ふたと便座はゆっくり閉まる機構で、便座は取り外してお掃除できます。写真は取り付けた状態です。便器から取り外してお渡しします（給水を止めての取り外し作業が必要です）。"
     },
-    "available": "2026-08-25"
+    "available": "ask"
   },
   {
     "id": "champagne-flutes",
@@ -1151,7 +1151,7 @@ window.SALE_ITEMS = [
       "en": "Stands over the washing machine — the legs go either side, so nothing is fixed to the wall. Two white mesh shelves with front rails, a wire basket on the side, and a bar across the top for hangers. Shown in place with our things on it; it comes to you empty.",
       "ja": "洗濯機をまたいで置くタイプのランドリーラックです。脚は洗濯機の両側に立つので、壁に固定する必要はありません。前面にガードのついた白いメッシュ棚が2段、サイドにワイヤーバスケット、上部にはハンガーをかけられるバーがついています。写真は使用中の状態のもので、中身はお付けしません。"
     },
-    "available": "2026-08-25"
+    "available": "ask"
   },
   {
     "id": "shoe-dryer",
@@ -1272,5 +1272,24 @@ window.SALE_ITEMS = [
       "en": "Both volumes together: the main textbook and the English translation and grammar notes that go with it — you need the pair to work through this series in English. Second edition, 3A Network. Cover prices are ¥2,500 and ¥2,000 plus tax. In good condition, though the covers have picked up some creasing at the edges.",
       "ja": "2冊セットでのお譲りです：本冊と、対応する『翻訳・文法解説 英語版』。英語で学習する場合は、この2冊が揃っている必要があります。第2版、スリーエーネットワーク刊。定価は本体2,500円と2,000円（＋税）。状態は良好ですが、表紙の端に折れがあります。"
     }
+  },
+  {
+    "id": "bottle-steriliser",
+    "name": {
+      "en": "Baby bottle steriliser and milk warmer — LifeBasis",
+      "ja": "哺乳瓶消毒器・ミルクウォーマー LifeBasis"
+    },
+    "price": 0,
+    "category": "kids",
+    "status": "available",
+    "added": "2026-08-21",
+    "images": [
+      "images/bottle-steriliser-1.jpg"
+    ],
+    "note": {
+      "en": "One machine for both jobs. The touch panel has modes for making up formula, warming baby food, sterilising and defrosting, with a set temperature and timer, and it shows the current temperature while it runs.",
+      "ja": "消毒とミルクの温めが1台でできます。タッチパネルには、調乳・離乳食の温め・消毒・解凍のモードがあり、温度と時間を設定できて、加熱中は現在の温度も表示されます。"
+    },
+    "available": "ask"
   }
 ];
