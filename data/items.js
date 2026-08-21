@@ -351,7 +351,7 @@ window.SALE_ITEMS = [
     },
     "price": 2000,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/shelf-new-1.jpg",
       "images/shelf-new-2.jpg",
