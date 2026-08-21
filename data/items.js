@@ -997,7 +997,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-11",
     "images": [
       "images/champagne-flutes-1.jpg"
@@ -1033,7 +1033,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-11",
     "images": [
       "images/mugs-1.jpg"
