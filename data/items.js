@@ -1331,5 +1331,25 @@ window.SALE_ITEMS = [
       "ja": "白い天板は水拭きでき、まわりに木の縁があるので物が転がり落ちません。両端に持ち手の穴があり、持ち運びも簡単です。脚は下に折りたためるので、ベッドの上でも床でも使えて、使わないときは隙間に収納できます。天板に薄い使用跡が少しあります。"
     },
     "available": "ask"
+  },
+  {
+    "id": "cool-box",
+    "name": {
+      "en": "Cool box — COOL FISHER, with carry handle",
+      "ja": "クーラーボックス COOL FISHER（持ち手つき）"
+    },
+    "price": 300,
+    "category": "misc",
+    "status": "available",
+    "added": "2026-08-21",
+    "images": [
+      "images/cool-box-1.jpg",
+      "images/cool-box-2.jpg"
+    ],
+    "note": {
+      "en": "Handy for keeping drinks and food cold when you are out. It is an insulated box you pack with ice packs, not one that plugs in. Hinged lid with a latch, and a handle that folds down flat. Care instructions printed inside the lid. Some scuffing on the lid from use.",
+      "ja": "お出かけのときに飲み物や食べ物を冷たく保てて便利です。電源につなぐタイプではなく、保冷剤や氷を入れて使う断熱式のボックスです。フタは開閉式でロックつき、持ち手は倒せます。フタの内側に使用上の注意が印刷されています。フタの表面に使用によるスレがあります。"
+    },
+    "available": "ask"
   }
 ];
