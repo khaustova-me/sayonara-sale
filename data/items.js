@@ -326,7 +326,7 @@ window.SALE_ITEMS = [
     },
     "price": 1500,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/shelf-stickers-1.jpg",
       "images/shelf-stickers-2.jpg",
