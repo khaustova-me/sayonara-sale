@@ -1291,5 +1291,24 @@ window.SALE_ITEMS = [
       "ja": "消毒とミルクの温めが1台でできます。タッチパネルには、調乳・離乳食の温め・消毒・解凍のモードがあり、温度と時間を設定できて、加熱中は現在の温度も表示されます。"
     },
     "available": "ask"
+  },
+  {
+    "id": "shelf-electronics",
+    "name": {
+      "en": "Shelf unit with glass cabinet — good for a router and AV kit",
+      "ja": "収納ラック（ガラス戸つき）— ルーターやAV機器の置き場に"
+    },
+    "price": 0,
+    "category": "furniture",
+    "status": "available",
+    "added": "2026-08-21",
+    "images": [
+      "images/shelf-electronics-1.jpg"
+    ],
+    "note": {
+      "en": "Light wood unit: two open shelves at the top for books, a middle compartment with sliding glass doors, and a closed cupboard underneath. We kept the router and network box behind the glass — it keeps the cables out of sight but you can still see the lights. Shown in use; it comes to you empty.",
+      "ja": "明るい木目の収納ラックです。上段は本などを置けるオープン棚が2段、中段はガラスの引き戸、下段は扉つきの収納です。中段にはルーターやネットワーク機器を置いていました。配線を隠しながら、ランプは見えるので便利です。写真は使用中の状態で、中身はお付けしません。"
+    },
+    "available": "ask"
   }
 ];
