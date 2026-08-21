@@ -901,7 +901,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "appliances",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-08",
     "images": [
       "images/iron-1.jpg",
