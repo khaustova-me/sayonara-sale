@@ -552,7 +552,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/bed-frame-1.jpg"
     ],
