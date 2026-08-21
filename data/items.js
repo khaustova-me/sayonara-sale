@@ -1310,5 +1310,26 @@ window.SALE_ITEMS = [
       "ja": "明るい木目の収納ラックです。上段は本などを置けるオープン棚が2段、中段はガラスの引き戸、下段は扉つきの収納です。中段にはルーターやネットワーク機器を置いていました。配線を隠しながら、ランプは見えるので便利です。写真は使用中の状態で、中身はお付けしません。"
     },
     "available": "ask"
+  },
+  {
+    "id": "bed-tray",
+    "name": {
+      "en": "Folding bed tray table — wooden, with handles",
+      "ja": "折りたたみ式ベッドテーブル（木製・持ち手つき）"
+    },
+    "price": 200,
+    "category": "furniture",
+    "status": "available",
+    "added": "2026-08-21",
+    "images": [
+      "images/bed-tray-1.jpg",
+      "images/bed-tray-2.jpg",
+      "images/bed-tray-3.jpg"
+    ],
+    "note": {
+      "en": "Wipe-clean white top with a raised wooden rim so nothing rolls off, and a cut-out handle at each end for carrying. The legs fold flat underneath, so it works on a bed or on the floor and stores away in a gap. A few faint marks on the top from use.",
+      "ja": "白い天板は水拭きでき、まわりに木の縁があるので物が転がり落ちません。両端に持ち手の穴があり、持ち運びも簡単です。脚は下に折りたためるので、ベッドの上でも床でも使えて、使わないときは隙間に収納できます。天板に薄い使用跡が少しあります。"
+    },
+    "available": "ask"
   }
 ];
