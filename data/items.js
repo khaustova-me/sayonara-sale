@@ -99,33 +99,6 @@ window.SALE_ITEMS = [
     "added": "2026-07-28"
   },
   {
-    "id": "stroller-car-seat",
-    "name": {
-      "en": "Joie travel system — stroller + i-Snug car seat + ISOFIX base",
-      "ja": "ジョイー トラベルシステム ベビーカー＋アイスナグ＋ISOFIXベース"
-    },
-    "price": 10000,
-    "category": "kids",
-    "status": "reserved",
-    "images": [
-      "images/stroller-car-seat-1.jpg",
-      "images/stroller-car-seat-2.jpg",
-      "images/stroller-car-seat-3.jpg",
-      "images/stroller-car-seat-4.jpg",
-      "images/stroller-car-seat-5.jpg",
-      "images/stroller-car-seat-6.jpg",
-      "images/stroller-car-seat-7.jpg"
-    ],
-    "note": {
-      "en": "Sold together as one set: the Litetrax Air stroller, the i-Snug i-Size infant carrier (ECE R129/02, for 40-75 cm) and the ISOFIX i-Base. The carrier clicks straight onto the stroller, so a sleeping baby goes from the car to the stroller without waking. Rain cover and all original boxes included. Rear air tyres; folds to 85 x 53 x 28.5 cm. The stroller on its own retails at 33,880 yen.",
-      "ja": "3点セットでのお譲りです：ベビーカー ライトトラックスエア、ベビーシート アイスナグ（ECE R129/02適合、身長40〜75cm）、ISOFIX対応 i-Base。ベビーシートをそのままベビーカーに装着できるので、寝ている赤ちゃんを起こさずに車から移動できます。レインカバー・元箱すべて付属。後輪エアタイヤ、折りたたみサイズ85×53×28.5cm。ベビーカー単体の希望小売価格は33,880円です。"
-    },
-    "link": "https://www.katoji.co.jp/products-detail_2278.html",
-    "added": "2026-07-28",
-    "wasPrice": 22000,
-    "pinned": 2
-  },
-  {
     "id": "car-seat-combi",
     "name": {
       "en": "Car seat — Combi, rotating (brown)",
