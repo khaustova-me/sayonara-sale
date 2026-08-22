@@ -106,7 +106,7 @@ window.SALE_ITEMS = [
     },
     "price": 10000,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/stroller-car-seat-1.jpg",
       "images/stroller-car-seat-2.jpg",
