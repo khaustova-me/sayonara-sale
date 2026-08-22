@@ -241,7 +241,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/cot-white-1.jpg"
     ],
@@ -264,7 +264,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/cot-wood-1.jpg"
     ],
