@@ -14,7 +14,7 @@ window.SALE_ITEMS = [
       "en": "Drum washing machine — IRIS Ohyama 7.5 kg",
       "ja": "ドラム式洗濯機 アイリスオーヤマ 7.5kg"
     },
-    "price": 12000,
+    "price": 5000,
     "category": "appliances",
     "status": "available",
     "images": [
