@@ -1282,7 +1282,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-21",
     "images": [
       "images/bottle-steriliser-1.jpg"
