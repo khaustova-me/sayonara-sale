@@ -292,56 +292,6 @@ window.SALE_ITEMS = [
     "added": "2026-07-30"
   },
   {
-    "id": "shelf-stickers",
-    "name": {
-      "en": "Toy shelf with bookcase — IRIS Ohyama (has stickers)",
-      "ja": "トイハウスラック アイリスオーヤマ（シールあり）"
-    },
-    "price": 1500,
-    "category": "kids",
-    "status": "reserved",
-    "images": [
-      "images/shelf-stickers-1.jpg",
-      "images/shelf-stickers-2.jpg",
-      "images/shelf-stickers-3.jpg"
-    ],
-    "note": {
-      "en": "IRIS Ohyama HTHR-34, 88 x 34.7 x 79.8 cm. Four pastel bins for toys, open shelves for books, and a flat top. Our son stuck an elephant and a giraffe on the side panel — we tried to peel them off, took a little of the surface with them, and put them back. You can remove them and cover the spot with a slightly bigger sticker. Everything else is in good order. The first photo is the maker's; the others are ours.",
-      "ja": "アイリスオーヤマ HTHR-34、幅88×奥行34.7×高さ79.8cm。おもちゃ用のパステルカラーのボックス4個、絵本を並べられる棚、天板つき。息子が側面にゾウとキリンのシールを貼ってしまい、はがそうとしたら表面が少しめくれたので、そのまま貼り直しています。はがして少し大きめのシールを貼れば目立ちません。それ以外は問題なく使えます。1枚目はメーカーの写真、2枚目以降は実物です。"
-    },
-    "available": "ask",
-    "link": {
-      "en": "https://www.amazon.co.jp/-/en/dp/B07BYHGYTW",
-      "ja": "https://www.amazon.co.jp/dp/B07BYHGYTW"
-    },
-    "added": "2026-07-30"
-  },
-  {
-    "id": "shelf-new",
-    "name": {
-      "en": "Toy shelf with bookcase — IRIS Ohyama (almost new)",
-      "ja": "トイハウスラック アイリスオーヤマ（ほぼ新品）"
-    },
-    "price": 2000,
-    "category": "kids",
-    "status": "reserved",
-    "images": [
-      "images/shelf-new-1.jpg",
-      "images/shelf-new-2.jpg",
-      "images/shelf-new-3.jpg"
-    ],
-    "note": {
-      "en": "IRIS Ohyama HTHR-34, 88 x 34.7 x 79.8 cm. Four pastel bins for toys, open shelves for books, and a flat top. This one is in excellent condition, bought new in September 2025. The first photo is the maker's; the others are ours.",
-      "ja": "アイリスオーヤマ HTHR-34、幅88×奥行34.7×高さ79.8cm。おもちゃ用のパステルカラーのボックス4個、絵本を並べられる棚、天板つき。こちらは2025年9月に新品で購入し、とてもきれいな状態です。1枚目はメーカーの写真、2枚目以降は実物です。"
-    },
-    "available": "ask",
-    "link": {
-      "en": "https://www.amazon.co.jp/-/en/dp/B07BYHGYTW",
-      "ja": "https://www.amazon.co.jp/dp/B07BYHGYTW"
-    },
-    "added": "2026-07-30"
-  },
-  {
     "id": "kids-table-kitchen",
     "name": {
       "en": "Kids' table with bench and storage — flips into a play kitchen",
