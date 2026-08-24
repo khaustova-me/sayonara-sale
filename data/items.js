@@ -782,7 +782,7 @@ window.SALE_ITEMS = [
     },
     "price": 800,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-08",
     "images": [
       "images/beach-chairs-1.jpg",
@@ -1011,7 +1011,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "misc",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-11",
     "images": [
       "images/snow-shovels-1.jpg"
@@ -1224,7 +1224,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-21",
     "images": [
       "images/shelf-electronics-1.jpg"
@@ -1243,7 +1243,7 @@ window.SALE_ITEMS = [
     },
     "price": 200,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-21",
     "images": [
       "images/bed-tray-1.jpg",
