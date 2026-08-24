@@ -1264,7 +1264,7 @@ window.SALE_ITEMS = [
     },
     "price": 300,
     "category": "misc",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-21",
     "images": [
       "images/cool-box-1.jpg",
