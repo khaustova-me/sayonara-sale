@@ -1275,5 +1275,23 @@ window.SALE_ITEMS = [
       "ja": "お出かけのときに飲み物や食べ物を冷たく保てて便利です。電源につなぐタイプではなく、保冷剤や氷を入れて使う断熱式のボックスです。フタは開閉式でロックつき、持ち手は倒せます。フタの内側に使用上の注意が印刷されています。フタの表面に使用によるスレがあります。"
     },
     "available": "ask"
+  },
+  {
+    "id": "dumbbells",
+    "name": {
+      "en": "Adjustable dumbbells — a pair, with screw collars",
+      "ja": "ダンベル 2個セット（重さ調整可）"
+    },
+    "price": 500,
+    "category": "misc",
+    "status": "available",
+    "added": "2026-08-24",
+    "images": [
+      "images/dumbbells-1.jpg"
+    ],
+    "note": {
+      "en": "A pair of dumbbells with red knurled grips, three plates on each end. The collars screw on and off, so you can take plates off to make them lighter or swap them between the two bars.",
+      "ja": "赤いローレット加工のグリップのダンベル2個セットです。片側に3枚ずつプレートがついています。留め具はスクリュー式なので、プレートを外して軽くしたり、2本の間で組み替えたりできます。"
+    }
   }
 ];
