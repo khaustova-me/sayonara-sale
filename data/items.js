@@ -1293,5 +1293,24 @@ window.SALE_ITEMS = [
       "en": "A pair of dumbbells with red knurled grips, three plates on each end. The collars screw on and off, so you can take plates off to make them lighter or swap them between the two bars.",
       "ja": "赤いローレット加工のグリップのダンベル2個セットです。片側に3枚ずつプレートがついています。留め具はスクリュー式なので、プレートを外して軽くしたり、2本の間で組み替えたりできます。"
     }
+  },
+  {
+    "id": "pinch-hangers",
+    "name": {
+      "en": "Laundry pinch hangers — two, folding, lots of pegs",
+      "ja": "洗濯ピンチハンガー 2個（折りたたみ式）"
+    },
+    "price": 0,
+    "category": "misc",
+    "status": "available",
+    "added": "2026-08-24",
+    "images": [
+      "images/pinch-hangers-1.jpg",
+      "images/pinch-hangers-2.jpg"
+    ],
+    "note": {
+      "en": "Two pinch hangers for socks, underwear and other small washing — one white, one blue, with rows of pegs all round. The hooks fold and swivel so they hang straight on a pole. The white one has a few coloured pegs mixed in with the clear ones, and the blue one has a pair of large clips and a small hanger on it.",
+      "ja": "靴下や下着など小物を干すピンチハンガー2個です。白と水色で、まわりにピンチがたくさんついています。フックは折りたためて回るので、物干し竿にまっすぐかけられます。白い方は色つきのピンチが少し混ざっています。水色の方には大きめのクリップ2個と小さいハンガーがついています。"
+    }
   }
 ];
