@@ -4,8 +4,8 @@ window.SALE_CONFIG = {
 
   // The opening line, printed a little larger than the rest.
   subtitle: {
-    en: "We're Victor, Veronica, Mark and Emilia. After ten wonderful years in Aizuwakamatsu we're moving to Europe for a year, so all the things we've lived with need to find a new home.",
-    ja: "はじめまして、ヴィクトル、ベロニカ、マーク、エミリアです。会津若松で過ごした素敵な10年を経て、このたび1年間ヨーロッパへ移ることになりました。そのため、大切に使ってきたものたちに新しい家を探しています。"
+    en: "Thank you, everyone. Every single thing on this page has found a new home, so the sale is finished. We're leaving Aizuwakamatsu far lighter than we thought possible, and that is entirely down to the people who wrote, came round, carried things down the stairs and helped us out.",
+    ja: "みなさま、本当にありがとうございました。このページのすべての品に新しい家が見つかり、セールは終了しました。思っていたよりもずっと身軽に会津若松を出発できるのは、ご連絡くださった方、お越しくださった方、荷物を運ぶのを手伝ってくださった方々のおかげです。"
   },
 
   // A photo of us, shown next to the introduction. Leave src as "" for none.
@@ -22,8 +22,12 @@ window.SALE_CONFIG = {
   // Extra paragraphs under the opening line. Add or remove freely.
   intro: [
     {
-      en: "If something catches your eye, just message us. We may be able to deliver the bigger items, so do ask and we'll see what we can arrange.",
-      ja: "気になるものがありましたら、お気軽にご連絡ください。大きなものは配送できる場合もありますので、ご相談ください。"
+      en: "We're Victor, Veronica, Mark and Emilia. After ten wonderful years here we're moving to Europe for a year, and thanks to all of you everything we lived with now has somewhere to go.",
+      ja: "ヴィクトル、ベロニカ、マーク、エミリアです。この街で過ごした素敵な10年を経て、1年間ヨーロッパへ移ります。みなさまのおかげで、暮らしをともにしたものすべてに次の行き先ができました。"
+    },
+    {
+      en: "The list is still below, greyed out, so you can see where things went. If you're waiting on something you've claimed, message us on LINE and we'll sort out the handover.",
+      ja: "品物のリストはグレー表示のまま下に残してあります。お約束済みの品をお待ちの方は、LINEでご連絡いただければ引き渡しのご相談をさせてください。"
     }
   ],
 
@@ -35,8 +39,8 @@ window.SALE_CONFIG = {
     qr: "images/line-qr.png",
     qrNote: { en: "or scan to add us on LINE", ja: "QRコードからも追加できます" },
     note: {
-      en: "Message us on LINE and tell us which item you'd like. First come, first served. Ask about delivery for the bigger things.",
-      ja: "LINEでご希望の品をお知らせください。先着順です。大きなものの配送についてもお気軽にご相談ください。"
+      en: "Everything is spoken for, so there's nothing left to claim — but if you've arranged an item with us, message us on LINE and we'll fix a time. Thank you again.",
+      ja: "すべての品はお取り置き済みで、新たにお受けできるものはございません。お約束済みの方は、LINEでご連絡いただければお時間を決めさせてください。ありがとうございました。"
     }
   },
 
@@ -50,8 +54,8 @@ window.SALE_CONFIG = {
     date: { en: "", ja: "" },
     place: { en: "", ja: "" },
     tba: {
-      en: "Please get in touch — collection during Obon is possible, and many things can be delivered to you if you need.",
-      ja: "お気軽にご連絡ください。お盆の期間中の引き取りも可能です。多くの品は、ご希望があればお届けもできます。"
+      en: "Get in touch and we'll agree a time for the handover. We can still deliver many of the bigger items if that helps.",
+      ja: "ご連絡いただければ、引き渡しのお時間を決めさせてください。大きなものは、ご希望があればお届けもできます。"
     },
     // Exact apartment number is shared over LINE, not published here.
     addressNote: {

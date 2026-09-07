@@ -16,7 +16,7 @@ window.SALE_ITEMS = [
     },
     "price": 5000,
     "category": "appliances",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/washing-machine-1.jpg",
       "images/washing-machine-2.jpg"
@@ -106,7 +106,7 @@ window.SALE_ITEMS = [
     },
     "price": 500,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/car-seat-combi-1.jpg",
       "images/car-seat-combi-2.jpg",
@@ -195,7 +195,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "images": [
       "images/storage-baskets-1.jpg",
       "images/storage-baskets-2.jpg"
@@ -499,7 +499,7 @@ window.SALE_ITEMS = [
     },
     "price": 2000,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-04",
     "images": [
       "images/oven-1.jpg"
@@ -520,7 +520,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-06",
     "images": [
       "images/storage-drawers-small-1.jpg"
@@ -564,7 +564,7 @@ window.SALE_ITEMS = [
     },
     "price": 1500,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-06",
     "images": [
       "images/coffee-maker-1.jpg",
@@ -585,7 +585,7 @@ window.SALE_ITEMS = [
     },
     "price": 500,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-06",
     "images": [
       "images/rice-cooker-1.jpg",
@@ -607,7 +607,7 @@ window.SALE_ITEMS = [
     },
     "price": 1000,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-06",
     "images": [
       "images/multipot-1.jpg",
@@ -627,7 +627,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-06",
     "images": [
       "images/strainers-1.jpg"
@@ -645,7 +645,7 @@ window.SALE_ITEMS = [
     },
     "price": 3000,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-06",
     "images": [
       "images/ride-on-audi-1.jpg",
@@ -664,7 +664,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-06",
     "images": [
       "images/bins-1.jpg",
@@ -706,7 +706,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kitchen",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-06",
     "images": [
       "images/pot-ikea-1.jpg",
@@ -725,7 +725,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-06",
     "images": [
       "images/tricycle-1.jpg"
@@ -743,7 +743,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-08",
     "images": [
       "images/high-chair-aprica-1.jpg",
@@ -763,7 +763,7 @@ window.SALE_ITEMS = [
     },
     "price": 500,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-08",
     "images": [
       "images/ride-on-digger-1.jpg",
@@ -804,7 +804,7 @@ window.SALE_ITEMS = [
     },
     "price": 500,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-08",
     "images": [
       "images/baby-carrier-montbell-1.jpg",
@@ -844,7 +844,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "misc",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-08",
     "images": [
       "images/hangers-1.jpg"
@@ -863,7 +863,7 @@ window.SALE_ITEMS = [
     },
     "price": 1000,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-08",
     "images": [
       "images/kids-chair-adjustable-1.jpg"
@@ -882,7 +882,7 @@ window.SALE_ITEMS = [
     },
     "price": 500,
     "category": "kids",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-08",
     "images": [
       "images/kids-chair-folding-1.jpg"
@@ -900,7 +900,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "appliances",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-08",
     "images": [
       "images/washlet-1.jpg",
@@ -992,7 +992,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "misc",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-11",
     "images": [
       "images/storage-basket-woven-1.jpg",
@@ -1029,7 +1029,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "misc",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-11",
     "images": [
       "images/laundry-basket-1.jpg",
@@ -1048,7 +1048,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "furniture",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-11",
     "images": [
       "images/office-chair-1.jpg"
@@ -1109,7 +1109,7 @@ window.SALE_ITEMS = [
     },
     "price": 1500,
     "category": "books",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-14",
     "images": [
       "images/books-hakase-1.jpg",
@@ -1128,7 +1128,7 @@ window.SALE_ITEMS = [
     },
     "price": 1000,
     "category": "books",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-14",
     "images": [
       "images/books-genki-1.jpg",
@@ -1147,7 +1147,7 @@ window.SALE_ITEMS = [
     },
     "price": 500,
     "category": "books",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-14",
     "images": [
       "images/books-n4-grammar-1.jpg",
@@ -1167,7 +1167,7 @@ window.SALE_ITEMS = [
     },
     "price": 800,
     "category": "books",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-14",
     "images": [
       "images/books-fun-easy-1.jpg",
@@ -1186,7 +1186,7 @@ window.SALE_ITEMS = [
     },
     "price": 1200,
     "category": "books",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-14",
     "images": [
       "images/books-minna-1.jpg",
@@ -1284,7 +1284,7 @@ window.SALE_ITEMS = [
     },
     "price": 500,
     "category": "misc",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-24",
     "images": [
       "images/dumbbells-1.jpg"
@@ -1302,7 +1302,7 @@ window.SALE_ITEMS = [
     },
     "price": 0,
     "category": "misc",
-    "status": "available",
+    "status": "reserved",
     "added": "2026-08-24",
     "images": [
       "images/pinch-hangers-1.jpg",
